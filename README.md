@@ -30,7 +30,7 @@ Code is housed in the `scripts` folder and contains the following files:
 
 -   `distance_finder.R` uses NHDflowlines to calculate distances from furthest downstream site, PBD.
 
--   `cpf_sites_map.R` uses location metadata to create `cpf_sites_map.html`
+-   `sites_map.R` uses location metadata to create `upper_sites_map.html` and `lower_sites_map.html`
 
 -   `demo.R` provides an example of how to download data from Zenodo directly in RStudio
 
