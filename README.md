@@ -1,5 +1,9 @@
 # ROSS Cache la Poudre Water Quality Data
 
+
+[![DOI](https://zenodo.org/badge/791484282.svg)](https://zenodo.org/doi/10.5281/zenodo.11100085)
+
+
 Current release: (2021- 4/2024)
 
 Authors: Samuel J. Struthers (<https://orcid.org/0000-0003-1263-9525>),Timothy S. Fegel, Kathryn R. Willi (<https://orcid.org/0000-0001-7163-2206>), Charles C. Rhoades (<https://orcid.org/0000-0002-3336-2257>), Matthew R.V. Ross (<https://orcid.org/0000-0001-9105-4255>)
