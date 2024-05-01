@@ -1,4 +1,4 @@
-# Cache la Poudre Water Quality Data
+# ROSS Cache la Poudre Water Quality Data
 
 Current release: (2021- 4/2024)
 
@@ -21,8 +21,19 @@ Following a fish kill in the Poudre River in Fort Collins in 2018, the ROSSyndic
 The primary data file is `data/cleaned/CLP_chemistry_up_to_20240416`. Column definitions and units are defined in the file `metadata/water_chemistry_units.xlsx`. Methods used to collect these data are outline below or in `metadata/rmrs_procedures.png`
 
 Location metadata file is `data/metadata/location_metadata.csv`. Two basic maps showing all sampling locations are available in the `maps` folder. 
+Data are housed in the `data` folder and it contains the following:
 
-Code is housed in the `scripts` folder and contains the following files:
+-   `cleaned`: This folder contains the most recently available dataset and has associated burn severity and location data added to the chemistry data. The addition of the metadata was accomplished using the `01_chem_prep.qmd` R script.
+
+-   `cleaned_archive`: This folder contains an archive of previously cleaned data. Downstream users are encouraged to use the collated data file `data/cleaned/CLP_chemistry_up_to_20240416` in the `cleaned` directory.
+
+-   `raw`: These data were directly received by the ROSSyndicate from RMRS lab managers. Downstream users are encouraged to use the collated data file `data/cleaned/CLP_chemistry_up_to_20240416` in the `cleaned` directory.
+
+-   `metadata`: this contains location data, parameter/column name definitions, units, and methods used at the RMRS Lab. The `README` file in this folder explains burn severity classifications used in the files `sbs_watershed.csv`,`sbs_watershed.csv` and `location_metadata.csv`
+
+## Code Organization
+
+Code is housed in the `scripts` folder and is primarily used for reference. Downstream users should not need to use files other than `demo.R` to use the dataset. This folder contains the following files:
 
 -   `00_setup.R` provides loads packages and metadata files to be collated in `01_chem_prep.qmd`.
 
@@ -34,15 +45,7 @@ Code is housed in the `scripts` folder and contains the following files:
 
 -   `demo.R` provides an example of how to download data from Zenodo directly in RStudio
 
-Data are housed in the `data` folder and it contains the following:
-
--   `cleaned`: This folder contains the most recently available dataset and has associated burn severity and location data added to the chemistry data. The addition of the metadata was accomplished using the `01_chem_prep.qmd` R script.
-
--   `cleaned_archive`: This folder contains an archive of previously cleaned data. Downstream users are encouraged to use the collated data file `data/cleaned/CLP_chemistry_up_to_20240416` in the `cleaned` directory.
-
--   `raw`: These data were directly received by the ROSSyndicate from RMRS lab managers. Downstream users are encouraged to use the collated data file `data/cleaned/CLP_chemistry_up_to_20240416` in the `cleaned` directory.
-
--   `metadata`: this contains location data, parameter/column name definitions, units, and methods used at the RMRS Lab. The `README` file in this folder explains burn severity classifications used in the files `sbs_watershed.csv`,`sbs_watershed.csv` and `location_metadata.csv`
+## Methods for Data Collection
 
 Field measurements were taken using a Thermo Orion Star with RDO Optical and Conductivity probes. Times, when present, are listed in MST. Samples were collected and processed using the Rocky Mountain Research Station's Biogeochemistry Lab, overseen by Timothy Fegel and Charles Rhoades, according to the following methods:
 
