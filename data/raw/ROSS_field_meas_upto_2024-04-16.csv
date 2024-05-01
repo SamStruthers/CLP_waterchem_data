@@ -1,0 +1,101 @@
+site_code,DT_round,Date,time_mst,SampleType,chla_volume_ml,do_mgl,cond_ms_cm,temp_c,visit_comments
+JOEI,2023-10-10T18:45:00Z,10/10/23,11:52,NORM,1000,NA,NA,NA,"Removed sonde, downloaded log 1005-1010, pulled sensor due to snow"
+CBRI,2023-10-10T19:45:00Z,10/10/23,12:49,NORM,1000,NA,NA,NA,"Downloaded log, calibrated turb since most values were 0, calibration had hard time with 10 not 100. Started new log"
+CHD,2023-10-10T20:45:00Z,10/10/23,13:52,NORM,1000,NA,NA,NA,"Lots of benthic algae at site, some on wiper. Downloaded logs, cleaned sensors and redeployed. Sampled"
+JWC,2023-10-10T21:45:00Z,10/10/23,14:41,NORM,1000,NA,NA,NA,NA
+LNGR,2023-10-16T16:00:00Z,10/16/23,9:00,NORM,1000,7.58,59.97,7.1,NA
+LNGO,2023-10-16T16:30:00Z,10/16/23,9:30,NORM,1000,8.12,79.28,5,NA
+PTRO,2023-10-16T17:30:00Z,10/16/23,10:30,NORM,750,7.98,45.3,4.8,NA
+PTRR,2023-10-16T17:30:00Z,10/16/23,10:30,NORM,750,7.14,33.27,7.9,NA
+JOEI,2023-10-16T18:45:00Z,10/16/23,11:45,NORM,1000,8.27,83.84,4.1,NA
+JOER,2023-10-16T19:15:00Z,10/16/23,12:20,NORM,1000,6.93,52.73,9.8,NA
+JOER,2023-10-16T19:15:00Z,10/16/23,12:20,BLANK,1000,6.93,52.73,9.8,NA
+CBRI,2023-10-16T20:00:00Z,10/16/23,12:56,NORM,1000,7.94,65.73,5.7,"Updated software, downloaded log, cleaned, all working order, started new log, disconnect. Water much lower now, some algal growth on pipe but minimal"
+CBRI,2023-10-16T20:00:00Z,10/16/23,12:56,DUPLICATE,1000,7.94,65.73,5.7,"Updated software, downloaded log, cleaned, all working order, started new log, disconnect. Water much lower now, some algal growth on pipe but minimal"
+BMD,2023-10-16T20:45:00Z,10/16/23,13:45,NORM,1000,7.04,70.62,9.9,NA
+BRNR,2023-10-16T21:00:00Z,10/16/23,14:00,NORM,1000,6.75,70.83,9.9,NA
+CBRR,2023-10-16T21:30:00Z,10/16/23,14:30,NORM,1000,7.45,49.9,11.8,NA
+CHD,2023-10-16T22:00:00Z,10/16/23,15:00,NORM,1000,7.43,51.53,8.3,"Updated vulink, downloaded log, cleaned sensors, less dirty than before, depth at .38 ft, redeployed, new log and disconnect. Battery at 40%."
+COMR,2023-10-24T15:45:00Z,10/24/23,8:45,NORM,1000,8,35.8,3.1,NA
+HORI,2023-10-24T16:15:00Z,10/24/23,9:15,NORM,1000,8.51,23.89,2,NA
+COMO,2023-10-24T16:30:00Z,10/24/23,9:30,NORM,1000,8.14,34.57,4.3,NA
+HORR,2023-10-24T17:00:00Z,10/24/23,10:00,NORM,500,7.33,28.16,6.9,NA
+HORO,2023-10-24T17:15:00Z,10/24/23,10:15,NORM,500,7.54,28.2,7,NA
+HORO,2023-10-24T17:15:00Z,10/24/23,10:15,DUPLICATE,750,7.54,28.2,7,NA
+BEAV,2023-10-24T17:45:00Z,10/24/23,10:45,NORM,1000,8.2,40.03,5.3,NA
+SFM,2023-10-24T21:45:00Z,10/24/23,14:48,NORM,1000,8.28,49.14,5.7,"Set up site on radio network, no log started unsure how it would afffect sdI12 settings. Main Params other than depth selected. Katie confirm radio at 1445 and 1545. Neg -9999 value in readings for some reason"
+COMI,2023-10-25T00:00:00Z,10/24/23,16:57,NORM,1000,NA,NA,NA,NA
+CBRI,2023-10-27T15:15:00Z,10/27/23,8:15,NORM,1000,8.7,65,2,Pulled sonde for season
+CHD,2023-10-27T15:45:00Z,10/27/23,8:45,NORM,1000,8.02,53.21,5.9,Pulled sonde for season. Lots of benthic(spirogyro likely) growing in and around sensor. No ice
+JWC,2023-10-27T16:45:00Z,10/27/23,9:45,NORM,1000,8.56,56.25,4.1,NA
+PBR,2023-10-27T18:15:00Z,10/27/23,11:15,NORM,1000,9.39,82.62,2.9,NA
+PSF,2023-10-27T18:45:00Z,10/27/23,11:45,NORM,1000,9.38,77.36,3.5,NA
+PNF,2023-10-27T19:30:00Z,10/27/23,12:30,NORM,1000,9.67,85.35,4,NA
+PBD,2023-10-27T19:45:00Z,10/27/23,12:50,NORM,1000,9.26,154,5.9,NA
+PBD,2023-11-02T20:30:00Z,11/2/23,13:35,NORM,1000,9.46,106.1,4.9,NA
+lincoln,2023-11-02T21:30:00Z,11/2/23,14:36,NORM,1000,9.95,223.9,7.6,NA
+timberline,2023-11-02T22:15:00Z,11/2/23,15:20,NORM,1000,9.58,391.7,8.8,NA
+archery,2023-11-02T23:15:00Z,11/2/23,16:16,NORM,1000,9.14,970.8,9.9,NA
+boxcreek,2023-11-02T23:45:00Z,11/2/23,16:47,NORM,1000,7.73,2178,11.5,NA
+prospect,2023-11-03T00:15:00Z,11/2/23,17:20,NORM,1000,8.83,371.2,8.5,NA
+PBD,2023-11-07T15:00:00Z,11/7/23,7:59,NORM,1000,9.21,101.4,4.9,Filtered in RMRS
+lincoln,2023-11-07T15:45:00Z,11/7/23,8:43,NORM,1000,9.15,315.2,6.7,Filtered in RMRS
+timberline,2023-11-07T16:15:00Z,11/7/23,9:08,NORM,1000,8.58,757.2,8.4,Somehow did not take picture of chla filter. Filtered at rmrs
+prospect,2023-11-07T16:45:00Z,11/7/23,9:41,NORM,1000,10.4,805.1,8.7,Filtered in RMRS
+boxcreek,2023-11-07T17:00:00Z,11/7/23,10:07,NORM,1000,10.06,2065,10.3,Filtered in RMRS
+boxelder,2023-11-07T17:30:00Z,11/7/23,10:29,NORM,1000,9.22,1044,9.2,"Calibrated turbidity, upon first calibration after I accepted I got a mod bus error which seems to be common error. It is easy fix that required me to perform a factory reset. After this I was able to save the calibration without the error. Cleared some sticks caught in housing."
+archery,2023-11-07T19:00:00Z,11/7/23,11:53,NORM,1000,9.07,1164,11.1,Filtered in RMRS
+PBD,2023-11-09T21:30:00Z,11/9/23,14:26,NORM,1000,9.53,94.29,5.4,Filtered RMRS
+lincoln,2023-11-09T22:00:00Z,11/9/23,15:06,NORM,1000,9.31,312.4,7.1,Filtered RMRS
+timberline,2023-11-09T22:30:00Z,11/9/23,15:25,NORM,1000,9.73,754.2,8.7,Filtered RMRS
+prospect,2023-11-09T23:00:00Z,11/9/23,15:57,NORM,1000,10.65,798.9,8.9,Filtered RMRS
+boxcreek,2023-11-09T23:15:00Z,11/9/23,16:16,NORM,1000,8.22,1602,10.7,Filtered RMRS
+archery,2023-11-09T23:45:00Z,11/9/23,16:44,NORM,1000,9.56,1196,9.8,Filtered RMRS
+PBD,2023-11-14T14:15:00Z,11/14/23,7:09,NORM,1000,9.92,99.61,2.1,Filtered RMRS
+lincoln,2023-11-14T14:45:00Z,11/14/23,7:43,NORM,700,8.67,442.1,5.2,Water was super turbid. Filtered RMRS
+timberline,2023-11-14T15:00:00Z,11/14/23,8:05,NORM,1000,7.64,865.8,6.6,Filtered RMRS
+prospect,2023-11-14T15:45:00Z,11/14/23,8:48,NORM,1000,9.39,877.9,6,Filtered RMRS
+boxcreek,2023-11-14T16:15:00Z,11/14/23,9:10,NORM,1000,9.06,2042,8.6,Filtered RMRS
+boxelder,2023-11-14T16:30:00Z,11/14/23,9:23,NORM,1000,9.17,1020,5.2,Filtered RMRS
+archery,2023-11-14T16:45:00Z,11/14/23,9:42,NORM,1000,8.52,1183,6.8,Filtered RMRS
+PBD,2023-11-16T15:45:00Z,11/16/23,8:40,NORM,1000,9.97,99.62,2.5,"Filtered in field, cloudy. Tried to connect to sonde, not responsive. Pulled sonde for the season due to incoming cold weather"
+lincoln,2023-11-16T16:30:00Z,11/16/23,9:30,NORM,1000,9.34,392.2,5.2,"Cloudy, filtered in field"
+timberline,2023-11-16T17:30:00Z,11/16/23,10:30,NORM,1000,8.45,837.6,6.9,Post rain 15 min
+prospect,2023-11-16T18:00:00Z,11/16/23,11:00,NORM,1000,9.54,877.2,6.5,"Cloudy, post rain 30 min."
+boxcreek,2023-11-16T18:30:00Z,11/16/23,11:30,NORM,1000,9.85,1985,9.8,"Sonde was set to daily upload, changed to 3 hr. Cleaned housing (lots of benthics growing), water quite clear. Filtered in field"
+boxelder,2023-11-16T19:00:00Z,11/16/23,12:00,NORM,1000,10.66,1059,7.4,Sunny
+archery,2023-11-16T19:30:00Z,11/16/23,12:30,NORM,1000,9.91,1245,8.5,"Sun, flows lower."
+SFM,2023-11-17T19:15:00Z,11/17/23,12:15,NORM,1000,NA,NA,NA,Sampled to pull sensor
+lincoln,2023-12-05T21:45:00Z,12/5/23,14:47,NORM,1000,11.17,373.7,4.5,Water clear
+timberline,2023-12-05T22:30:00Z,12/5/23,15:29,NORM,1000,10.19,791.2,5,Water lower
+prospect,2023-12-05T23:15:00Z,12/5/23,16:16,NORM,1000,10.83,885.9,5,Water lower
+boxcreek,2023-12-06T00:00:00Z,12/5/23,16:57,NORM,1000,8.15,2099,8.7,Collected samples in the dark
+archery,2023-12-06T00:30:00Z,12/5/23,17:32,NORM,1000,9.95,1352,6.4,Sampled in the dark
+lincoln,2024-03-22T17:00:00Z,3/22/24,10:00,NORM,1000,9.61,300.4,9.1,"Site looked good, new housing seemed to be working well. No debree stuck on housing. Water was clear and stream flow looked good"
+timberline,2024-03-22T17:45:00Z,3/22/24,10:50,NORM,1000,10.55,456,10.1,"Site looked good, there was decent level of stream flow. Water fairly clear. Warmer weather out today 57 F"
+timberline,2024-03-22T17:45:00Z,3/22/24,10:50,DUPLICATE,1000,10.55,456,10.1,"Site looked good, there was decent level of stream flow. Water fairly clear. Warmer weather out today 57 F"
+prospect,2024-03-22T19:00:00Z,3/22/24,12:06,NORM,1000,11.64,498.8,11.7,Weather was warm 57F. Water was clear. Site looked good
+boxcreek,2024-03-22T21:00:00Z,3/22/24,14:00,NORM,1000,13.37,2518,12.7,Huge algal mat stuck on housing I cleared it off. Besides that everting looked good
+archery,2024-03-22T21:30:00Z,3/22/24,14:29,NORM,1000,10.27,821.1,13.2,Site looked good. Pretty warm outside 60F. Water fairly deep and had medium flow.
+lincoln,2024-03-29T14:45:00Z,3/29/24,7:45,NORM,1000,8.19,283,7.6,Sampled. Filtered onsite
+timberline,2024-03-29T15:15:00Z,3/29/24,8:20,NORM,1000,8.35,442,7.3,Starting to rain while sampling. Filtered onsite
+springcreek,2024-03-29T15:45:00Z,3/29/24,8:52,NORM,750,10.25,1015,8.6,Sampled downstream of the bridge. Filtered in field. Only 750 ml filtered
+prospect,2024-03-29T16:30:00Z,3/29/24,9:30,NORM,1000,9.9,495,7.4,Sample on upstream side of bridge. Filtered on site.
+boxcreek,2024-03-29T17:30:00Z,3/29/24,10:30,NORM,1000,NA,2317,9.6,Sampled after cleaning sonde and housing. Filtered in lab
+archery,2024-03-29T17:45:00Z,3/29/24,10:44,NORM,1000,9.08,876.6,7.9,Sample by bridge. Filtered in lab
+lincoln,2024-04-05T16:15:00Z,4/5/24,9:17,NORM,1000,8.89,268.3,11.4,Site looked good. Cloudy conditions. Filtered in RMRS
+timberline,2024-04-05T16:45:00Z,4/5/24,9:47,NORM,1000,9.98,435.7,11.5,Sited looked good. Filtered in RMRS
+prospect,2024-04-05T17:15:00Z,4/5/24,10:17,NORM,1000,11.91,468,12.2,Site looked good. Filtered in RMRS
+springcreek,2024-04-05T17:30:00Z,4/5/24,10:36,NORM,750,9.9,965.1,14.3,"Site looked good. Water has lots suspended solids, I was only able to filter 750 ml. I filtered at RMRS"
+boxcreek,2024-04-05T18:15:00Z,4/5/24,11:10,NORM,1000,11.11,2305,11.8,Sites had a large algal mat stuck on housing cleared it off. Filtered at RMRS
+archery,2024-04-05T18:30:00Z,4/5/24,11:32,NORM,1000,9.78,874.6,13.5,"Sam figured out that the 4th parameter on the log doesn’t read, we troubleshooted the specific conductivity reading 0 and now actual is logging 0 specific is logging properly. Besides that I downloaded the vulink log and site looked good. Filtered at RMRS"
+lincoln,2024-04-09T18:15:00Z,4/9/24,11:15,NORM,1000,10.1,224.7,9.2,"Sampled, filtered on site"
+lincoln,2024-04-09T18:15:00Z,4/9/24,11:15,DUPLICATE,1000,10.1,224.7,9.2,"Sampled, filtered on site"
+timberline,2024-04-09T18:45:00Z,4/9/24,11:45,NORM,1000,10.14,339,10.4,Filtered on site
+springcreek,2024-04-09T20:00:00Z,4/9/24,13:01,NORM,1000,10.78,981,12.7,Filtered in field
+prospect,2024-04-09T20:15:00Z,4/9/24,13:15,NORM,1000,11.89,368,12.3,Filtered in lab. Sampled upstream of bridge
+boxcreek,2024-04-09T21:30:00Z,4/9/24,14:30,NORM,1000,10.5,2252,13.2,Rem removed algae from sensor housing. Sampled. Filtered in lab.
+archery,2024-04-09T21:45:00Z,4/9/24,14:45,NORM,1000,10.3,648,13.2,Very turbid. Filtered in field
+lincoln,2024-04-16T16:45:00Z,4/16/24,9:45,NORM,1000,NA,NA,NA,Flows a bit higher. Water a bit more turbid. Sonde still in low flow housing. Handheld probe did not turn on
+PBD,2024-04-16T18:30:00Z,4/16/24,11:30,NORM,1000,NA,NA,NA,First sample of season. Flows at ~200 Cfs and water turbid with suspended sediment. Handheld probe did not turn on
+archery,2024-04-16T20:00:00Z,4/16/24,13:00,NORM,1000,NA,NA,NA,"Faster flowing water, turbid bit more floating debris. Filtered in lab. Handheld probe did not turn on"

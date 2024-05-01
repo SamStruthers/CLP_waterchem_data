@@ -1,0 +1,167 @@
+---
+title: "ROSS Cache La Poudre (CLP) Water Quality Data"
+format: html
+  self-contained: true
+code-fold: true
+warning: false
+editor: visual
+---
+
+# ROSS Cache La Poudre (CLP) Water Quality Data
+
+#### Set Up
+
+Loading Packages and metadata
+
+```{r setup}
+#load packages and set up colors for plotting
+source("scripts/00_setup.R")
+
+```
+
+#### This script will:
+
+-   Intake water chemistry data from RMRS partners
+-   Remove duplicates and blanks used by RMRS for QAQC
+-   Add time data missing from RMRS dataset
+-   Add location metadata
+
+```{r raw_data}
+#Change to name of newest file
+newest_raw_file <- "ROSS_20240423.csv"
+```
+
+```{r cleaning}
+#read most recent file
+water_chemistry_import <- read_csv(paste0('data/raw/', newest_raw_file), show_col_types = FALSE)%>%
+
+  #add FCW number to FCW samples (for IDs in reservoir study)
+  mutate(FCW_number = case_when(str_detect(LabID, "FCW") ~  as.numeric(gsub('FCW ', '', LabID)),
+                              TRUE ~ NA),
+         ROSS_number = case_when(str_detect(LabID, "ROSS") ~  as.numeric(gsub('ROSS ', '', LabID)),
+                              TRUE ~ NA),
+         #parse date
+         Date = as.Date(Date, format = "%d-%b-%y"),
+         #get year
+          Year =  year(Date))%>%
+  rename(site_code = SiteLabel)
+  
+```
+
+# Adding data not given by RMRS
+
+## Read in metadata
+
+```{r meta}
+
+# site_meta: Locations of each site, common name, location characteristics, WQ sensor owner, flow gauge information. Created by Sam Struthers
+site_meta <- read_csv('data/metadata/location_metadata.csv', show_col_types = FALSE)
+# ROSS field measurements archive: FCW number, Time (mst) and handheld probe values for all FCW samples (2023 prior)
+old_field_meas <- read_csv('data/raw/ROSS_field_meas_archive.csv', show_col_types = FALSE)
+
+# more recent ROSS field measurements
+new_field_meas <- read_csv('data/raw/ROSS_field_meas_upto_2024-04-16.csv', show_col_types = FALSE)%>%
+  mutate(Date = as.Date(Date, format = "%m/%d/%y"))
+
+#buffer_sbs:Indices based on burn severity directly around the reservoir. Created by Katie Willi
+buffer_sbs <- read_csv('data/metadata/sbs_buffer.csv', show_col_types = FALSE) %>%
+  mutate(Buffer_Level=((Unburned*0)+(V_Low*0.1)+(Low*0.4)+(Moderate*0.7)+(High*1))/(Unburned+V_Low+Low+Moderate+High))
+# watershed_sbs: within each reservoirs watershed.Created by Katie Willi
+watershed_sbs <- read_csv('data/metadata/sbs_watershed.csv', show_col_types = FALSE) %>%
+  mutate(Watershed_Level=((Unburned*0)+(V_Low*0.1)+(Low*0.4)+(Moderate*0.7)+(High*1))/(Unburned+V_Low+Low+Moderate+High))
+#dist_from_pbd: distance (for upper sites) from PBD (mouth of canyon) using NHD flowline. Created by Katie Willi
+dist_from_pbd <- read_csv('data/metadata/distance_from_pbd.csv', show_col_types = FALSE)
+
+```
+
+## Joining metadata to dataset
+
+```{r join}
+# add metadata and field measurements to water chemistry data
+water_chemistry_joined <- water_chemistry_import%>%
+  #Remove duplicate and blank samples that were used by RMRS for QA
+  filter(SampleType == "NORM")%>%
+  #add location metadata created by Sam Struthers
+  left_join(site_meta,by="site_code")%>%
+  #add field measurements archive for all FCW samples (fewer notes were taken at this time). Compiled by Sam Struthers
+  left_join(old_field_meas, by = "FCW_number")%>%
+  #add more recent field measurements
+      left_join(new_field_meas, by = c("Date", "site_code", "SampleType"))%>%
+  #add buffer burn severity data created by Katie Willi
+   left_join(select(buffer_sbs,c(watershed,Buffer_Level)),by="watershed") %>%
+  #add watershed burn severity data created by Katie Willi
+  left_join(select(watershed_sbs,c(site_code,Watershed_Level)),by="site_code")%>%
+  # Add distance upstream of pbd site pulled from NHDplus by Katie Willi
+  left_join(select(dist_from_pbd,c(site_code,distance_upstream_km)),by="site_code")%>%
+  # Fill in missing field data with archived data or new measurements, and join into a single column
+mutate(final_Field_DO_mgL = case_when( 
+                                  !is.na(do_mgl) ~ do_mgl,
+                                  !is.na(Field_DO_mgL) ~ Field_DO_mgL,
+                                  !is.na(`ROSS Field_DO_mgL`) ~ `ROSS Field_DO_mgL`,
+                                  TRUE ~ NA), 
+      final_Field_Cond_µS_cm = case_when( 
+                                  !is.na(cond_ms_cm) ~ cond_ms_cm,
+                                  !is.na(`ROSS Field_Cond_µS/cm`) ~ `ROSS Field_Cond_µS/cm`,
+                                  !is.na(`Field_Cond_µS/cm`) ~ `Field_Cond_µS/cm`,
+                                  TRUE ~ NA),
+          final_Field_Temp_C = case_when( !is.na(temp_c) ~ temp_c, 
+                                          !is.na(`ROSS Field_Temp_C`) ~ `ROSS Field_Temp_C`,
+                                          !is.na(Field_Temp_C) ~ Field_Temp_C,
+                                  TRUE ~ NA), 
+      final_time_mst = case_when( !is.na(time_mst) ~ time_mst,
+                                  !is.na(Time_mst) ~ Time_mst, 
+                                  # `ROSS Time (MST)` is not accurate and should not be used
+                                  TRUE ~ NA), 
+      #Create a character version of date time in Mst
+      DT_mst_char = case_when( !is.na(final_time_mst) ~ paste0(Date, " ", final_time_mst),
+                                  TRUE ~ NA), 
+      #convert to POSIXct object
+      DT_mst = as.POSIXct(DT_mst_char, format = "%Y-%m-%d %H:%M", tz = "MST")
+)
+   
+
+```
+
+Do internal checks on data after this chunk. 
+
+
+# Cleaning up the data
+
+```{r cleaning}
+# remove extra objects now that the data has been joined and tested
+rm(new_field_meas, old_field_meas, site_meta, water_chemistry_import, newest_raw_file, buffer_sbs, dist_from_pbd, watershed_sbs)
+
+water_chemistry_tidy <-  water_chemistry_joined %>%
+  #remove extra columns
+  select(-c(do_mgl, `ROSS Field_DO_mgL`, Field_DO_mgL, cond_ms_cm, `ROSS Field_Cond_µS/cm`,`Field_Cond_µS/cm`, temp_c, `ROSS Field_Temp_C`, Field_Temp_C,DT_round,time_mst, Time_mst,  
+            # These columns are primarily used by RMRS for analysis and are not necessary for downstream analysis
+            LabID,`ROSS Time (MST)`, `ROSS Turbidity`,Site_Name,  SampleType, Q_cfs, SiteDescr))%>%
+  rename(time_mst = final_time_mst, 
+         Field_DO_mgL = final_Field_DO_mgL, 
+         Field_Cond_µS_cm = final_Field_Cond_µS_cm, 
+         Field_Temp_C = final_Field_Temp_C)%>%
+#arrange by date
+  arrange(Date, DT_mst)%>%
+  #clean up the order of columns
+  select(site_code,Site, Date,DT_mst, Turbidity:SO4, Field_DO_mgL, Field_Cond_µS_cm, Field_Temp_C, Lat:flow_gauge_id, distance_upstream_km, Watershed_Level, Buffer_Level, FCW_number, ROSS_number, chla_volume_ml,Year, time_mst, DT_mst_char )%>%
+  mutate( 
+          #add data source column for data collected by ROSS (2021-2023) and Rhoades (2014-2023)
+          data_source = case_when(Year >= 2021 ~ "ROSS",TRUE ~ "RHOADES"))
+
+rm(water_chemistry_joined)
+```
+
+# Saving to CSV and RDS files
+
+```{r saving}
+
+# grab most recent date from chemistry dataset
+up_to_date <- format(max(water_chemistry_tidy$Date), "%Y%m%d")
+#write dataset to csv
+write_csv_arrow(select(water_chemistry_tidy, -DT_mst),paste0("data/cleaned/CLP_chemistry_up_to_",up_to_date, ".csv") )
+
+# Write to RDS file as well
+write_rds(x = water_chemistry_tidy, file = paste0("data/cleaned/CLP_chemistry_up_to_",up_to_date, ".rds"))
+
+
+```
