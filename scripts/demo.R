@@ -33,3 +33,20 @@ no3_example_plot <- most_recent_chem %>%
     facet_wrap(~Year, scales = "free_x")
 
 no3_example_plot
+
+Mainstem_2023_comp <- most_recent_chem %>%
+  # Filter for the specific sites and year
+    filter(site_code %in% c("PJW", "PBR", "PBD") & Year == 2023) %>%
+  # Group by Date and filter to keep only dates with data from both sites
+  group_by(Date) %>%
+  filter(n_distinct(site_code) == 3) %>%
+  ungroup() %>%
+  # Pivot to longer format
+  pivot_longer(cols = c(Turbidity:Field_Temp_C), names_to = "param", values_to = "Value")%>%
+  ggplot(., aes(x = Date, y = Value, color = site_code)) +
+  geom_point() +
+  facet_wrap(~param, scales = "free_y") +
+  theme_bw(base_size = 15) +
+  labs(x = "Date", y = "Value")
+
+Mainstem_2023_comp
