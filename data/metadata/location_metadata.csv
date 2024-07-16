@@ -16,13 +16,13 @@ Hourglass Reservoir,HORR,40.582032,-105.6314023,South Fork,Reservoir,Hourglass R
 Joe Wright Inflow,JOEI,40.54013102,-105.8831698,Chambers Complex,Inflow,Joe Wright Reservoir,Unburned,ROSS,USGS,6746095
 Joe Wright Reservoir,JOER,40.55593744,-105.8749619,Chambers Complex,Reservoir,Joe Wright Reservoir,Partially Burned,NA,NA,NA
 Joe Wright Creek above the Poudre,JWC,40.61988,-105.81937,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,NA,NA,NA
-Little Beaver Creek,LBEA,40.624819,-105.532595,CU Tributary,Stream,CLP Tributary - Upper,Burned,ROSS,RMRS,NA
+Little Beaver Creek,LBEA,40.623665,-105.524059,CU Tributary,Stream,CLP Tributary - Upper,Burned,ROSS,RMRS,NA
 Poudre at Legacy Park,legacy,40.6006194,-105.0860344,Mainstem,Mainstem,CLP Mainstem - Lower,Partially Burned,ROSS,NA,NA
 Long Draw Outflow,LNGO,40.50368571,-105.7709459,Longdraw,Outflow,Long Draw Reservoir,Unburned,NA,CDWR,LAPLODCO
 Long Draw Reservoir,LNGR,40.50087627,-105.7725307,Longdraw,Reservoir,Long Draw Reservoir,Unburned,NA,NA,NA
 Poudre at Canyon Mouth,PBD,40.664519,-105.22419,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,ROSS,CDWR,CLAFTCCO
 Poudre at Rustic,PBR,40.700221,-105.544028,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,FCGOV,Fort Collins,NA
-Pennock Creek,PENN,40.57855879,-105.5441506,CU Tributary,Stream,CLP Tributary - Upper,Partially Burned,ROSS,NA,NA
+Pennock Creek,PENN,40.56847,-105.549914,CU Tributary,Stream,CLP Tributary - Upper,Partially Burned,ROSS,NA,NA
 Poudre above Joe Wright Creek,PJW,40.634114,-105.807264,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,NA,NA,NA
 Poudre above the North Fork,PNF,40.702459,-105.241588,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,FCGOV,NA,NA
 Poudre below the South Fork,PSF,40.694953,-105.448748,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,NA,NA,NA
@@ -38,3 +38,4 @@ Poudre at Lincoln Ave (Fort Collins),lincoln,40.588073,-105.069231,Mainstem,Main
 Spring Creek Outflow,springcreek,40.571137,-105.031363,CU Tributary,Stream,CLP Tributary - Lower,Unburned,ROSS,NA,NA
 Poudre below Spring Creek at Prospect bridge,prospect,40.56703363,-105.0272535,Mainstem,Mainstem,CLP Mainstem - Lower,Partially Burned,ROSS,NA,NA
 "Poudre above Boxelder Sanitation, formerly ELC",boxelder,40.550674,-105.008111,Mainstem,Mainstem,CLP Mainstem - Lower,Partially Burned,ROSS,USGS,6752280
+Poudre at Manner's Bridge,PMAN,40.69664,-105.268818,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,FCGOV,NA,NA

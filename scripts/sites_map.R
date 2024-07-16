@@ -27,7 +27,7 @@ upper_map <-
     legend = TRUE, 
     layer.name = "South Fork Reservoirs")+ 
   mapview::mapview(
-    filter(sites, site_code %in% c("JWC", "PJW", "PFAL", "SLEP", "PBR", "PSF","PNF", "PBD")),
+    filter(sites, site_code %in% c("JWC", "PJW", "PFAL", "SLEP", "PBR", "PSF","PNF","PMAN", "PBD")),
     col.regions = "orange",
     legend = TRUE, 
     layer.name = "Upper Mainstem CLP")+ 
