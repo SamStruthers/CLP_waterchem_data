@@ -1,6 +1,14 @@
 # ROSS Cache la Poudre Water Quality Data
 
+<<<<<<< HEAD
 Current release: (2021- 7/2024)
+=======
+
+[![DOI](https://zenodo.org/badge/791484282.svg)](https://zenodo.org/doi/10.5281/zenodo.11100085)
+
+
+Current release: (2021- 4/2024)
+>>>>>>> f7f260479ff7310e509f64baff2f43f1f055b4d3
 
 Authors: Samuel J. Struthers (<https://orcid.org/0000-0003-1263-9525>),Timothy S. Fegel, Kathryn R. Willi (<https://orcid.org/0000-0001-7163-2206>), Charles C. Rhoades (<https://orcid.org/0000-0002-3336-2257>), Matthew R.V. Ross (<https://orcid.org/0000-0001-9105-4255>)
 
@@ -58,4 +66,8 @@ Field measurements were taken using a Thermo Orion Star with RDO Optical and Con
 
 **Keywords**: Cameron Peak Fire, water quality, reservoirs, chlorophyll a, biogeochemistry, Cache la Poudre, Poudre Water Quality Network, ROSSyndicate, water quality, agriculture, urban impacts to water quality
 
+<<<<<<< HEAD
 **Version**: v2024.07.16
+=======
+**Version**: v2024.04.16b
+>>>>>>> f7f260479ff7310e509f64baff2f43f1f055b4d3
