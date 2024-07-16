@@ -28,7 +28,7 @@ source("scripts/00_setup.R")
 
 ```{r raw_data}
 #Change to name of newest file
-newest_raw_file <- "ROSS_20240423.csv"
+newest_raw_file <- "ROSS_20240716.csv"
 ```
 
 ```{r cleaning}
@@ -108,7 +108,8 @@ mutate(final_Field_DO_mgL = case_when(
                                           !is.na(`ROSS Field_Temp_C`) ~ `ROSS Field_Temp_C`,
                                           !is.na(Field_Temp_C) ~ Field_Temp_C,
                                   TRUE ~ NA), 
-      final_time_mst = case_when( !is.na(time_mst) ~ time_mst,
+      final_time_mst = case_when( !is.na(`ROSS Time (MST)`) ~`ROSS Time (MST)`,
+                                  !is.na(time_mst) ~ time_mst,
                                   !is.na(Time_mst) ~ Time_mst, 
                                   # `ROSS Time (MST)` is not accurate and should not be used
                                   TRUE ~ NA), 
