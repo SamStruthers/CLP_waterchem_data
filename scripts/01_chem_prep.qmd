@@ -28,7 +28,7 @@ source("scripts/00_setup.R")
 
 ```{r raw_data}
 #Change to name of newest file
-newest_raw_file <- "ROSS_20240716.csv"
+newest_raw_file <- "ROSS_20241202.csv"
 ```
 
 ```{r cleaning}
@@ -123,8 +123,7 @@ mutate(final_Field_DO_mgL = case_when(
 
 ```
 
-Do internal checks on data after this chunk. 
-
+Do internal checks on data after this chunk.
 
 # Cleaning up the data
 
