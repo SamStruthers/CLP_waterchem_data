@@ -1,41 +1,42 @@
-Site_Name,site_code,Lat,Long,Campaign,location_type,watershed,burn_status,WQ_sensor,flow_gauge_source,flow_gauge_id
-Poudre at Archery Range,archery,40.5479138,-105.0011275,Mainstem,Mainstem,CLP Mainstem - Lower,Partially Burned,ROSS,NA,NA
-Beaver Creek,BEAV,40.579336,-105.5940998,South Fork,Stream,CLP Tributary - Upper,Burned,NA,NA,NA
-Barnes Meadow Outflow,BMD,40.600376,-105.836378,Chambers Complex,Outflow,Barnes Meadow Reservoir,Burned,NA,Greeley,NA
-Barnes Meadow Reservoir,BRNR,40.599908,-105.830604,Chambers Complex,Reservoir,Barnes Meadow Reservoir,Burned,NA,NA,NA
-Joe Wright Outflow/Chambers Inflow,CBRI,40.57795281,-105.8572773,Chambers Complex,Inflow,Chambers Reservoir,Burned,ROSS,USGS,6746110
-Chambers Reservoir,CBRR,40.603457,-105.845931,Chambers Complex,Reservoir,Chambers Reservoir,Burned,NA,NA,na
-Chambers Outflow,CHD,40.60233229,-105.8427286,Chambers Complex,Outflow,Chambers Reservoir,Burned,ROSS,CDWR,JWCCHACO
-Comanche Inflow,COMI,40.5858963,-105.6626,South Fork,Inflow,Comanche Reservoir,Burned,NA,NA,NA
-Comanche Outflow,COMO,40.5846048,-105.6440011,South Fork,Outflow,Comanche Reservoir,Burned,NA,Greeley,NA
-Comanche Reservoir,COMR,40.5853086,-105.6455009,South Fork,Reservoir,Comanche Reservoir,Burned,NA,NA,NA
-ELC,ELC,40.5519476,-105.0105977,Mainstem,Mainstem,CLP Mainstem - Lower,Partially Burned,ROSS,USGS,6752280
-Hourglass Inflow,HORI,40.5805091,-105.6409321,South Fork,Inflow,Hourglass Reservoir,Burned,NA,Greeley,NA
-Hourglass Outflow,HORO,40.5828742,-105.6309523,South Fork,Outflow,Hourglass Reservoir,Burned,NA,Greeley,NA
-Hourglass Reservoir,HORR,40.582032,-105.6314023,South Fork,Reservoir,Hourglass Reservoir,Burned,NA,NA,NA
-Joe Wright Inflow,JOEI,40.54013102,-105.8831698,Chambers Complex,Inflow,Joe Wright Reservoir,Unburned,ROSS,USGS,6746095
-Joe Wright Reservoir,JOER,40.55593744,-105.8749619,Chambers Complex,Reservoir,Joe Wright Reservoir,Partially Burned,NA,NA,NA
-Joe Wright Creek above the Poudre,JWC,40.61988,-105.81937,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,NA,NA,NA
-Little Beaver Creek,LBEA,40.623665,-105.524059,CU Tributary,Stream,CLP Tributary - Upper,Burned,ROSS,RMRS,NA
-Poudre at Legacy Park,legacy,40.6006194,-105.0860344,Mainstem,Mainstem,CLP Mainstem - Lower,Partially Burned,ROSS,NA,NA
-Long Draw Outflow,LNGO,40.50368571,-105.7709459,Longdraw,Outflow,Long Draw Reservoir,Unburned,NA,CDWR,LAPLODCO
-Long Draw Reservoir,LNGR,40.50087627,-105.7725307,Longdraw,Reservoir,Long Draw Reservoir,Unburned,NA,NA,NA
-Poudre at Canyon Mouth,PBD,40.664519,-105.22419,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,ROSS,CDWR,CLAFTCCO
-Poudre at Rustic,PBR,40.700221,-105.544028,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,FCGOV,Fort Collins,NA
-Pennock Creek,PENN,40.56847,-105.549914,CU Tributary,Stream,CLP Tributary - Upper,Partially Burned,ROSS,NA,NA
-Poudre above Joe Wright Creek,PJW,40.634114,-105.807264,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,NA,NA,NA
-Poudre above the North Fork,PNF,40.702459,-105.241588,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,FCGOV,NA,NA
-Poudre below the South Fork,PSF,40.694953,-105.448748,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,NA,NA,NA
-Peterson Outflow,PTRO,40.56063874,-105.7929021,Longdraw,Outflow,Peterson Reservoir,Burned,NA,Greeley,NA
-Peterson Reservoir,PTRR,40.55936515,-105.7940034,Longdraw,Reservoir,Peterson Reservoir,Burned,NA,NA,NA
-Sawmill Creek,SAWM,40.581377,-105.856229,Tributary,Stream,CLP Tributary - Upper,Partially Burned,NA,RMRS,NA
-South Fork of the Poudre,SFM,40.61825,-105.525583,South Fork,Mainstem,CLP Mainstem - Upper,Partially Burned,ROSS,Larimer County,11531
-Sleeping Elephant,SLEP,40.682439,-105.771986,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,NA,NA,NA
-Timberline,timberline,40.5754289,-105.0333903,Mainstem,Mainstem,CLP Mainstem - Lower,Partially Burned,ROSS,NA,NA
-Poudre below Poudre Falls,PFAL,40.651785,-105.810831,Mainstem,Stream,CLP Mainstem - Upper,Partially Burned,ROSS,Larimer County,11517
-Boxelder Creek above Boxelder Sanitation,boxcreek,40.552003,-105.004576,CU Tributary,Stream,CLP Tributary - Lower,Unburned,ROSS,Boxelder Sanitation,NA
-Poudre at Lincoln Ave (Fort Collins),lincoln,40.588073,-105.069231,Mainstem,Mainstem,CLP Mainstem - Lower,Partially Burned,ROSS,USGS,6752260
-Spring Creek Outflow,springcreek,40.571137,-105.031363,CU Tributary,Stream,CLP Tributary - Lower,Unburned,ROSS,NA,NA
-Poudre below Spring Creek at Prospect bridge,prospect,40.56703363,-105.0272535,Mainstem,Mainstem,CLP Mainstem - Lower,Partially Burned,ROSS,NA,NA
-"Poudre above Boxelder Sanitation, formerly ELC",boxelder,40.550674,-105.008111,Mainstem,Mainstem,CLP Mainstem - Lower,Partially Burned,ROSS,USGS,6752280
-Poudre at Manner's Bridge,PMAN,40.69664,-105.268818,Mainstem,Mainstem,CLP Mainstem - Upper,Partially Burned,FCGOV,NA,NA
+Site_Name,site_code,Lat,Long,Campaign,watershed,location_type,WQ_sensor,flow_gauge_source,flow_gauge_id,burn_status
+Poudre at Archery Range,archery,40.5479138,-105.0011275,Mainstem - Lower,CLP Mainstem - Lower,Mainstem,ROSS,NA,NA,Partially Burned
+Beaver Creek,BEAV,40.579336,-105.5940998,South Fork,CLP Tributary - Upper,Stream,NA,NA,NA,Burned
+Barnes Meadow Outflow,BMD,40.600376,-105.836378,Chambers Complex,Barnes Meadow Reservoir,Outflow,NA,Greeley,NA,Burned
+Barnes Meadow Reservoir,BRNR,40.599908,-105.830604,Chambers Complex,Barnes Meadow Reservoir,Reservoir,NA,NA,NA,Burned
+Joe Wright Outflow/Chambers Inflow,CBRI,40.57795281,-105.8572773,Chambers Complex,Chambers Reservoir,Inflow,ROSS,USGS,6746110,Burned
+Chambers Reservoir,CBRR,40.603457,-105.845931,Chambers Complex,Chambers Reservoir,Reservoir,NA,NA,na,Burned
+Chambers Outflow,CHD,40.60233229,-105.8427286,Chambers Complex,Chambers Reservoir,Outflow,ROSS,CDWR,JWCCHACO,Burned
+Comanche Inflow,COMI,40.5858963,-105.6626,South Fork,Comanche Reservoir,Inflow,NA,NA,NA,Burned
+Comanche Outflow,COMO,40.5846048,-105.6440011,South Fork,Comanche Reservoir,Outflow,NA,Greeley,NA,Burned
+Comanche Reservoir,COMR,40.5853086,-105.6455009,South Fork,Comanche Reservoir,Reservoir,NA,NA,NA,Burned
+ELC,ELC,40.5519476,-105.0105977,Mainstem - Lower,CLP Mainstem - Lower,Mainstem,ROSS,USGS,6752280,Partially Burned
+Hourglass Inflow,HORI,40.5805091,-105.6409321,South Fork,Hourglass Reservoir,Inflow,NA,Greeley,NA,Burned
+Hourglass Outflow,HORO,40.5828742,-105.6309523,South Fork,Hourglass Reservoir,Outflow,NA,Greeley,NA,Burned
+Hourglass Reservoir,HORR,40.582032,-105.6314023,South Fork,Hourglass Reservoir,Reservoir,NA,NA,NA,Burned
+Joe Wright Inflow,JOEI,40.54013102,-105.8831698,Chambers Complex,Joe Wright Reservoir,Inflow,ROSS,USGS,6746095,Unburned
+Joe Wright Reservoir,JOER,40.55593744,-105.8749619,Chambers Complex,Joe Wright Reservoir,Reservoir,NA,NA,NA,Partially Burned
+Joe Wright Creek above the Poudre,JWC,40.61988,-105.81937,Chambers Complex,CLP Mainstem - Upper,Mainstem,NA,NA,NA,Partially Burned
+Little Beaver Creek,LBEA,40.623665,-105.524059,Upper Tributary,CLP Tributary - Upper,Stream,ROSS,RMRS,NA,Burned
+Poudre at Legacy Park,legacy,40.6006194,-105.0860344,Mainstem - Lower,CLP Mainstem - Lower,Mainstem,ROSS,NA,NA,Partially Burned
+Long Draw Outflow,LNGO,40.50368571,-105.7709459,Longdraw,Long Draw Reservoir,Outflow,NA,CDWR,LAPLODCO,Unburned
+Long Draw Reservoir,LNGR,40.50087627,-105.7725307,Longdraw,Long Draw Reservoir,Reservoir,NA,NA,NA,Unburned
+Poudre at Canyon Mouth,PBD,40.664519,-105.22419,Mainstem - Upper,CLP Mainstem - Upper,Mainstem,ROSS,CDWR,CLAFTCCO,Partially Burned
+Poudre at Rustic,PBR,40.700221,-105.544028,Mainstem - Upper,CLP Mainstem - Upper,Mainstem,FCGOV,Fort Collins,NA,Partially Burned
+Pennock Creek,PENN,40.56847,-105.549914,Upper Tributary,CLP Tributary - Upper,Stream,ROSS,NA,NA,Partially Burned
+Poudre above Joe Wright Creek,PJW,40.634114,-105.807264,Mainstem - Upper,CLP Mainstem - Upper,Mainstem,NA,NA,NA,Partially Burned
+Poudre above the North Fork,PNF,40.702459,-105.241588,Mainstem - Upper,CLP Mainstem - Upper,Mainstem,FCGOV,NA,NA,Partially Burned
+Poudre below the South Fork,PSF,40.694953,-105.448748,Mainstem - Upper,CLP Mainstem - Upper,Mainstem,NA,NA,NA,Partially Burned
+Peterson Outflow,PTRO,40.56063874,-105.7929021,Longdraw,Peterson Reservoir,Outflow,NA,Greeley,NA,Burned
+Peterson Reservoir,PTRR,40.55936515,-105.7940034,Longdraw,Peterson Reservoir,Reservoir,NA,NA,NA,Burned
+Sawmill Creek,SAWM,40.581377,-105.856229,Upper Tributary,CLP Tributary - Upper,Stream,NA,RMRS,NA,Partially Burned
+South Fork of the Poudre,SFM,40.61825,-105.525583,South Fork,CLP Mainstem - Upper,Mainstem,ROSS,Larimer County,11531,Partially Burned
+Sleeping Elephant,SLEP,40.682439,-105.771986,Mainstem - Upper,CLP Mainstem - Upper,Mainstem,NA,NA,NA,Partially Burned
+Timberline,timberline,40.5754289,-105.0333903,Mainstem - Lower,CLP Mainstem - Lower,Mainstem,ROSS,NA,NA,Partially Burned
+Poudre below Poudre Falls,PFAL,40.651785,-105.810831,Mainstem - Upper,CLP Mainstem - Upper,Stream,ROSS,Larimer County,11517,Partially Burned
+Boxelder Creek above Boxelder Sanitation,boxcreek,40.552003,-105.004576,Lower Tributary,CLP Tributary - Lower,Stream,ROSS,Boxelder Sanitation,NA,Unburned
+Poudre at Lincoln Ave (Fort Collins),lincoln,40.588073,-105.069231,Mainstem - Lower,CLP Mainstem - Lower,Mainstem,ROSS,USGS,6752260,Partially Burned
+Spring Creek Outflow,springcreek,40.571137,-105.031363,Lower Tributary,CLP Tributary - Lower,Stream,ROSS,NA,NA,Unburned
+Poudre below Spring Creek at Prospect bridge,prospect,40.56703363,-105.0272535,Mainstem - Lower,CLP Mainstem - Lower,Mainstem,ROSS,NA,NA,Partially Burned
+"Poudre above Boxelder Sanitation, formerly ELC",boxelder,40.550674,-105.008111,Mainstem - Lower,CLP Mainstem - Lower,Mainstem,ROSS,USGS,6752280,Partially Burned
+Poudre at Manner's Bridge,PMAN,40.69664,-105.268818,Mainstem - Upper,CLP Mainstem - Upper,Mainstem,FCGOV,NA,NA,Partially Burned
+Poudre at River Bluffs Open Space,riverbluffs,40.486292,-104.9627391,Mainstem - Lower,CLP Mainstem - Lower,Mainstem,ROSS,CDWR,CLARIVCO,Partially Burned
