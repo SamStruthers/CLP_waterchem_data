@@ -60,4 +60,4 @@ Field measurements were taken using a Thermo Orion Star with RDO Optical and Con
 
 **Keywords**: Cameron Peak Fire, water quality, reservoirs, chlorophyll a, biogeochemistry, Cache la Poudre, Poudre Water Quality Network, ROSSyndicate, water quality, agriculture, urban impacts to water quality
 
-**Version**: v2024.12.04
+**Version**: v2024.12.11
