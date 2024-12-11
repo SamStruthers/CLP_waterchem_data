@@ -44,7 +44,9 @@ water_chemistry_import <- read_csv(paste0('data/raw/', newest_raw_file), show_co
          Date = as.Date(Date, format = "%d-%b-%y"),
          #get year
           Year =  year(Date))%>%
-  rename(site_code = SiteLabel)
+  rename(site_code = SiteLabel)%>%
+  #omitting prospect samples with likely bottle contam (High values which are outside of typical ranges for site)
+  filter(!(site_code == "prospect" & (SC > 3000)))
   
 ```
 
@@ -60,8 +62,9 @@ site_meta <- read_csv('data/metadata/location_metadata.csv', show_col_types = FA
 old_field_meas <- read_csv('data/raw/ROSS_field_meas_archive.csv', show_col_types = FALSE)
 
 # more recent ROSS field measurements
-new_field_meas <- read_csv('data/raw/ROSS_field_meas_upto_2024-04-16.csv', show_col_types = FALSE)%>%
-  mutate(Date = as.Date(Date, format = "%m/%d/%y"))
+new_field_meas <- read_csv('data/raw/ROSS_field_meas_upto_2024-12-01.csv', show_col_types = FALSE)%>%
+  mutate(Date = as.Date(Date, format = "%m/%d/%y"), 
+         DT_round = with_tz(DT_round, tzone = "MST"))
 
 #buffer_sbs:Indices based on burn severity directly around the reservoir. Created by Katie Willi
 buffer_sbs <- read_csv('data/metadata/sbs_buffer.csv', show_col_types = FALSE) %>%
