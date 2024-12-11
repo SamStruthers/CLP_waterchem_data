@@ -60,6 +60,9 @@ lower_map <- mapview(filter(sites, site_code == "PBD"),
   mapview(filter(sites, site_code == "archery"),
     col.regions = "#641E16", 
     layer.name = "Poudre at Archery Range")+
+  mapview(filter(sites, site_code == "riverbluffs"),
+          col.regions = "black", 
+          layer.name = "Poudre at River Bluffs Open Space")+
   mapview(filter(sites, site_code == "springcreek"),
     col.regions = "green1",
     layer.name = "Spring Creek Outflow")+

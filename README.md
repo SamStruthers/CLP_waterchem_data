@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/791484282.svg)](https://zenodo.org/doi/10.5281/zenodo.11100085)
 
-Current release: (2021- 7/2024)
+Current release: (2021- 11/2024)
 
 Authors: Samuel J. Struthers (<https://orcid.org/0000-0003-1263-9525>),Timothy S. Fegel, Kathryn R. Willi (<https://orcid.org/0000-0001-7163-2206>), Charles C. Rhoades (<https://orcid.org/0000-0002-3336-2257>), Matthew R.V. Ross (<https://orcid.org/0000-0001-9105-4255>)
 
@@ -24,15 +24,15 @@ Following a fish kill in the Poudre River in Fort Collins in 2018, the ROSSyndic
 
 ## Data Organization
 
-The primary data file is `data/cleaned/CLP_chemistry_up_to_20240702`. Column definitions and units are defined in the file `metadata/water_chemistry_units.xlsx`. Methods used to collect these data are outline below or in `metadata/rmrs_procedures.png`
+The primary data file is `data/cleaned/CLP_chemistry_up_to_202401113`. Column definitions and units are defined in the file `metadata/water_chemistry_units.xlsx`. Methods used to collect these data are outline below or in `metadata/rmrs_procedures.png`
 
 Location metadata file is `data/metadata/location_metadata.csv`. Two basic maps showing all sampling locations are available in the `maps` folder. Data are housed in the `data` folder and it contains the following:
 
 -   `cleaned`: This folder contains the most recently available dataset and has associated burn severity and location data added to the chemistry data. The addition of the metadata was accomplished using the `01_chem_prep.qmd` R script.
 
--   `cleaned_archive`: This folder contains an archive of previously cleaned data. Downstream users are encouraged to use the collated data file `data/cleaned/CLP_chemistry_up_to_20240702` in the `cleaned` directory.
+-   `cleaned_archive`: This folder contains an archive of previously cleaned data. Downstream users are encouraged to use the collated data file `data/cleaned/CLP_chemistry_up_to_202401113` in the `cleaned` directory.
 
--   `raw`: These data were directly received by the ROSSyndicate from RMRS lab managers. Downstream users are encouraged to use the collated data file `data/cleaned/CLP_chemistry_up_to_20240702` in the `cleaned` directory.
+-   `raw`: These data were directly received by the ROSSyndicate from RMRS lab managers. Downstream users are encouraged to use the collated data file `data/cleaned/CLP_chemistry_up_to_202401113` in the `cleaned` directory.
 
 -   `metadata`: this contains location data, parameter/column name definitions, units, and methods used at the RMRS Lab. The `README` file in this folder explains burn severity classifications used in the files `sbs_watershed.csv`,`sbs_watershed.csv` and `location_metadata.csv`
 
@@ -44,7 +44,7 @@ Code is housed in the `scripts` folder and is primarily used for reference. Down
 
 -   `01_chem_prep.qmd` adds metadata to most recent .csv of water chemistry data supplied by RMRS lab.
 
--   `distance_finder.R` uses NHDflowlines to calculate distances from furthest downstream site, PBD.
+-   `distance_finder.R` uses NHDflowlines to calculate distances in the Upper watershed from furthest downstream site, PBD.
 
 -   `sites_map.R` uses location metadata to create `upper_sites_map.html` and `lower_sites_map.html`
 
@@ -60,4 +60,4 @@ Field measurements were taken using a Thermo Orion Star with RDO Optical and Con
 
 **Keywords**: Cameron Peak Fire, water quality, reservoirs, chlorophyll a, biogeochemistry, Cache la Poudre, Poudre Water Quality Network, ROSSyndicate, water quality, agriculture, urban impacts to water quality
 
-**Version**: v2024.07.16
+**Version**: v2024.12.11
