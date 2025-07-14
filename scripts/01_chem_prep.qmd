@@ -9,6 +9,13 @@ editor: visual
 
 # ROSS Cache La Poudre (CLP) Water Quality Data
 
+## Before running:
+
+- Ensure new raw file is added to `data/raw/` folder and the name is updated in the `newest_raw_file` variable below.
+- Ensure no samples need to be removed due to lab QA or sampling issues (e.g. bottle contamination, etc.). If so, remove them from the `water_chemistry_import` data frame below.
+- Ensure new meas file is added to `data/raw/` folder and the name is updated in the `newest_meas_file` variable below.
+- If new site is sampled, add to `location_metadata.csv` and ensure location names and coordinates are correct/match existing sites
+
 #### Set Up
 
 Loading Packages and metadata
@@ -28,7 +35,10 @@ source("scripts/00_setup.R")
 
 ```{r raw_data}
 #Change to name of newest file
-newest_raw_file <- "ROSS_20241202.csv"
+newest_raw_file <- "ROSS_20250714.csv"
+
+newest_meas_file <- 'data/raw/ROSS_field_meas_upto_2025-07-14.csv'
+
 ```
 
 ```{r cleaning}
@@ -57,12 +67,13 @@ water_chemistry_import <- read_csv(paste0('data/raw/', newest_raw_file), show_co
 ```{r meta}
 
 # site_meta: Locations of each site, common name, location characteristics, WQ sensor owner, flow gauge information. Created by Sam Struthers
-site_meta <- read_csv('data/metadata/location_metadata.csv', show_col_types = FALSE)
+site_meta <- read_csv('data/metadata/location_metadata.csv', show_col_types = FALSE) 
+
 # ROSS field measurements archive: FCW number, Time (mst) and handheld probe values for all FCW samples (2023 prior)
 old_field_meas <- read_csv('data/raw/ROSS_field_meas_archive.csv', show_col_types = FALSE)
 
 # more recent ROSS field measurements
-new_field_meas <- read_csv('data/raw/ROSS_field_meas_upto_2024-12-01.csv', show_col_types = FALSE)%>%
+new_field_meas <- read_csv(newest_meas_file, show_col_types = FALSE)%>%
   mutate(Date = as.Date(Date, format = "%m/%d/%y"), 
          DT_round = with_tz(DT_round, tzone = "MST"))
 
@@ -83,7 +94,7 @@ dist_from_pbd <- read_csv('data/metadata/distance_from_pbd.csv', show_col_types 
 # add metadata and field measurements to water chemistry data
 water_chemistry_joined <- water_chemistry_import%>%
   #Remove duplicate and blank samples that were used by RMRS for QA
-  filter(SampleType == "NORM")%>%
+  filter(SampleType %nin% c("BLANK", "DUPLICATE"))%>%
   #add location metadata created by Sam Struthers
   left_join(site_meta,by="site_code")%>%
   #add field measurements archive for all FCW samples (fewer notes were taken at this time). Compiled by Sam Struthers
@@ -128,11 +139,15 @@ mutate(final_Field_DO_mgL = case_when(
 
 Do internal checks on data after this chunk.
 
+- Check for duplicate names or samples
+- Check for missing values from field measurements sheets
+- Check for date or time errors
+
 # Cleaning up the data
 
 ```{r cleaning}
 # remove extra objects now that the data has been joined and tested
-rm(new_field_meas, old_field_meas, site_meta, water_chemistry_import, newest_raw_file, buffer_sbs, dist_from_pbd, watershed_sbs)
+rm(new_field_meas, old_field_meas, site_meta, water_chemistry_import, newest_raw_file, buffer_sbs, dist_from_pbd, watershed_sbs, newest_meas_file)
 
 water_chemistry_tidy <-  water_chemistry_joined %>%
   #remove extra columns
@@ -161,10 +176,35 @@ rm(water_chemistry_joined)
 # grab most recent date from chemistry dataset
 up_to_date <- format(max(water_chemistry_tidy$Date), "%Y%m%d")
 #write dataset to csv
-write_csv_arrow(select(water_chemistry_tidy, -DT_mst),paste0("data/cleaned/CLP_chemistry_up_to_",up_to_date, ".csv") )
+
+file_name <- paste0("data/cleaned/CLP_chemistry_up_to_", up_to_date)
+
+write_csv_arrow(select(water_chemistry_tidy, -DT_mst),paste0(file_name, ".csv") )
 
 # Write to RDS file as well
-write_rds(x = water_chemistry_tidy, file = paste0("data/cleaned/CLP_chemistry_up_to_",up_to_date, ".rds"))
+write_rds(x = water_chemistry_tidy, file = paste0(file_name, ".rds"))
+
 
 
 ```
+
+# Clean up 
+
+```{r}
+#Move old file to clean_archive
+
+old_files <- grep(list.files(path="data/cleaned", full.names = T), pattern=file_name, value = TRUE, invert = TRUE)
+# copy to clean_archive
+file.copy(from = old_files, to = "data/clean_archive", overwrite = TRUE)
+# remove from cleaned
+file.remove(old_files)
+
+#clean up workspace
+rm(water_chemistry_tidy, up_to_date, file_name, old_files)
+
+```
+
+## After running:
+
+- Ensure new cleaned file is added to `data/cleaned` and that previous file is moved to `data/clean_archive`
+- If new site is sampled, update maps in `scripts/sites_map.R` and ensure all locations are accurate before publication
