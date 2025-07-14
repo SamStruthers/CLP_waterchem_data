@@ -1,0 +1,771 @@
+site_code,Date,DT_round,SampleType,time_mst,chla_volume_ml,do_mgl,cond_ms_cm,temp_c,visit_comments
+JOEI,2023-10-10,2023-10-10T18:45:00Z,NORM,11:52,1000,NA,NA,NA,"Removed sonde, downloaded log 1005-1010, pulled sensor due to snow"
+CBRI,2023-10-10,2023-10-10T19:45:00Z,NORM,12:49,1000,NA,NA,NA,"Downloaded log, calibrated turb since most values were 0, calibration had hard time with 10 not 100. Started new log"
+CHD,2023-10-10,2023-10-10T20:45:00Z,NORM,13:52,1000,NA,NA,NA,"Lots of benthic algae at site, some on wiper. Downloaded logs, cleaned sensors and redeployed. Sampled"
+JWC,2023-10-10,2023-10-10T21:45:00Z,NORM,14:41,1000,NA,NA,NA,NA
+LNGR,2023-10-16,2023-10-16T16:00:00Z,NORM,09:00,1000,7.58,59.97,7.1,NA
+LNGO,2023-10-16,2023-10-16T16:30:00Z,NORM,09:30,1000,8.12,79.28,5,NA
+PTRO,2023-10-16,2023-10-16T17:30:00Z,NORM,10:30,750,7.98,45.3,4.8,NA
+PTRR,2023-10-16,2023-10-16T17:30:00Z,NORM,10:30,750,7.14,33.27,7.9,NA
+JOEI,2023-10-16,2023-10-16T18:45:00Z,NORM,11:45,1000,8.27,83.84,4.1,NA
+JOER,2023-10-16,2023-10-16T19:15:00Z,NORM,12:20,1000,6.93,52.73,9.8,NA
+JOER,2023-10-16,2023-10-16T19:15:00Z,BLANK,12:20,1000,6.93,52.73,9.8,NA
+CBRI,2023-10-16,2023-10-16T20:00:00Z,NORM,12:56,1000,7.94,65.73,5.7,"Updated software, downloaded log, cleaned, all working order, started new log, disconnect. Water much lower now, some algal growth on pipe but minimal"
+CBRI,2023-10-16,2023-10-16T20:00:00Z,DUPLICATE,12:56,1000,7.94,65.73,5.7,"Updated software, downloaded log, cleaned, all working order, started new log, disconnect. Water much lower now, some algal growth on pipe but minimal"
+BMD,2023-10-16,2023-10-16T20:45:00Z,NORM,13:45,1000,7.04,70.62,9.9,NA
+BRNR,2023-10-16,2023-10-16T21:00:00Z,NORM,14:00,1000,6.75,70.83,9.9,NA
+CBRR,2023-10-16,2023-10-16T21:30:00Z,NORM,14:30,1000,7.45,49.9,11.8,NA
+CHD,2023-10-16,2023-10-16T22:00:00Z,NORM,15:00,1000,7.43,51.53,8.3,"Updated vulink, downloaded log, cleaned sensors, less dirty than before, depth at .38 ft, redeployed, new log and disconnect. Battery at 40%."
+COMR,2023-10-24,2023-10-24T15:45:00Z,NORM,08:45,1000,8,35.8,3.1,NA
+HORI,2023-10-24,2023-10-24T16:15:00Z,NORM,09:15,1000,8.51,23.89,2,NA
+COMO,2023-10-24,2023-10-24T16:30:00Z,NORM,09:30,1000,8.14,34.57,4.3,NA
+HORR,2023-10-24,2023-10-24T17:00:00Z,NORM,10:00,500,7.33,28.16,6.9,NA
+HORO,2023-10-24,2023-10-24T17:15:00Z,NORM,10:15,500,7.54,28.2,7,NA
+HORO,2023-10-24,2023-10-24T17:15:00Z,DUPLICATE,10:15,750,7.54,28.2,7,NA
+BEAV,2023-10-24,2023-10-24T17:45:00Z,NORM,10:45,1000,8.2,40.03,5.3,NA
+SFM,2023-10-24,2023-10-24T21:45:00Z,NORM,14:48,1000,8.28,49.14,5.7,"Set up site on radio network, no log started unsure how it would afffect sdI12 settings. Main Params other than depth selected. Katie confirm radio at 1445 and 1545. Neg -9999 value in readings for some reason"
+COMI,2023-10-24,2023-10-25T00:00:00Z,NORM,16:57,1000,NA,NA,NA,NA
+CBRI,2023-10-27,2023-10-27T15:15:00Z,NORM,08:15,1000,8.7,65,2,Pulled sonde for season
+CHD,2023-10-27,2023-10-27T15:45:00Z,NORM,08:45,1000,8.02,53.21,5.9,Pulled sonde for season. Lots of benthic(spirogyro likely) growing in and around sensor. No ice
+JWC,2023-10-27,2023-10-27T16:45:00Z,NORM,09:45,1000,8.56,56.25,4.1,NA
+PBR,2023-10-27,2023-10-27T18:15:00Z,NORM,11:15,1000,9.39,82.62,2.9,NA
+PSF,2023-10-27,2023-10-27T18:45:00Z,NORM,11:45,1000,9.38,77.36,3.5,NA
+PNF,2023-10-27,2023-10-27T19:30:00Z,NORM,12:30,1000,9.67,85.35,4,NA
+PBD,2023-10-27,2023-10-27T19:45:00Z,NORM,12:50,1000,9.26,154,5.9,NA
+PBD,2023-11-02,2023-11-02T20:30:00Z,NORM,13:35,1000,9.46,106.1,4.9,NA
+lincoln,2023-11-02,2023-11-02T21:30:00Z,NORM,14:36,1000,9.95,223.9,7.6,NA
+timberline,2023-11-02,2023-11-02T22:15:00Z,NORM,15:20,1000,9.58,391.7,8.8,NA
+archery,2023-11-02,2023-11-02T23:15:00Z,NORM,16:16,1000,9.14,970.8,9.9,NA
+boxcreek,2023-11-02,2023-11-02T23:45:00Z,NORM,16:47,1000,7.73,2178,11.5,NA
+prospect,2023-11-02,2023-11-03T00:15:00Z,NORM,17:20,1000,8.83,371.2,8.5,NA
+PBD,2023-11-07,2023-11-07T15:00:00Z,NORM,07:59,1000,9.21,101.4,4.9,Filtered in RMRS
+lincoln,2023-11-07,2023-11-07T15:45:00Z,NORM,08:43,1000,9.15,315.2,6.7,Filtered in RMRS
+timberline,2023-11-07,2023-11-07T16:15:00Z,NORM,09:08,1000,8.58,757.2,8.4,Somehow did not take picture of chla filter. Filtered at rmrs
+prospect,2023-11-07,2023-11-07T16:45:00Z,NORM,09:41,1000,10.4,805.1,8.7,Filtered in RMRS
+boxcreek,2023-11-07,2023-11-07T17:00:00Z,NORM,10:07,1000,10.06,2065,10.3,Filtered in RMRS
+boxelder,2023-11-07,2023-11-07T17:30:00Z,NORM,10:29,1000,9.22,1044,9.2,"Calibrated turbidity, upon first calibration after I accepted I got a mod bus error which seems to be common error. It is easy fix that required me to perform a factory reset. After this I was able to save the calibration without the error. Cleared some sticks caught in housing."
+archery,2023-11-07,2023-11-07T19:00:00Z,NORM,11:53,1000,9.07,1164,11.1,Filtered in RMRS
+PBD,2023-11-09,2023-11-09T21:30:00Z,NORM,14:26,1000,9.53,94.29,5.4,Filtered RMRS
+lincoln,2023-11-09,2023-11-09T22:00:00Z,NORM,15:06,1000,9.31,312.4,7.1,Filtered RMRS
+timberline,2023-11-09,2023-11-09T22:30:00Z,NORM,15:25,1000,9.73,754.2,8.7,Filtered RMRS
+prospect,2023-11-09,2023-11-09T23:00:00Z,NORM,15:57,1000,10.65,798.9,8.9,Filtered RMRS
+boxcreek,2023-11-09,2023-11-09T23:15:00Z,NORM,16:16,1000,8.22,1602,10.7,Filtered RMRS
+archery,2023-11-09,2023-11-09T23:45:00Z,NORM,16:44,1000,9.56,1196,9.8,Filtered RMRS
+PBD,2023-11-14,2023-11-14T14:15:00Z,NORM,07:09,1000,9.92,99.61,2.1,Filtered RMRS
+lincoln,2023-11-14,2023-11-14T14:45:00Z,NORM,07:43,700,8.67,442.1,5.2,Water was super turbid. Filtered RMRS
+timberline,2023-11-14,2023-11-14T15:00:00Z,NORM,08:05,1000,7.64,865.8,6.6,Filtered RMRS
+prospect,2023-11-14,2023-11-14T15:45:00Z,NORM,08:48,1000,9.39,877.9,6,Filtered RMRS
+boxcreek,2023-11-14,2023-11-14T16:15:00Z,NORM,09:10,1000,9.06,2042,8.6,Filtered RMRS
+boxelder,2023-11-14,2023-11-14T16:30:00Z,NORM,09:23,1000,9.17,1020,5.2,Filtered RMRS
+archery,2023-11-14,2023-11-14T16:45:00Z,NORM,09:42,1000,8.52,1183,6.8,Filtered RMRS
+PBD,2023-11-16,2023-11-16T15:45:00Z,NORM,08:40,1000,9.97,99.62,2.5,"Filtered in field, cloudy. Tried to connect to sonde, not responsive. Pulled sonde for the season due to incoming cold weather"
+lincoln,2023-11-16,2023-11-16T16:30:00Z,NORM,09:30,1000,9.34,392.2,5.2,"Cloudy, filtered in field"
+timberline,2023-11-16,2023-11-16T17:30:00Z,NORM,10:30,1000,8.45,837.6,6.9,Post rain 15 min
+prospect,2023-11-16,2023-11-16T18:00:00Z,NORM,11:00,1000,9.54,877.2,6.5,"Cloudy, post rain 30 min."
+boxcreek,2023-11-16,2023-11-16T18:30:00Z,NORM,11:30,1000,9.85,1985,9.8,"Sonde was set to daily upload, changed to 3 hr. Cleaned housing (lots of benthics growing), water quite clear. Filtered in field"
+boxelder,2023-11-16,2023-11-16T19:00:00Z,NORM,12:00,1000,10.66,1059,7.4,Sunny
+archery,2023-11-16,2023-11-16T19:30:00Z,NORM,12:30,1000,9.91,1245,8.5,"Sun, flows lower."
+SFM,2023-11-17,2023-11-17T19:15:00Z,NORM,12:15,1000,NA,NA,NA,Sampled to pull sensor
+lincoln,2023-12-05,2023-12-05T21:45:00Z,NORM,14:47,1000,11.17,373.7,4.5,Water clear
+timberline,2023-12-05,2023-12-05T22:30:00Z,NORM,15:29,1000,10.19,791.2,5,Water lower
+prospect,2023-12-05,2023-12-05T23:15:00Z,NORM,16:16,1000,10.83,885.9,5,Water lower
+boxcreek,2023-12-05,2023-12-06T00:00:00Z,NORM,16:57,1000,8.15,2099,8.7,Collected samples in the dark
+archery,2023-12-05,2023-12-06T00:30:00Z,NORM,17:32,1000,9.95,1352,6.4,Sampled in the dark
+lincoln,2024-03-22,2024-03-22T17:00:00Z,NORM,10:00,1000,9.61,300.4,9.1,"Site looked good, new housing seemed to be working well. No debree stuck on housing. Water was clear and stream flow looked good"
+timberline,2024-03-22,2024-03-22T17:45:00Z,NORM,10:50,1000,10.55,456,10.1,"Site looked good, there was decent level of stream flow. Water fairly clear. Warmer weather out today 57 F"
+timberline,2024-03-22,2024-03-22T17:45:00Z,DUPLICATE,10:50,1000,10.55,456,10.1,"Site looked good, there was decent level of stream flow. Water fairly clear. Warmer weather out today 57 F"
+prospect,2024-03-22,2024-03-22T19:00:00Z,NORM,12:06,1000,11.64,498.8,11.7,Weather was warm 57F. Water was clear. Site looked good
+boxcreek,2024-03-22,2024-03-22T21:00:00Z,NORM,14:00,1000,13.37,2518,12.7,Huge algal mat stuck on housing I cleared it off. Besides that everting looked good
+archery,2024-03-22,2024-03-22T21:30:00Z,NORM,14:29,1000,10.27,821.1,13.2,Site looked good. Pretty warm outside 60F. Water fairly deep and had medium flow.
+lincoln,2024-03-29,2024-03-29T14:45:00Z,NORM,07:45,1000,8.19,283,7.6,Sampled. Filtered onsite
+timberline,2024-03-29,2024-03-29T15:15:00Z,NORM,08:20,1000,8.35,442,7.3,Starting to rain while sampling. Filtered onsite
+springcreek,2024-03-29,2024-03-29T15:45:00Z,NORM,08:52,750,10.25,1015,8.6,Sampled downstream of the bridge. Filtered in field. Only 750 ml filtered
+prospect,2024-03-29,2024-03-29T16:30:00Z,NORM,09:30,1000,9.9,495,7.4,Sample on upstream side of bridge. Filtered on site.
+boxcreek,2024-03-29,2024-03-29T17:30:00Z,NORM,10:30,1000,NA,2317,9.6,Sampled after cleaning sonde and housing. Filtered in lab
+archery,2024-03-29,2024-03-29T17:45:00Z,NORM,10:44,NA,9.08,876.6,7.9,Sample by bridge. Filtered in lab
+lincoln,2024-04-05,2024-04-05T16:15:00Z,NORM,09:17,1000,8.89,268.3,11.4,Site looked good. Cloudy conditions. Filtered in RMRS
+timberline,2024-04-05,2024-04-05T16:45:00Z,NORM,09:47,1000,9.98,435.7,11.5,Sited looked good. Filtered in RMRS
+prospect,2024-04-05,2024-04-05T17:15:00Z,NORM,10:17,1000,11.91,468,12.2,Site looked good. Filtered in RMRS
+springcreek,2024-04-05,2024-04-05T17:30:00Z,NORM,10:36,750,9.9,965.1,14.3,"Site looked good. Water has lots suspended solids, I was only able to filter 750 ml. I filtered at RMRS"
+boxcreek,2024-04-05,2024-04-05T18:15:00Z,NORM,11:10,1000,11.11,2305,11.8,Sites had a large algal mat stuck on housing cleared it off. Filtered at RMRS
+archery,2024-04-05,2024-04-05T18:30:00Z,NORM,11:32,1000,9.78,874.6,13.5,"Sam figured out that the 4th parameter on the log doesn’t read, we troubleshooted the specific conductivity reading 0 and now actual is logging 0 specific is logging properly. Besides that I downloaded the vulink log and site looked good. Filtered at RMRS"
+lincoln,2024-04-09,2024-04-09T18:15:00Z,NORM,11:15,1000,10.1,224.7,9.2,"Sampled, filtered on site"
+lincoln,2024-04-09,2024-04-09T18:15:00Z,DUPLICATE,11:15,1000,10.1,224.7,9.2,"Sampled, filtered on site"
+timberline,2024-04-09,2024-04-09T18:45:00Z,NORM,11:45,1000,10.14,339,10.4,Filtered on site
+springcreek,2024-04-09,2024-04-09T20:00:00Z,NORM,13:01,1000,10.78,981,12.7,Filtered in field
+prospect,2024-04-09,2024-04-09T20:15:00Z,NORM,13:15,1000,11.89,368,12.3,Filtered in lab. Sampled upstream of bridge
+boxcreek,2024-04-09,2024-04-09T21:30:00Z,NORM,14:30,1000,10.5,2252,13.2,Rem removed algae from sensor housing. Sampled. Filtered in lab.
+archery,2024-04-09,2024-04-09T21:45:00Z,NORM,14:45,1000,10.3,648,13.2,Very turbid. Filtered in field
+lincoln,2024-04-16,2024-04-16T16:45:00Z,NORM,09:45,1000,NA,NA,NA,Flows a bit higher. Water a bit more turbid. Sonde still in low flow housing. Handheld probe did not turn on
+PBD,2024-04-16,2024-04-16T18:30:00Z,NORM,11:30,1000,NA,NA,NA,First sample of season. Flows at ~200 Cfs and water turbid with suspended sediment. Handheld probe did not turn on
+archery,2024-04-16,2024-04-16T20:00:00Z,NORM,13:00,1000,NA,NA,NA,"Faster flowing water, turbid bit more floating debris. Filtered in lab. Handheld probe did not turn on"
+PBD,2024-04-19,2024-04-19T16:30:00Z,NORM,09:35,1000,9.6,98.83,4.1,"Site conditions snowing, cold temperatures. Overall site looked good, water level seemed higher and turbid"
+lincoln,2024-04-19,2024-04-19T17:30:00Z,NORM,10:36,1000,9.42,181.1,5.8,"filtered in lab site looked good, conducted a blank sample"
+lincoln,2024-04-19,2024-04-19T17:30:00Z,BLANK,10:36,1000,9.42,181.1,5.8,"filtered in lab site looked good, conducted a blank sample"
+springcreek,2024-04-19,2024-04-19T18:00:00Z,NORM,11:03,750,8.37,832.8,7.9,"Site looked good, cold weather today slight snow fall. Water level seemed to be higher than last time"
+boxcreek,2024-04-19,2024-04-19T18:30:00Z,NORM,11:32,1000,10.1,2271,7.2,"Site looked good, besides large algal mat stuck on housing. I cleared it off. Water level seemed to be slightly higher l"
+archery,2024-04-19,2024-04-19T18:45:00Z,NORM,11:49,1000,9.54,545.1,6.9,Sites looked good
+SFM,2024-04-25,2024-04-25T17:15:00Z,NORM,10:15,1000,8.32,59.64,5.6,Sampled after deploying sonde. Filtered in lab.
+PBD,2024-04-26,2024-04-26T17:00:00Z,NORM,09:53,500,8.2,73.54,9.5,Water was very turbid and high. Filtered at rmrs
+lincoln,2024-04-26,2024-04-26T17:30:00Z,NORM,10:30,750,7.9,103.7,10.9,Pulled low flow housing and put sonde in high flow housing. Water level was high and turbid. Filtered in rmrs
+springcreek,2024-04-26,2024-04-26T19:45:00Z,NORM,12:49,500,9.67,903.5,16.7,"Water was higher, slightly turbid. I swapped locks on housing. Filtered at rmrs"
+springcreek,2024-04-26,2024-04-26T19:45:00Z,DUPLICATE,12:49,500,9.67,903.5,16.7,"Water was higher, slightly turbid. I swapped locks on housing. Filtered at rmrs"
+boxcreek,2024-04-26,2024-04-26T20:30:00Z,NORM,13:31,1000,11.13,2200,14.4,Water was high and very clear low turbidity. Removed large algal mat stuck on housing. Filtered in rmrs
+archery,2024-04-26,2024-04-26T20:45:00Z,NORM,13:49,750,7.68,227.9,12.1,Water was high and turbid. I changed sd card for camera and replaced batteries. Filtered at rmrs
+LBEA,2024-04-30,2024-04-30T17:15:00Z,NORM,10:16,950,8.46,67.63,4.7,Sampled with swing sampler. Turbid water. Filtered in lab
+PENN,2024-04-30,2024-04-30T20:15:00Z,NORM,13:15,1000,NA,NA,NA,Installed sensor near tree. Sampled after install. Filtered in lab
+SFM,2024-04-30,2024-04-30T21:00:00Z,NORM,14:00,1000,7.67,64.56,8.9,Water higher than last week. Slightly more turbid. Filtered in lab
+PBD,2024-04-30,2024-04-30T22:15:00Z,NORM,15:15,1000,7.88,106,11.7,"Sampled with swing sampler, filtered at lab"
+JWC,2024-05-02,2024-05-02T16:15:00Z,NORM,09:15,1000,9.2,183.2,1.8,"No living algae, highish cond. somewhat turbid water. Filtered in lab"
+PFAL,2024-05-02,2024-05-02T16:30:00Z,NORM,09:35,1000,9.34,64.18,2.4,Deployed sonde and sampled. Filtered in lab
+PJW,2024-05-02,2024-05-02T16:30:00Z,NORM,09:24,1000,9.27,51.35,0.5,Some ice. Filtered in lab
+PBR,2024-05-02,2024-05-02T17:30:00Z,NORM,10:30,1000,9.09,75.18,5.1,Turbid. No FC sonde deployed
+LBEA,2024-05-02,2024-05-02T18:15:00Z,NORM,11:15,1000,8.34,72.39,4.3,"Downloaded logs, data looked good. Depth a bit higher than Tuesday. Turb about the sample. Juan sampled. Filtered in lab"
+SFM,2024-05-02,2024-05-02T18:30:00Z,NORM,11:30,1000,8.37,68.67,4.5,"Turbid, flows still about the same. Filtered in lab"
+PENN,2024-05-02,2024-05-02T19:30:00Z,NORM,12:25,1000,8.53,41.09,2.8,Chla filtered in lab. Downloaded logs from site and no notable issues with sonde. All values remained similar pre and post cleaning.
+PSF,2024-05-02,2024-05-02T20:45:00Z,NORM,13:38,1000,8.46,74.5,6.4,Filtered in lab
+PNF,2024-05-02,2024-05-02T21:15:00Z,NORM,14:17,1000,8.49,82.09,8.2,Filtered in lab
+PBD,2024-05-03,2024-05-03T17:15:00Z,NORM,10:12,1000,8.76,117.3,8.5,"Filtered at rmrs, water a lot clearer than last visit on 042624. I forgot to take a picture of chla filter"
+lincoln,2024-05-03,2024-05-03T18:00:00Z,NORM,10:54,1000,8.5,142.5,9.8,Filtered at rmrs water level still high similar to last visit on 042624
+springcreek,2024-05-03,2024-05-03T18:45:00Z,NORM,11:39,750,9.2,889.6,15.7,Filtered at rmrs
+boxcreek,2024-05-03,2024-05-03T19:15:00Z,NORM,12:13,750,9.85,2493,13.6,"Filtered at rmrs. Water level high, similar to last visit 042624. Removed algal mat from housing"
+archery,2024-05-03,2024-05-03T19:30:00Z,NORM,12:34,1000,8.35,310.3,11.1,Filtered at rmrs water level still high
+PENN,2024-05-07,2024-05-07T15:45:00Z,NORM,08:50,1000,8.98,86.14,1,Sampled and calibrated sonde (Turb a bit low ) a bit of ice forming but nothing concerning. filtered in lab
+SFM,2024-05-07,2024-05-07T16:45:00Z,NORM,09:50,1000,8.62,133.7,3.1,"Filtered sample in lab. Disconnected the wiring to telemetry to redo the wiring entering the radio box and also replacing the cap on the sonde housing. now the radio cable comes in from the top rather than the side. Downloaded logs, cleaned sonde and restarted logs. Data telemetry working correctly when back in service."
+LBEA,2024-05-07,2024-05-07T17:45:00Z,NORM,10:50,1000,8.44,69.38,4.1,Filtered in lab
+PFAL,2024-05-07,2024-05-07T19:00:00Z,NORM,12:05,1000,9.14,55.81,1.6,filtered at lab and calibrated sonde everything except orp
+PBD,2024-05-07,2024-05-07T21:00:00Z,NORM,13:55,950,8.31,105.6,9.4,Filtered in lab
+lincoln,2024-05-08,2024-05-08T13:15:00Z,NORM,06:15,1000,9.04,140,6.2,Clearer water. Filtered in lab
+springcreek,2024-05-08,2024-05-08T13:45:00Z,NORM,06:51,1000,9,900,10.2,Filtered in lab
+boxcreek,2024-05-08,2024-05-08T14:30:00Z,NORM,07:30,1000,8.22,2402,8,Removed algal mat. Filtered in lab
+boxcreek,2024-05-08,2024-05-08T14:30:00Z,BLANK,07:30,1000,8.22,2402,8,Removed algal mat. Filtered in lab
+archery,2024-05-08,2024-05-08T15:15:00Z,NORM,08:15,1000,8.5,322,7.6,Sampled with swing sampler. Filtered in lab
+PENN,2024-05-15,2024-05-15T15:45:00Z,NORM,08:41,1000,8.74,37.03,2.9,"Downloaded log, readings looked good. Did not need a deep clean. Restarted logs and disconnected, log readings looked good. Sampled downstream, flows slightly higher. Filtered in lab"
+SFM,2024-05-15,2024-05-15T17:00:00Z,NORM,09:54,925,8.31,50.08,5,"Did not check on sensor, just water sample. Turbid water, cloudy outside. Filtered in lab"
+LBEA,2024-05-15,2024-05-15T17:15:00Z,NORM,10:19,1000,8.37,58.88,4.8,"Sensor had debris, cleaned with water and microfiber - turbidity and fDom were out of range from initial. Turbidity returned to 16 once cleaned. Woody debris removed from housing. . Water samples collected, log downloaded and new one initiated. Filtered in lab"
+CBRI,2024-05-15,2024-05-15T19:00:00Z,NORM,12:05,1000,8.32,69.89,2.8,"Deployed 700 series. One telemetry module was giving updating issues, replaced with new telemetry device. Functions well. Cloudy conditions with clear water"
+PFAL,2024-05-15,2024-05-15T20:00:00Z,NORM,13:03,1000,8.55,11.41,4,Downloaded logs. Data looked good. Flows much higher. Restarted logs. Sampled upstream and filtered in lab
+PBR,2024-05-15,2024-05-15T20:45:00Z,NORM,13:45,1000,8.42,50.8,6.4,Quite turbid. Higher flows. FC sonde deployed. Filtered in the lab
+PBD,2024-05-15,2024-05-15T21:45:00Z,NORM,14:40,750,8.23,66.56,9.8,"Normal water sampling at PBD. Cloudy, high turbidity, filtered in the lab"
+lincoln,2024-05-16,2024-05-16T17:45:00Z,NORM,10:43,750,8.23,95.67,12.3,River lower than expected. Still quite turbid. Filtered in lab
+springcreek,2024-05-16,2024-05-16T18:15:00Z,NORM,11:16,750,9.01,749.6,19,Sunny and warm. More benthic algae. Filtered in lab.
+boxcreek,2024-05-16,2024-05-16T18:45:00Z,NORM,11:46,1000,10.49,1804,17.1,Removed algal mat 1246. Lower flows. Filtered in the lab
+archery,2024-05-16,2024-05-16T20:00:00Z,NORM,13:06,1000,7.8,955.8,16.8,Collected water samples. Probe conductivity was significantly higher than sensor conductivity on multiple measurements. Will filter in lab
+COMI,2024-05-17,2024-05-17T15:30:00Z,NORM,08:23,1000,8.58,30.89,2,"Snow on banks, flow quite high but still quite clear water.  Filtered in lab"
+COMR,2024-05-17,2024-05-17T16:00:00Z,NORM,09:00,750,8.09,35.05,6.5,"Sampled water on left bank, expected results. High winds, medium turbidity. Will filter in lab"
+HORI,2024-05-17,2024-05-17T16:30:00Z,NORM,09:27,750,8.39,35.49,2.2,Lots of snow on banks. Filtered in lab
+COMO,2024-05-17,2024-05-17T16:45:00Z,NORM,09:41,1000,7.5,37.34,6.8,Low flows. Fair amount of algae and slightly turbid water. Filtered in lab
+HORR,2024-05-17,2024-05-17T17:15:00Z,NORM,10:11,650,8.52,32.5,8.9,"Windy, sunny. Reservoir quite low. Filtered in lab to 650mL. (Took 1 hour to filter 650)"
+BEAV,2024-05-17,2024-05-17T18:00:00Z,NORM,10:55,1000,7.74,45.89,8.2,Dupe taken. Low turbidity and clear skies. Will filter in lab
+BEAV,2024-05-17,2024-05-17T18:00:00Z,DUPLICATE,10:55,1000,7.74,45.89,8.2,Dupe taken. Low turbidity and clear skies. Will filter in lab
+PENN,2024-05-17,2024-05-17T18:30:00Z,NORM,11:37,1000,7.95,34.53,6.7,Removed woody debris from the housing.  Filtered in lab
+LBEA,2024-05-17,2024-05-17T19:15:00Z,NORM,12:20,1000,7.4,54.62,9.9,Water samples. Low turbidity and clear skies. Will filter in lab
+SFM,2024-05-17,2024-05-17T19:15:00Z,NORM,12:09,1000,7.47,49.98,10.2,Some benthic algae growing on rocks near housing. Depth lower than before. Filtered in lab
+CBRI,2024-05-20,2024-05-20T15:30:00Z,NORM,08:30,1000,8.6,59.99,1.9,"VuLink was not recognizing sensor. Telemetry stropped recording sensor data at 1515 on 051924. Replaced rechargeable batteries at 1000 on 052024, working correctly as of now. Low turbidity, clear skies. Will filter in lab"
+PFAL,2024-05-20,2024-05-20T16:45:00Z,NORM,09:38,1000,8.95,40.04,3.7,Logs downloaded from VuLink and Sonde. Fast and high flows today. Lower turbidity and clear skies. Will filter in lab
+PBR,2024-05-20,2024-05-20T17:30:00Z,NORM,10:30,NA,8.22,43.64,6.2,Water samples. Low turbidity and clear skies. Faster moving water today. Will filter in lab
+LBEA,2024-05-20,2024-05-20T18:00:00Z,NORM,11:02,1000,7.62,50.42,8.6,"Sampled water and cleaned sensor. Turbidity had a very high reading upon arrival. Battery was swapped but Turbidity had a fourth parameter issue. Resolved issue by swapping turbidity and conductivity. Cond is now reading zero, and turbidity is now reading realistic data after cleaning housing. Low turbidity and clear weather. Will filter in lab."
+SFM,2024-05-20,2024-05-20T18:45:00Z,NORM,11:43,1000,7.61,43.21,9,"Low turbidity, clear skies. May be a spike in data around 1250 due to cap removal. Will filter in lab"
+PENN,2024-05-20,2024-05-20T19:30:00Z,NORM,12:23,1000,7.82,32.61,6.7,"Sensor was pulled and cleaned. The batteries have been replaced, however, actual conductivity is now reading zero. It was not reading zero before battery change. Flows are a little bit higher today. Low turbidity, clear skies. Will filter in lab."
+PBD,2024-05-20,2024-05-20T21:15:00Z,NORM,14:10,750,8.15,56.78,10.1,"Cleaned sensor and updated vulink. Quite a bit of sediment on bottom of sensor upon removal, cleaned and values looked better. pH had stopped logging on old log. Test uploaded just fine. Batteries should be swapped during next visit (35%). Filtered in lab. Large snake at housing"
+lincoln,2024-05-21,2024-05-21T14:45:00Z,NORM,07:45,500,8.2,65.41,10.1,"Much more turbid, small rain last night. Filtered in lab."
+springcreek,2024-05-21,2024-05-21T15:15:00Z,NORM,08:13,750,6.77,305.4,12.9,"Flows much higher, small rainstorm last night. Filtered in lab"
+boxcreek,2024-05-21,2024-05-21T16:00:00Z,NORM,09:02,1000,8.91,1838,12.5,Slightly more turbid water. Much more vegetation at site. Removed 2 in pipe. Filtered in lab
+archery,2024-05-21,2024-05-21T16:45:00Z,NORM,09:38,750,7.93,121.6,10.9,Flows really high. Water quite turbid with lots of suspended material. Filtered in lab
+PBD,2024-05-23,2024-05-23T14:00:00Z,NORM,07:00,1000,8.73,66.95,7.3,Water samples taken at 0800. Clear skies and warm. Low water turbidity. Will filter in lab
+PMAN,2024-05-23,2024-05-23T14:30:00Z,NORM,07:26,1000,8.87,51.36,6.1,"Water sampling at 0820, first time sample at PMAN. Picked a location ~5 meters above the concrete stairs leading to the stream from the lot. Clear weather and warm skies, low turbidity. Will filter in lab."
+PBR,2024-05-23,2024-05-23T15:00:00Z,NORM,08:06,1000,8.75,90.75,4.5,Clearer water. Sunny in AM. Filtered in lab.
+PFAL,2024-05-23,2024-05-23T15:45:00Z,NORM,08:38,1000,8.95,59.51,3,"Samples taken. High flow, low turbidity. Clear skies and warm water. The vuLink will be logged in a separate entry. Will filter in lab"
+JOEI,2024-05-23,2024-05-23T16:45:00Z,NORM,09:43,1000,8.45,70.47,0.5,"Clear sky's windy, and warm. Very low turbidity. Sensor has been deployed at JOEI and will be recorded in second entry. Samples taken at 1043. Will filter in lab"
+CBRI,2024-05-23,2024-05-23T17:15:00Z,NORM,10:14,1000,8.2,73.81,3.1,Clear skys and warm. Low turbidity. Sensor pulled and cleaned.  Will filter samples in lab.
+BMD,2024-05-23,2024-05-23T17:30:00Z,NORM,10:30,1000,7.52,66.21,6.1,Clear skys and warm. Sampled from second pool behind concrete bar. Will filter in lab
+BRNR,2024-05-23,2024-05-23T17:45:00Z,NORM,10:48,1000,7.59,63.7,7,"Clear skies, warm, medium wind. Low turbidity. Will filter in lab"
+CBRR,2024-05-23,2024-05-23T18:15:00Z,NORM,11:08,1000,7.92,57.71,4.3,Very windy and cloudy. Water not frozen anymore and reservoir is quite lowFiltered in lab.
+CHD,2024-05-23,2024-05-23T18:45:00Z,NORM,11:42,1000,8.08,57.29,3.8,"Cloudy day, higher flows, not much visible benthic algae"
+PENN,2024-05-28,2024-05-28T15:15:00Z,NORM,08:12,1000,8.68,29.74,2.5,"Water samples taken, vu link updated (5-28), chlor-a filtered on site. Warm morning, clear skies, low turbidity. Actual cond fixed itself when starting new log. Turb 12 at deployment, may just be mixing when deploying. No other issues."
+SFM,2024-05-28,2024-05-28T16:15:00Z,NORM,09:15,1000,7.81,37.83,7.2,Cleaned sonde after noticing high chla values on livestream. Cleaned a bit of gunk off sensor particularly on the bottom side. Re started log and deployed sonde. Sampled downstream and filtered in lab
+LBEA,2024-05-28,2024-05-28T16:45:00Z,NORM,09:46,1000,7.96,50.54,7.2,Sunny. Water much clearer. Updated vulink software. Filtered in field.
+JOEI,2024-05-28,2024-05-28T18:15:00Z,NORM,11:10,1000,7.76,63.64,3.3,Snow melted significantly at site. Values from sonde looked good Turb at around 4NTU. filtered in lab
+JOEI,2024-05-28,2024-05-28T18:15:00Z,BLANK,11:10,1000,7.76,63.64,3.3,Snow melted significantly at site. Values from sonde looked good Turb at around 4NTU. filtered in lab
+CBRI,2024-05-28,2024-05-28T19:00:00Z,NORM,11:54,1000,7.9,55.54,5.7,"Warm weather, clear skies, very low turbidity. Samples taken and vulink downloaded. Will filter in lab."
+CHD,2024-05-28,2024-05-28T19:15:00Z,NORM,12:22,1000,7.88,55.12,6.3,"Samples taken, vulink data downloaded and batteries replaced. Clear skies, warm day, low turbidity, high flow velocity. Will filter in lab."
+PFAL,2024-05-28,2024-05-28T20:00:00Z,NORM,13:02,1000,8.23,37.74,7,"Water sampled, vulink downloaded and cleaned. Clear skies, warm weather, low turbidity. Will filter in lab"
+PBR,2024-05-28,2024-05-28T20:45:00Z,NORM,13:46,950,7.92,42.93,9.2,"Water samples at 1445. Mostly clear skies, warm weather, low to medium turbidity. Will sample in lab"
+PMAN,2024-05-28,2024-05-28T21:30:00Z,NORM,14:27,1000,8.03,44.6,11.4,"Filter in lab. Water somewhat turbid, flows about the same as last week"
+PBD,2024-05-28,2024-05-28T21:45:00Z,NORM,14:45,1000,53.08,7.98,12.3,"Cleaned sensor as the fDom readings did not seem correct. Large bugs in housing with various debris. Cleaned sonde and housing. Swapped batteries for rechargeables. Started new logs and readings looked better. Samples taken, will filter in lab. Warm weather, clear skies, medium-high turbidity."
+archery,2024-05-29,2024-05-29T16:00:00Z,NORM,08:55,900,7.72,148.4,12.8,Probe had to be closer to the shore bc water was flowing fast
+boxcreek,2024-05-29,2024-05-29T16:30:00Z,NORM,09:26,1000,7.9,1829,15.1,Sampled from gauge
+springcreek,2024-05-29,2024-05-29T17:00:00Z,NORM,10:05,650,6.49,636.3,17,NA
+lincoln,2024-05-29,2024-05-29T17:30:00Z,NORM,10:35,1000,7.76,134.5,13.2,Moved a chunk of debris out of the way
+CHD,2024-05-30,2024-05-30T16:00:00Z,NORM,09:07,1000,8.05,56.47,5.3,"Clear skies, warm weather. Just samples today, low turbidity. Will filter in lab"
+JWC,2024-05-30,2024-05-30T16:30:00Z,NORM,09:28,1000,8.02,57.49,6.4,"Clear skies, warm weather, low turbidity. Filtered in lab"
+PFAL,2024-05-30,2024-05-30T16:45:00Z,NORM,09:50,1000,8.91,36.53,3.9,"Water samples. Clear skies and warm weather. Low water turbidity, medium-high flow rate. Will filter in lab"
+PJW,2024-05-30,2024-05-30T16:45:00Z,NORM,09:39,1000,8.88,29.17,2.6,"Clear skies, warm weather, low turbidity. Filtered in lab"
+PBR,2024-05-30,2024-05-30T17:30:00Z,NORM,10:23,1000,8.48,39.63,6.6,"Water samples. Clear skies, warm weather, low turbidity. Will filter in lab"
+SFM,2024-05-30,2024-05-30T18:00:00Z,NORM,10:58,1000,7.85,36.73,8.6,"Clear skies, warm weather, low turbidity. Will filter in lab"
+LBEA,2024-05-30,2024-05-30T18:15:00Z,NORM,11:10,1000,7.62,49.4,9.4,"Clear skies, warm weather, very low turbidity. Will filter in lab. DUPLICATE TAKEN"
+LBEA,2024-05-30,2024-05-30T18:15:00Z,DUPLICATE,11:10,1000,7.62,49.4,9.4,"Clear skies, warm weather, very low turbidity. Will filter in lab. DUPLICATE TAKEN"
+PSF,2024-05-30,2024-05-30T19:00:00Z,NORM,11:54,1000,8.1,83.22,9,"Samples taken. Clear skies, warm weather, low turbidity. Will filter in lab"
+PMAN,2024-05-30,2024-05-30T19:30:00Z,NORM,12:30,1000,8.26,43.04,10.2,"Clear skies, warm weather, low turbidity. Filtered in lab"
+PNF,2024-05-30,2024-05-30T19:45:00Z,NORM,12:45,1000,8.21,42.98,10.6,"Clear skies, warm weather, low turbidity. Filtered in lab"
+PBD,2024-05-30,2024-05-30T20:00:00Z,NORM,13:05,1000,7.95,106.5,11.9,"Clear skies, warm weather, low turbidity. Filtered in lab"
+LNGR,2024-06-04,2024-06-04T15:45:00Z,NORM,08:51,1000,7.46,43.61,2.5,Still ice on reservoir. Outflow running. Rained night before. Cloudy. Filtered in lab
+LNGO,2024-06-04,2024-06-04T16:00:00Z,NORM,09:07,1000,8.29,96.65,2,Cloudy. Ice free. Filtered in lab
+archery,2024-06-04,2024-06-04T16:15:00Z,NORM,09:16,1000,NA,NA,NA,"Dropped one of the sensors (I think the CSU) one. It just fell over from standing, but it hit the bottom of the Vu link. No damage as far as I could tell. Probe was being used in upper."
+boxcreek,2024-06-04,2024-06-04T16:15:00Z,NORM,09:10,1000,NA,NA,NA,Handheld probe used in Upper. Filtered in lab
+PTRR,2024-06-04,2024-06-04T16:45:00Z,NORM,09:51,1000,7.53,28.82,7.6,Cloudy. Rained before site visit. Filtered in lab. Handheld probe taking a while to stabilize on cond.
+PTRR,2024-06-04,2024-06-04T16:45:00Z,DUPLICATE,09:51,1000,7.53,28.82,7.6,Cloudy. Rained before site visit. Filtered in lab. Handheld probe taking a while to stabilize on cond.
+PTRO,2024-06-04,2024-06-04T17:00:00Z,NORM,10:03,1000,7.76,116.2,6,Essentially no flow. Some benthic algae. Cloudy filtered in lab
+springcreek,2024-06-04,2024-06-04T17:30:00Z,NORM,10:37,750,NA,NA,NA,Probe was being used in upper.
+JOEI,2024-06-04,2024-06-04T18:00:00Z,NORM,10:58,1000,8.32,44.08,2.1,Set up stage plate. Cleaned sonde and downloaded log. Had communication issues with vulink but was resolved by taking batteries out and putting em back in. Turb a lil high on deployment but water is quite fast and high. chla also quite high even  after cleaning. Cloudy and windy. Filtered in the lab
+lincoln,2024-06-04,2024-06-04T18:15:00Z,NORM,11:16,1000,NA,NA,NA,Probe was being used in upper.
+JOER,2024-06-04,2024-06-04T18:45:00Z,NORM,11:40,1000,8.02,52.17,2.1,"First sample at JOER of the season.  Sampled on river left near parking area. Iced around the main body of the lake, however, there about a 5 meter perimeter that’s exposed. Clear skies, warmer weather, high winds, low turbidity. Will filter in lab."
+CBRI,2024-06-04,2024-06-04T19:00:00Z,NORM,11:56,1000,8.15,50.1,4,Cleaned sonde and downloaded logs. Bit of gravel in the sensor but not too bad. Water much higher (2.4 vs1.7 ft) and more turbid (10 NTU). Did not set up stage plate due to high flows. Cond struggled to stabilize on handheld probe but generally agreed with the sonde
+BMD,2024-06-04,2024-06-04T19:15:00Z,NORM,12:20,1000,7.27,59.51,7.5,"Clear skies mid day, higher winds, warm temps. Low water turbidity and flow. Will filter in lab"
+BRNR,2024-06-04,2024-06-04T19:30:00Z,NORM,12:31,750,7.84,58.59,11.4,"Clear skies, warm weather, medium-high winds. Low turbidity. Will filter in lab."
+CBRR,2024-06-04,2024-06-04T19:45:00Z,NORM,12:49,1000,8.48,52.44,9.7,"Clear skies, warm weather, medium winds at time of sampling. All ice has melted from reservoir, low turbidity. Will filter in lab"
+CHD,2024-06-04,2024-06-04T20:00:00Z,NORM,13:06,1000,7.65,52.23,8,"Cleaned sonde and downloaded logs. Flows a bit higher and Chla was also a bit higher. Chla high on initial log, cleaned more and it agreed more with the pre clean levels. Turb still quite low. Sunny. Filtered in lab."
+JOEI,2024-06-06,2024-06-06T15:00:00Z,NORM,08:07,1000,7.81,41.2,2.3,No stable cond. decent snowpack still. Certainly decreasing.
+CBRI,2024-06-06,2024-06-06T15:30:00Z,NORM,08:27,1000,8.44,54.38,3,Clear skies and warm. High turbidity than last visit. Will filter in lab
+CHD,2024-06-06,2024-06-06T15:45:00Z,NORM,08:45,1000,8.04,48.37,6.4,"Clear skies and warm weather. Pretty high flows today, a little more turbid than last visit. Will filter in lab"
+PFAL,2024-06-06,2024-06-06T16:15:00Z,NORM,09:10,1000,8.77,34.09,5.2,"Clear skies, warm weather. Higher turbidity and flows today. Aquatoll was cleaned and logs downloaded, all working well. Salinity, Density, TDS, Resistivity, and o2 partial pressure were NOT selected upon new log as per new procedure. Will filter in lab"
+PBR,2024-06-06,2024-06-06T16:45:00Z,NORM,09:51,900,8.34,34.9,7.5,Na
+LBEA,2024-06-06,2024-06-06T17:30:00Z,NORM,10:26,1000,7.58,39.66,9.9,"Clear skies and warm weather. Higher turbidity than last visit. Logs downloaded and new one started. All option except salinity, density, tds, and reistivity were selected as per new procedure. Will filter in lab"
+SFM,2024-06-06,2024-06-06T17:45:00Z,NORM,10:49,1000,7.71,25.84,9,"Clear skies, warm weather, higher turbidity than last visit. Will filter in lab"
+PENN,2024-06-06,2024-06-06T18:30:00Z,NORM,11:36,1000,7.86,21.72,7.6,"All sensors looking good. Clear skies and warm weather, higher turbidity than last visit. Will filter in lab"
+PMAN,2024-06-06,2024-06-06T20:15:00Z,NORM,13:18,650,8.04,35.12,11.4,"High flows, mucky water."
+PBD,2024-06-06,2024-06-06T20:30:00Z,NORM,13:34,550,7.88,42.5,12.1,High flows. Andrew fell in but he’s okay. Very mucky. Hard to filter.
+COMI,2024-06-10,2024-06-10T14:30:00Z,NORM,07:32,1000,8.31,18.47,3.7,Flows much higher than previous visit. Sunny day. Filtered in the lab
+COMR,2024-06-10,2024-06-10T15:00:00Z,NORM,08:05,1000,7.44,27.34,10.3,"Sampled on dam L of gate by 10 m. Sunny, some wind, much higher flows/res level. Filtered in the lab"
+COMO,2024-06-10,2024-06-10T15:30:00Z,NORM,08:36,750,7.23,27.96,9.4,"Clear skies and warm weather. Practically all the snow has melted since last visit, higher flows and low turbidity. Will filter in lab. Having difficulty with cond stabilizing. Will stabilize for a moment then resets."
+HORI,2024-06-10,2024-06-10T15:30:00Z,NORM,08:26,1000,8.48,15.76,3.2,Higher flows. Some suspended sediments. Filtered in the lab
+HORO,2024-06-10,2024-06-10T16:00:00Z,NORM,09:05,1000,7.41,24.48,7.5,"Cloudy skies and warm weather. No snow, very low turbidity and flows. Fist time sampling this outflow this season, will filter in lab"
+HORR,2024-06-10,2024-06-10T16:00:00Z,NORM,08:55,750,7.34,28.78,13.6,Sunny. Water is much higher and a bit turbid. Filtered in lab
+BEAV,2024-06-10,2024-06-10T16:30:00Z,NORM,09:30,1000,7.39,25.74,8.8,"Sunny-cloudy skies, warm weather. Higher flows and turbidity than last visit. Conductivity was having difficulty stabilizing but ultimately did after resetting it a few times. Will filter in lab."
+PENN,2024-06-10,2024-06-10T17:15:00Z,NORM,10:11,1000,7.93,21.23,6.6,Higher flows. Sunny. Filtered in the lab
+SFM,2024-06-10,2024-06-10T18:00:00Z,NORM,11:05,1000,7.57,24.43,9.4,"Sunny, water higher a but more turbid and had some greenness to it. Filtered in the lab"
+LBEA,2024-06-10,2024-06-10T18:30:00Z,NORM,11:23,1000,7.35,35.55,11.3,Some algae on sensor housing. Sunny lower flows. Not too turbid. Filtered in the lab
+archery,2024-06-11,2024-06-11T15:45:00Z,NORM,08:50,900,7.66,87.62,13.5,Na
+boxcreek,2024-06-11,2024-06-11T16:15:00Z,NORM,09:13,950,7.82,1856,15.8,Sampled from west side because there were two bull snakes.
+springcreek,2024-06-11,2024-06-11T16:45:00Z,NORM,09:45,550,6.1,293.1,18.1,"Vulink not uploading data. Visit connect to sonde was at 1059. Added twist tie to sonde housing lock. Vulink wouldn’t even turn on and stay lit up, so I took batteries (fancy purple ones) out and waited. Didn’t work, so put new batteries in (black non rechargeable). Took a minute, but eventually connected to VuSitu. Downloaded log and started a new one. The sonde may have left the water a few times while the log was running (test upload showed negative depth at first, but then next 15 min it said 1.5ft). In order to check depth, had to disconnect and reconnect to sonde so there is a small blip of logging, likely. Greased sonde housing up. Hit sonde housing with lock because couldn’t get it open for a minute."
+lincoln,2024-06-11,2024-06-11T18:30:00Z,NORM,11:27,1000,7.65,52.26,14.2,"Removed housing debris by chucking it across the river. None seemed to be impacting the sonde, but it looked like it might become problematic."
+JOEI,2024-06-12,2024-06-12T16:15:00Z,NORM,09:17,1000,8.03,36.57,4.6,"Flows very high, needed boots to get to sonde. Conductivity fluctuated from unstabilized to nominal so restored calib defaults on conductivity (and chl-a because readings were pretty high (reading in the 2 range)). That didn’t work for conductivity, so took sensor out and dried off the inside. That worked. Water had a higher amount of sediment than usual. Changed batteries."
+CBRI,2024-06-12,2024-06-12T18:00:00Z,NORM,11:05,1000,7.97,43.37,5.8,"Changed batteries. FDOM stabilized on at 15.4, measurement out of range. Conductivity measurement out of range as well. Restored calibration default for conductivity, didn’t work. Dried off inside of sensor instead, that worked. High flows, rock stuck inside restrictor. Noticeable sediment on sonde."
+CHD,2024-06-12,2024-06-12T19:45:00Z,NORM,12:43,1000,7.85,40.23,7.8,"Conductivity not calibrated because ran out of fluid, everything else calibrated with minimal DI because DI was running low. High flows. Barriers replaced on vu and troll, but the aqua troll reading 57% even after replacing with new batteries. No Kim wipes for filter tower."
+PFAL,2024-06-12,2024-06-12T21:15:00Z,NORM,14:15,1000,7.85,30.88,10,No conductivity calib because ran out of solution. Rinsed with little DI because running out of that. Batteries changed. High flows. No Kim wipes for filter tower.
+PBR,2024-06-12,2024-06-12T22:15:00Z,NORM,15:22,750,7.33,34.19,12.3,High flows
+PMAN,2024-06-12,2024-06-12T23:00:00Z,NORM,16:03,1000,7.53,34.13,13.9,"Cloudy skies and warm. Pretty high flows today, medium turbidity. Will filter in lab"
+PENN,2024-06-13,2024-06-13T16:30:00Z,NORM,09:23,1000,8.07,20.92,6.6,"Batteries replaced, couldn’t get above 53% even with putting in one time use batteries. Flows high, water super clear. Easy calibration."
+SFM,2024-06-13,2024-06-13T17:30:00Z,NORM,10:33,1000,7.53,23.43,10.1,"Sensor faces were extremely dirty. Changed batteries on troll, alkaline batteries read in 90s, but rechargeable batteries are being read in the 50s. Dropped chl-a filter on dirt ground (picked up w tweezers), but nothing got on it. Some connection issues with the adaptor thing. FDOM out of range at 11.997, restored calib defaults and dried off (neither action was necessary, but precautionary)."
+LBEA,2024-06-13,2024-06-13T19:00:00Z,NORM,12:01,1000,7.01,33.31,13.4,"An aquatic plant was stuck inside the restrictor, so turbidity was like 400 (should be like 10-20). Calibrations went well. Chla filter was ripping easily during folding, but not during filtering it seemed."
+PMAN,2024-06-13,2024-06-13T20:30:00Z,NORM,13:23,1000,7.84,32.32,13.1,"Duplicate taken. Very hot day, 92°+, clear skies, low-medium turbidity. Will filter in lab."
+PMAN,2024-06-13,2024-06-13T20:30:00Z,DUPLICATE,13:23,1000,7.84,32.32,13.1,"Duplicate taken. Very hot day, 92°+, clear skies, low-medium turbidity. Will filter in lab."
+PBD,2024-06-13,2024-06-13T20:45:00Z,NORM,13:44,1000,7.67,41.34,14.1,"Rechargeable batteries only got to 71%. Conductivity fluctuated between nominal and unstabilized. Dried off sensor. Restored calib default for conductivity, that worked after small fluctuation. Dirty sensor with worms everywhere including sensor faces. Come with brush next time because sonde was so gross.
+
+Some reconnected at one point and a log started, so perhaps a bad data point?"
+archery,2024-06-14,2024-06-14T15:45:00Z,NORM,08:44,NA,7.18,NA,16,"Just cleaning because turb had the upwards trend. No worms, removed caps. Sonde faces were gross, had the weird pollen looking sediment streaks on faces. Everything went back to normal after."
+boxcreek,2024-06-14,2024-06-14T17:45:00Z,NORM,10:48,1000,8.33,1784,16.9,No snakes
+springcreek,2024-06-14,2024-06-14T19:15:00Z,NORM,12:17,500,5.14,298.7,20.5,"Very bubbly water...DO was super low on the probe. Barely filtered 500, was going really slowly."
+lincoln,2024-06-14,2024-06-14T19:45:00Z,NORM,12:45,1000,7.31,49.47,16.2,No more debris on housing
+LNGR,2024-06-18,2024-06-18T15:15:00Z,NORM,08:21,1000,7.21,38.72,7.4,"High level in reservoir. Very chilly, currently air temp at 44F. Slightly cloudy."
+LNGO,2024-06-18,2024-06-18T15:45:00Z,NORM,08:45,1000,7.5,39.53,7.4,"Baby moose and mom, high flows."
+lincoln,2024-06-18,2024-06-18T15:45:00Z,NORM,08:45,1000,NA,NA,NA,"Flows lower, water clearer. No handheld probe. Filtered in lab"
+PBD,2024-06-18,2024-06-18T16:45:00Z,NORM,09:42,1000,NA,NA,NA,Sunny and cool day. Water not too turbid. Filtered in lab
+PTRR,2024-06-18,2024-06-18T16:45:00Z,NORM,09:43,1000,7.31,25.67,14.4,Not super high level. Warmer than chambers. Saw two more moose along the way driving.
+PTRO,2024-06-18,2024-06-18T17:00:00Z,NORM,09:53,1000,6.46,26.82,13.8,Higher flows than last time. Whistling/siren noise coming from top? Kind of like when you blow air into a glass bottle.
+JOEI,2024-06-18,2024-06-18T17:45:00Z,NORM,10:39,1000,7.82,41.51,4.9,Clear skies and warm-ish. Low turbidity. Snow is nearly entirely melted. Stage plate looks good. Will filter in lab.
+JOER,2024-06-18,2024-06-18T18:15:00Z,NORM,11:16,1000,7.68,NA,7.2,Water level much higher. No ice.
+CBRI,2024-06-18,2024-06-18T18:30:00Z,NORM,11:31,950,7.76,42.9,6.5,"Similar flow levels. Slightly lower. TDS was missing, only not labeled bottle was assigned to it."
+BMD,2024-06-18,2024-06-18T18:45:00Z,NORM,11:48,1000,7,60.2,8.2,"Water pretty gross, stagnant on the “upstream” side."
+BMD,2024-06-18,2024-06-18T18:45:00Z,DUPLICATE,11:48,950,7,60.2,8.2,"Water pretty gross, stagnant on the “upstream” side."
+BRNR,2024-06-18,2024-06-18T19:00:00Z,NORM,12:03,750,6.65,59.39,16.2,Same water level. Sunny. Water is pretty clear.
+CBRR,2024-06-18,2024-06-18T19:30:00Z,NORM,12:26,900,8.31,39.68,10.6,"Water level about the same. 250 bottle opened up in cooler during transport, used tss bottle to recover it. There’s about 400mL of tss water left."
+CHD,2024-06-18,2024-06-18T19:45:00Z,NORM,12:41,1000,7.38,39.97,9.8,"Clear skies and warm. Medium to higher flows on the outflow today, low-medium turbidity. Will filter in lab."
+boxcreek,2024-06-20,2024-06-20T16:45:00Z,NORM,09:40,750,8.29,5.466,15.6,"Sensor was cleaned and calibrated. Batteries were not changed. No issues with sensor readings. Housing had ~10lbs of debris and vegetation on the exterior that was removed. Interior was not very dirty. Samples taken, filtered in field. Site is not very accessible anymore as vegetation is very tall and dense, came across 2 snakes in the veg."
+archery,2024-06-20,2024-06-20T17:30:00Z,NORM,10:23,750,7.11,7.294,16.9,"Sensor housing and sonde were pretty clean despite a high turbidity. Cleaned and calibrated sondes, no apparent issues with either. We are leaving the caps off both CSU and CU sondes. Clear skies and warm/hot, high turbidity. Samples gathered, filtered in field."
+springcreek,2024-06-20,2024-06-20T22:00:00Z,NORM,15:06,750,6.96,271.1,19.1,"Water samples collected. Cloudy skies, warm, fresh after a 30 minute rain. Medium turbidity. Conductivity is growing increasingly difficult to measure with probe, likes to read 0s, eventually god a read after playing around with it. Will filter in lab 
+"
+lincoln,2024-06-20,2024-06-20T22:30:00Z,NORM,15:35,1000,7.18,60.37,17.3,Flows a lot lower than last visit. Cloudy. About to rain.
+JOEI,2024-06-21,2024-06-21T15:30:00Z,NORM,08:30,1000,7.95,43.14,4.9,"Downloaded logs, cleaned sensor and redeployed with new log. Chla went back down to reasonable levels (.04) but oscillates between that and .1. 
+Sampled down stream"
+CBRI,2024-06-21,2024-06-21T16:00:00Z,NORM,08:58,1000,7.86,44.16,6.1,"Downloaded log, cleaned and calibrated Cond(not done on last visit) redeployed and values looked good. Turb lower than last week."
+CHD,2024-06-21,2024-06-21T16:30:00Z,NORM,09:29,1000,7.63,40.63,8.3,"Downloaded logs and cleaned sensor. Flows still high. Values seemed normal for site, Chla quite low"
+PFAL,2024-06-21,2024-06-21T17:00:00Z,NORM,10:00,NA,7.92,34.08,9.5,Clear skies and warm. Medium-low water turbidity. Sensor cleaned and logs downloaded. Will filter in lab
+PBR,2024-06-21,2024-06-21T17:45:00Z,NORM,10:43,NA,7.65,36.57,11.5,"Clear skies and warm, medium turbidity. Will filter in lab."
+PENN,2024-06-21,2024-06-21T18:45:00Z,NORM,11:46,1000,7.51,23.16,9.4,"All sensor data looking realistic with current conditions. Samples taken, low turbidity. Clear skies and warm. Will filter in lab."
+SFM,2024-06-21,2024-06-21T19:30:00Z,NORM,12:32,1000,7.07,24.39,13,"Sunny, storm incoming. Benthic algae on rocks, little to none on housing.  Filtered in lab"
+LBEA,2024-06-21,2024-06-21T19:45:00Z,NORM,12:43,NA,6.75,35.28,14.7,"Cleaned sensor and redeployed, values looked good on removal. FDOM a bit higher after deployment. Flows lower. 
+
+Low turbidity, cloudy skies and warm"
+PMAN,2024-06-21,2024-06-21T20:45:00Z,NORM,13:50,1000,7.63,36.5,13.9,Sunny. Small rain before site visit. Low turb. Filtered in lab
+PBD,2024-06-21,2024-06-21T21:15:00Z,NORM,14:11,1000,7.44,42.55,15.1,Sunny. Suspended sediment present in water. Flows a bit lower. Filtered in lab
+CHD,2024-06-24,2024-06-24T16:00:00Z,NORM,09:04,750,7.14,37.94,11.8,"Sunny, high flows. Clear water."
+JWC,2024-06-24,2024-06-24T16:30:00Z,NORM,09:25,750,7.01,39.26,11.8,"Clear skies and hot, medium turbidity, pretty high flows. Probe is still having conductivity reading issues. Was not giving an accurate reading, reading very close to 0. Will filter in lab"
+PFAL,2024-06-24,2024-06-24T16:45:00Z,NORM,09:50,1000,7.85,NA,9.6,"High flows, clear water. Will filter in lab. Probe used in slower moving water for conductivity."
+PJW,2024-06-24,2024-06-24T16:45:00Z,NORM,09:39,1000,7.99,NA,8.3,"Clear skies, clear water. Sunny. Had to use probe in slower part of river for conductivity, but still flowing area. Will filter in lab."
+PBR,2024-06-24,2024-06-24T17:15:00Z,NORM,10:19,1000,7.57,NA,12,Flows are a bit lower. Filtering in lab.
+SFM,2024-06-24,2024-06-24T18:00:00Z,NORM,10:54,1000,7.19,NA,12.3,Lower flows. Will filter in lab.
+PSF,2024-06-24,2024-06-24T18:45:00Z,NORM,11:48,990,7.32,NA,14,Lower flows. Clear water. Will filter in lab
+PMAN,2024-06-24,2024-06-24T19:15:00Z,NORM,12:14,1000,7.49,NA,14.7,"Much lower flows, stairs didn’t go into the water. Filtering in lab. Looking stormy"
+PNF,2024-06-24,2024-06-24T19:30:00Z,NORM,12:28,950,7.53,NA,14.6,Similar flows. Bit turbid. Filtering in lab.
+PBD,2024-06-24,2024-06-24T19:45:00Z,NORM,12:49,1000,7.38,NA,15.1,"Turbid water, high flows still. Filtering in lab."
+lincoln,2024-06-25,2024-06-25T13:45:00Z,NORM,06:39,1000,7.42,NA,14.8,Early morning. Lower flows but still in high flow housing. Filtered in lab
+springcreek,2024-06-25,2024-06-25T14:15:00Z,NORM,07:08,750,5.99,NA,16.9,Flows higher. DO low on probe. Early morning. Filtered in the lab
+boxcreek,2024-06-25,2024-06-25T15:15:00Z,NORM,08:17,NA,7.12,NA,14.9,Sampled by gauge. Filtered in lab
+archery,2024-06-25,2024-06-25T15:30:00Z,NORM,08:31,1000,7.04,NA,16.3,Sampled from bank by bridge. Sunny lower flows. Filtered in lab
+PENN,2024-06-26,2024-06-26T16:00:00Z,NORM,08:58,1000,7.82,NA,7.8,Flows starting to decrease. Water is UBER clear. Sonde clean and perfect.
+SFM,2024-06-26,2024-06-26T16:45:00Z,NORM,09:41,1000,7.34,NA,11,"Clear skies and hot. Samples taken, lower turbidity than previous visit. Will filter in lab"
+LBEA,2024-06-26,2024-06-26T17:00:00Z,NORM,09:53,1000,7.31,NA,11.5,"Same flows, fast flowing. Clear water. Supposed to bring brush to clean housing but we forgot, Andrew took stick and cleaned outside. Sensor looked clean though."
+PMAN,2024-06-26,2024-06-26T18:00:00Z,NORM,11:00,1000,7.55,NA,14.6,Flows down. Water clearing up.
+PBD,2024-06-26,2024-06-26T18:15:00Z,NORM,11:19,1000,7.42,NA,15.8,"Flows still high. Water still gross, glistens from sediment. Filtering in lab."
+COMI,2024-06-28,2024-06-28T14:45:00Z,NORM,07:46,1000,7.73,NA,6.6,"Same flow level, clear water. Insanely windy. Filtering in lab."
+COMR,2024-06-28,2024-06-28T15:15:00Z,NORM,08:20,750,6.82,NA,12.1,"Same level, insane winds. Filtering in lab. Sunny."
+HORI,2024-06-28,2024-06-28T15:45:00Z,NORM,08:39,990,7.94,NA,5.9,"Water samples. Clear skies, warm, and extremely windy. Conductivity was reading 270 first time around, after reset it read ~30 which is the one I went down with. Crystal clear water. Will filter in lab. PHOTOS READ COMO, incorrect."
+COMO,2024-06-28,2024-06-28T16:00:00Z,NORM,08:55,1000,6.61,NA,11.6,"Lost pictures apparently. Clear skies and warm, extremely windy. Water level on the outflow is the same as it was since the last visit, low turbidity. Will filter in lab"
+HORO,2024-06-28,2024-06-28T16:15:00Z,NORM,09:19,1000,6.96,NA,8.5,Same water levels. Less turbid than HORR. Filtering in lab.
+HORR,2024-06-28,2024-06-28T16:15:00Z,NORM,09:09,1000,6.81,NA,14.3,Water level up 3ft. Kind of turbid water. Filtering in lab.
+BEAV,2024-06-28,2024-06-28T17:00:00Z,NORM,09:54,1000,6.97,NA,11.6,Clear skies and warm. Medium turbidity. Will filter in lab
+PENN,2024-06-28,2024-06-28T17:30:00Z,NORM,10:32,NA,7.51,NA,8.7,"Cloudy skies and warm. Water is crystal clear, will filter in lab"
+SFM,2024-06-28,2024-06-28T18:15:00Z,NORM,11:20,1000,7.15,NA,12.3,"Duplicate taken. Cloudy skies and warm, low turbidity. Will filter in lab."
+SFM,2024-06-28,2024-06-28T18:15:00Z,DUPLICATE,11:20,1000,7.15,NA,12.3,"Duplicate taken. Cloudy skies and warm, low turbidity. Will filter in lab."
+LBEA,2024-06-28,2024-06-28T18:30:00Z,NORM,11:29,NA,6.98,NA,13,"Cloudy skies and warm. Very low water turbidity. Conductivity seemed exceptionally high at 76. Repeated measurement three different times at three places cleaning and resetting the probe each time, got 76 at each spot next to the sonde. Will filter in lab -AS"
+archery,2024-07-01,2024-07-01T14:00:00Z,NORM,07:05,1000,6.26,NA,18,"Cloudy skies and warm. Just rained 20ish minutes ago, which I may account for the very high conductivity? Measured and reset hand probe 3 times and got ~977 cond. Dup taken, will filter in lab"
+archery,2024-07-01,2024-07-01T14:00:00Z,DUPLICATE,07:05,1000,6.26,NA,18,"Cloudy skies and warm. Just rained 20ish minutes ago, which I may account for the very high conductivity? Measured and reset hand probe 3 times and got ~977 cond. Dup taken, will filter in lab"
+boxcreek,2024-07-01,2024-07-01T14:30:00Z,NORM,07:27,850,6.37,NA,15.6,"Conductivity is way out of range? The numbers on the probe were so high it switched to 3.778 mS/cm instead of uS/cm. Rained about 3 minutes ago, will filter in lab"
+springcreek,2024-07-01,2024-07-01T15:00:00Z,NORM,08:06,700,5.36,NA,19.2,"Cloudy and warm, just rained an hour ago. Samples taken, conductivity read 578, however, likely inaccurate following todays previous readings. Will filter in lab"
+lincoln,2024-07-01,2024-07-01T15:30:00Z,NORM,08:37,1000,7.14,NA,16.8,"Cloudy skies and warm. Rained ~2 hours ago, low flows and low turbidity. Will filter in lab"
+PENN,2024-07-02,2024-07-02T15:15:00Z,NORM,08:18,1000,7.84,NA,7.6,"Changed batteries, now at 100%. Cleaned outside of housing with ramen brush. Conductivity low at 17, according to the log."
+SFM,2024-07-02,2024-07-02T16:15:00Z,NORM,09:13,990,7.37,NA,10.4,"Changed batteries at 53%, cleaned inside and outside of sonde housing, probe cond reads 12.5 while log read 20. Sonde was dirty with soft sediment and algae build up, rocks had a lot of algae but housing did not."
+LBEA,2024-07-02,2024-07-02T16:45:00Z,NORM,09:47,1000,7.45,NA,11,"Lots of soft sediment and large chunks in restrictor. Even a small pinecone. Inside of housing was cleaned, outside cleaned. Batteries replaced. Water levels lower."
+PBR,2024-07-02,2024-07-02T17:45:00Z,NORM,10:39,1000,7.49,NA,12.7,"Clear skies and warm, low turbidity. Will filter in lab"
+JOEI,2024-07-02,2024-07-02T18:45:00Z,NORM,11:38,1000,7.26,NA,8.6,"Battieriws changed, greyling everywhere!! Andrew caught a greyling with his hands. Cleaned inside of housing."
+CBRI,2024-07-02,2024-07-02T19:00:00Z,NORM,12:04,1000,7.5,NA,8.4,Inside housing cleaned batteries replaced. Flows equal.
+CHD,2024-07-02,2024-07-02T19:30:00Z,NORM,12:25,1000,7.44,NA,9,"Cleaned housing (exterior not well because flows too high, but exterior not that dirty), changed batteries. Flows high still."
+PFAL,2024-07-02,2024-07-02T20:00:00Z,NORM,13:04,1000,7.32,NA,11.7,"Saw some marmots, very adorable. Changed batteries. Cleaned sonde housing."
+PMAN,2024-07-02,2024-07-02T21:15:00Z,NORM,14:13,1000,7.35,NA,16.3,"Water levels down from last visit, <1 foot. Clear skies and warm. Will filter in lab"
+PBD,2024-07-02,2024-07-02T21:30:00Z,NORM,14:34,1000,7.23,NA,17,"Clear skies and warm. Low water turbidity, this is the first time I’ve been able to se the bottom at PBD- AS. Will filter in lab"
+PFAL,2024-07-09,2024-07-09T16:45:00Z,NORM,09:40,1000,7.68,NA,10.4,Cond 19.09. Filtered in field. Sunny and decently warm water.
+CHD,2024-07-09,2024-07-09T18:30:00Z,NORM,11:33,500,7.18,NA,10.2,Rained during visit. Otherwise warm. Filtered in lab
+JOEI,2024-07-09,2024-07-09T19:00:00Z,NORM,12:01,1000,7.22,NA,9.2,"Sonde died before we arrived. Put in new alkaline batteries and turned on just fine. Sampled, cond sensor seemed to agree more with sensor. Calibrated sonde, everything was quite easy and redeployed. Chla was still high on sensor .07 which is surprising. Turb dropped a bit to 5 ntu. Redeployment went well."
+PBR,2024-07-09,2024-07-09T20:45:00Z,NORM,13:47,1000,7.43,NA,12.4,Raining during sampling. Filtered in lab
+archery,2024-07-10,2024-07-10T15:00:00Z,NORM,08:02,1000,6.94,NA,17.1,"Water level same, flows are very slow and stagnant"
+boxcreek,2024-07-10,2024-07-10T15:15:00Z,NORM,08:22,1000,6.84,NA,14.9,"Pretty turbid water, flows still high. Perhaps even higher?"
+springcreek,2024-07-10,2024-07-10T16:00:00Z,NORM,08:55,500,6,NA,17.5,"Turbid water, pretty fast flowing, some algal build up on the rocks. Filtering went very slow quickly"
+lincoln,2024-07-10,2024-07-10T16:45:00Z,NORM,09:39,1000,7.66,NA,15.7,Water levels back up! Woohoo! Low flow housing installed. Samples from old sonde sampling point.
+PENN,2024-07-11,2024-07-11T16:30:00Z,NORM,09:30,1000,7.52,NA,8.5,"Filter tower spilled, so mensured 1000mL from the bottom half of the tower. Vulink and aquatroll update. Easy calib. Clear water."
+LBEA,2024-07-11,2024-07-11T18:00:00Z,NORM,10:59,1000,7.19,NA,13.3,"Restored calibration defaults on FDom, stabilized after. Clear skies and hot, very low turbidity. No other sensors gave issues. Updated vulink and troll firmware. Calibrated by SFM to save time."
+SFM,2024-07-11,2024-07-11T18:00:00Z,NORM,11:06,1000,7.16,NA,12.6,"Conductivity didn’t work at first, but did after just restarting. Flows are low. Aquatroll update."
+PBD,2024-07-11,2024-07-11T20:45:00Z,NORM,13:46,1000,6.93,NA,19.8,"Updated troll and vulink. We didn’t realize there wasn’t a cap, so we used the FDOM rubber cap as a replacement. The optical sensors having issues without the real cap. No Turb or DO calibration, redo conductivity because it was reading high numbers. Filtered in field. Flows quite low and turbidity quite low as well. Vu batteries replaced now at 100%"
+CBRR,2024-07-12,2024-07-12T15:00:00Z,NORM,07:53,750,7.23,NA,15.2,Early morning. Sunny. Some wind. Water a bit turbid.
+CHD,2024-07-12,2024-07-12T15:15:00Z,NORM,08:10,1000,7.01,NA,10.7,Early morning. Lower flows. Same benthic algae on housing but minimal.
+BMD,2024-07-12,2024-07-12T15:30:00Z,NORM,08:27,1000,6.41,NA,8.9,"Some flow out but mostly stagnant. Clear skies and hot, medium-low turbidity. Will filter in lab"
+BRNR,2024-07-12,2024-07-12T15:30:00Z,NORM,08:36,1000,7.12,NA,16.8,"Early morning, very still and sunny. Cond probe still quite low. Filtered in lab"
+PTRR,2024-07-12,2024-07-12T16:15:00Z,NORM,09:18,1000,6.79,NA,15.9,Sunny and still. Filtered in lab. Tinted water
+PTRO,2024-07-12,2024-07-12T16:30:00Z,NORM,09:33,1000,6.33,NA,16.2,"Lots of benthic algae, only flow coming from spillover. Sunny, hot. Filtered in the lab"
+LNGR,2024-07-12,2024-07-12T17:15:00Z,NORM,10:15,750,7.22,NA,14.6,Sampled upstream a bit to avoid some near shore sediment due to wind. Sunny and pretty cool temps. Filtered in the lab
+LNGO,2024-07-12,2024-07-12T17:30:00Z,NORM,10:34,1000,7.34,NA,10,"Clear skies and hot. LNGR is pumping out a good amount of water out of the outflow, higher flows today, low turbidity. Will filter in lab."
+JOEI,2024-07-12,2024-07-12T18:45:00Z,NORM,11:51,1000,6.78,NA,12.6,"Clear skies and hot, low water turbidity. Samples grabbed, Stageplate reading 40cm. Will filter in lab"
+JOER,2024-07-12,2024-07-12T19:15:00Z,NORM,12:17,1000,6.88,NA,15.5,Clear skies and hot. Medium-low water turbidity. Will filter in lab
+CBRI,2024-07-12,2024-07-12T19:30:00Z,NORM,12:33,1000,7.17,NA,10.8,"Battery died 7/11 @0500, missing the last couple values on data log. Replaced batteries and grabbed samples. Will filter In lab, low turbidity, same depth as last visit"
+archery,2024-07-15,2024-07-15T14:45:00Z,NORM,07:38,NA,6.05,NA,19.7,"Water is almost at a standstill, medium-high turbidity, very reflective water. Clear hot day. Low sedimentary buildup on sensors, RDO was reading a bit low at ~64%, now it’s back up. Left the restrictor cap off, will filter in lab."
+boxcreek,2024-07-15,2024-07-15T15:15:00Z,NORM,08:15,NA,6.68,NA,16.3,"Clear skies and hot. High turbidity, very silky-white water, high conductivity, the sensors reflected this with lots of fine sedimentary buildup. Cleaned sonde+housing. Housing had ~30lbs of vegetation buildup on exterior inflow. Algae growth appears to remain consistent with previous visits, although the fine-sediment table seems to be growing in the immediate area around the sonde. Tried to clear out as much sediment and algae around the sonde that I could, the sediment flowed away black, almost oily. We left the restrictor cap off"
+springcreek,2024-07-15,2024-07-15T16:15:00Z,NORM,09:10,NA,6.61,NA,22.8,"Clear skies and hot, medium turbidity. Stream flows are slightly down since last visit. Will filter in lab"
+lincoln,2024-07-15,2024-07-15T16:45:00Z,NORM,09:39,1000,7.84,NA,17.5,"Clear skies and hot, low turbidity. Water level has remained the same since last visit. Will filter in lab"
+JOEI,2024-07-18,2024-07-18T15:15:00Z,NORM,08:10,1000,NA,NA,NA,"Clear skies and warm, low turbidity. Parameters like RDO, FDOM, COND, TEMP, and Voltage were inconsistently giving readings in the log record. Said readings began occasionally dropping out starting 7/12 @1500. Cleaned sonde, disconnected and reconnected cable and swapped batteries in VuLink as a precautionary measure. All parameters reading in new log as of first interval. Did not probe today as probe is poorly calibrated and in NESB. Filtered in field."
+CBRI,2024-07-18,2024-07-18T15:45:00Z,NORM,08:47,1000,NA,NA,NA,"All good. Same flows, sunny. Filtered at CHD."
+CHD,2024-07-18,2024-07-18T16:15:00Z,NORM,09:08,1000,NA,NA,NA,"Cloudy skies and warm. Vulink stopped recording 7/15 @1600, despite battery capacity being at ~65%. The vu did not want to turn on when I arrived so I swapped batteries, it’s now reading 99%. The Aquatroll experienced occasional cond and fdom reading dropout on its local log. Instrument was not very dirty. All parameters reading as of new initial log reading on troll+vu.
+
+Filtered in field."
+CHD,2024-07-18,2024-07-18T16:15:00Z,DUPLICATE,09:08,1000,NA,NA,NA,"Cloudy skies and warm. Vulink stopped recording 7/15 @1600, despite battery capacity being at ~65%. The vu did not want to turn on when I arrived so I swapped batteries, it’s now reading 99%. The Aquatroll experienced occasional cond and fdom reading dropout on its local log. Instrument was not very dirty. All parameters reading as of new initial log reading on troll+vu.
+
+Filtered in field."
+PFAL,2024-07-18,2024-07-18T17:00:00Z,NORM,10:00,1000,NA,NA,NA,"Cloudy skies and warm, medium-low turbidity. Vulink would not turn on when pulled out of housing, replaced rechargeable batteries to 99% with rechargeable batteries. Vulink log began on 07/09@ 1032, promptly ending 07/10 @1915 despite being at 52% battery capacity. Similar occurrence at CHD. Log started and all parameters working well.
+Filtered in field"
+PFAL,2024-07-18,2024-07-18T17:00:00Z,BLANK,10:00,750,NA,NA,NA,"Cloudy skies and warm, medium-low turbidity. Vulink would not turn on when pulled out of housing, replaced rechargeable batteries to 99% with rechargeable batteries. Vulink log began on 07/09@ 1032, promptly ending 07/10 @1915 despite being at 52% battery capacity. Similar occurrence at CHD. Log started and all parameters working well.
+Filtered in field"
+PBR,2024-07-18,2024-07-18T18:15:00Z,NORM,11:15,1000,NA,NA,NA,Lower flows. Sunny. Filtering in lab.
+PMAN,2024-07-18,2024-07-18T19:00:00Z,NORM,11:55,1000,NA,NA,NA,"Semi-clear skies and warm, low turbidity. Water is down an additional foot since last visit. Will filter in lab"
+PBD,2024-07-18,2024-07-18T19:15:00Z,NORM,12:18,1000,NA,NA,NA,"Cloudy skies and warm, it looks like a lightning storm is due northeast on its way to PBD.low turbidity, wil filter in lab"
+COMI,2024-07-19,2024-07-19T14:45:00Z,NORM,07:46,1000,NA,NA,NA,"Flows lowering, more plant growth on bank. No handheld measurement.  Filtered in field"
+COMR,2024-07-19,2024-07-19T15:30:00Z,NORM,08:24,1000,NA,NA,NA,"Reservoir level lower, not too windy, cloudy. Quite clear water with little suspended sediment. Filtered in lab"
+HORI,2024-07-19,2024-07-19T15:45:00Z,NORM,08:42,1000,NA,NA,NA,"Cool day, cloudy no rain. Clear lower flows. Filtered in field"
+COMO,2024-07-19,2024-07-19T16:00:00Z,NORM,08:58,1000,NA,NA,NA,"Cloudy skies and warm, Greely increased reservoir output minutes prior to our site visit. Low turbidity"
+HORO,2024-07-19,2024-07-19T16:15:00Z,NORM,09:21,1000,NA,NA,NA,"Cloudy skies and cool, low turbidity. Reservoir outflow have increased substantially since last visit. Will filter in lab"
+HORR,2024-07-19,2024-07-19T16:15:00Z,NORM,09:17,700,NA,NA,NA,"Lots of pelagic algae(water not very clear and has smell). Cloudy, still. Filtered in lab"
+BEAV,2024-07-19,2024-07-19T17:00:00Z,NORM,09:55,1000,NA,NA,NA,"Cloudy skies and cool, medium turbidity. Water level has increased since last visit, water is more cloudy-white"
+PENN,2024-07-19,2024-07-19T17:30:00Z,NORM,10:26,900,NA,NA,NA,"Cloudy skies and cool, very low turbidity. 
+Downloaded log off vulink, cleaned sonde and removed wiper due to stair step error on FDOM and SC. Readings were really consistent on live readings afterwards. Started new log, values looked great(agreement with pre removal)."
+SFM,2024-07-19,2024-07-19T18:30:00Z,NORM,11:34,900,NA,NA,NA,"Cloudy skies and warm, low turbidity. Filtered in firld"
+LBEA,2024-07-19,2024-07-19T19:00:00Z,NORM,12:06,1000,NA,NA,NA,"Cloudy skies and warm, low turbidity. Flows seem way lower than previous visit. Looks like a thunderstorm is incoming due east toward LBEA in the next couple minutes. Will filter in lab. Sonde cleaned"
+archery,2024-07-24,2024-07-24T14:30:00Z,NORM,07:35,1000,NA,NA,NA,"Water is looking green, sunny day. No probe bc being calibrated."
+boxcreek,2024-07-24,2024-07-24T14:45:00Z,NORM,07:50,650,NA,NA,NA,"Water flows are much higher, and are looking milky. Sunny day! No probe because it’s being calibrated."
+springcreek,2024-07-24,2024-07-24T15:15:00Z,NORM,08:14,500,NA,NA,NA,"Clear skies and warm, lower flows. Conductivity was reading zero on log, Swapped conductivity and turbidity ports, did not resolve issue. Swapped batteries (old alkaline for new alkaline), did not resolve issue. Took batteries out for 5 minutes then put rechargeable in, issue apparently resolved. Conductivity does have a weird buildup on the sensor probe, may require an abrasive brush to remove. Will filter in lab.
+
+Filtering 500 took 20+ minutes"
+lincoln,2024-07-24,2024-07-24T16:30:00Z,NORM,09:36,1000,NA,NA,NA,"Cleaned sonde and sampled because the Chla was going crazy. Cleaned housing interior, brought wrong FDOM cap so no calibration. Sonde was pretty dirty. Flows are high right now."
+PENN,2024-07-25,2024-07-25T15:00:00Z,NORM,08:05,1000,NA,NA,NA,Sampled and cleaned sonde. Seems like wiper issue has gone away! Data still looks pretty good with wiper removed. Sunny warm and smoky. Filtered in lab
+SFM,2024-07-25,2024-07-25T16:15:00Z,NORM,09:16,900,NA,NA,NA,Seems like more pelagic algae and little benthic. Sunny hot and smoky. Gil in the lab
+LBEA,2024-07-25,2024-07-25T16:30:00Z,NORM,09:29,1000,NA,NA,NA,Bit of sediment on the side of housing and sonde but turb still looked good in most recent readings.  depth .5. Clear water and lower flows
+PBR,2024-07-25,2024-07-25T17:00:00Z,NORM,10:07,1000,NA,NA,NA,Sunny. Lower flows. Filtered in lab
+PFAL,2024-07-25,2024-07-25T18:00:00Z,NORM,11:00,NA,NA,NA,NA,"Upgraded vulink and troll, but took it with us up to the highest sites so there is a large data gap. Depth decreased .1ft between removal and deployment, but it seemed accurate based on looks. All other parameters were the same."
+JOEI,2024-07-25,2024-07-25T18:45:00Z,NORM,11:41,1000,NA,NA,NA,Updated vulink and troll. Sampled and field filtered. Sonde was quite clean and values looked good except Chla is still a bit higher than expected.
+CBRI,2024-07-25,2024-07-25T19:00:00Z,NORM,12:04,NA,NA,NA,NA,Cleaned sonde and sampled. Very clean to begin with and values agreed post deployment. Flows went down a bit since last week and water is very clear
+CHD,2024-07-25,2024-07-25T19:30:00Z,NORM,12:30,1000,NA,NA,NA,"Upgraded vulink and sonde. No probe bc being calibrated. Chla dropped after cleaning, all other parameters similar. Fair amount of macroinverts on sonde."
+PMAN,2024-07-25,2024-07-25T21:45:00Z,NORM,14:50,NA,NA,NA,NA,“Do you guys want hot dogs?”—kayaking passerby. Lower flows.
+PBD,2024-07-25,2024-07-25T22:15:00Z,NORM,15:10,NA,NA,NA,NA,Flows are quite low. Water not turbid. Nearly glassy water.
+JWC,2024-07-29,2024-07-29T16:00:00Z,NORM,08:56,1000,NA,NA,NA,"Clear skies and warm, low turbidity. Water levels seem to be down throughout the upper watershed. Will filter in lab."
+PFAL,2024-07-29,2024-07-29T16:15:00Z,NORM,09:16,1000,NA,NA,NA,"Clear skies and warm, low Turb. Water level is down significantly since last visit,  ~1+ feet. Sonde housing is still submerged, but only by 2 feet or so. Will filter in lab."
+PJW,2024-07-29,2024-07-29T16:15:00Z,NORM,09:08,1000,NA,NA,NA,"Clear skies and warm, low turbidity. Water levels seem to remain consistent with previous visit. Will filter in lab."
+PBR,2024-07-29,2024-07-29T16:45:00Z,NORM,09:48,1000,NA,NA,NA,"Clear skies and warm, low Turb, low water. Will filter in lab"
+SFM,2024-07-29,2024-07-29T17:15:00Z,NORM,10:16,1000,NA,NA,NA,"Clear skies and hot, low Turb. Water level seems to be consistent with previous visit. Will filter in lab"
+LBEA,2024-07-29,2024-07-29T17:30:00Z,NORM,10:25,1000,NA,NA,NA,"Sunny day, filtering in lab. Flows seem lower than Friday slightly? Took photo as evidence of sonde housing getting lower. Clear water."
+PSF,2024-07-29,2024-07-29T18:00:00Z,NORM,10:56,1000,NA,NA,NA,"Clear skies and warm, low turbidity. Will filter in lab."
+PMAN,2024-07-29,2024-07-29T18:30:00Z,NORM,11:26,1000,NA,NA,NA,"Clear skies and hot, low turbidity. Water level is down since last visit, id estimate ~1’. Will filter in lab"
+PNF,2024-07-29,2024-07-29T18:45:00Z,NORM,11:43,1000,NA,NA,NA,Clear skies and hot. Low Turb and water level. Will filter in lab
+PBD,2024-07-29,2024-07-29T19:00:00Z,NORM,12:00,1000,NA,NA,NA,"Clear skies and hot, low turbidity. Water is very low, lower than last visit. Chlor-A is in clear bottle. Will filter in lab."
+archery,2024-07-30,2024-07-30T14:30:00Z,NORM,07:35,1000,NA,NA,NA,"Sunny, filtering in lab. Very slow moving, turbid water. Nearly green."
+boxcreek,2024-07-30,2024-07-30T14:45:00Z,NORM,07:44,500,NA,NA,NA,"Clear skies and hot, alexqnder fire is at ~950 acres. Smoke is drifting south east from the ignition point. Water is very turbid and white, normal water levels. Sonde cleaned and updated. Will filter in lab."
+springcreek,2024-07-30,2024-07-30T16:15:00Z,NORM,09:19,500,NA,NA,NA,"Clear skies at time of sampling, hot. Alexander fire smoke has made a dramatic shift in direction since sampling at Boxelder ~20 minutes ago. Smoke Now headed due north by northeast, directly toward spring creek. Sonde updated and cleaned. Sonde was extremely yuck with sludge buildup on exterior and interior. Turbidity was reading values 100+. Reading fine now."
+lincoln,2024-07-30,2024-07-30T17:15:00Z,NORM,10:14,1000,NA,NA,NA,"Clear skies a of now, hot. Alexander fire smoke is nearing the site and is headed due north. Water is crystal clear, the sonde was reading turb values over 700, however, the sensor was clear of debris or grime. Cleaned and now reading appropriate values around 3. The sonde did not need to be updated unlike the other sites. Will filter in lab."
+JOEI,2024-07-31,2024-07-31T15:15:00Z,NORM,08:21,550,6.47,60.55,7.8,"Temp on probe RDO was reading air temp (18.2), but the cond was reading the water (7.8) so used cond temp. Turb reading 4, but water looks very clear/likely less than 4. Started pouring chlorophyll bottle before a filter was on filter tower. Because of this lost a lot of sample. Salvaged what I could buy pouring what was in the top of the tower back into the bottle."
+CBRI,2024-07-31,2024-07-31T15:45:00Z,NORM,08:52,1000,6.7,45.95,7.9,"Turb was a lower than JOEI, .99 here, but looked about the same. Used cond temp again on probe, other one was reading air (tried dunking more of the RDO probe in water to see if that made a difference. It did not)."
+CHD,2024-07-31,2024-07-31T16:15:00Z,NORM,09:14,1000,7.1,39.76,12.2,"Same flows as last time, used probe temp from cond."
+PFAL,2024-07-31,2024-07-31T16:45:00Z,NORM,09:50,1000,6.46,43,11.4,"Used temp from cond part of probe, DO was lower and cond was higher than the log. Probed in a slower area of water and upstream than sonde, but Andrew tried double checking and probe read similar values right near sonde. Depth is at 1 ft and you can see the sonde from the rocks."
+PBR,2024-07-31,2024-07-31T17:30:00Z,NORM,10:31,900,6.59,48.33,15.7,"Clear skies and hot, low turbidity. Flows are low as well. Alexander fire is in effect, however, the smoke is undetectable from PBR, although the sky is hazy. Did the same thing as JOEI chla, poured sample without filter so lost some sample."
+PENN,2024-07-31,2024-07-31T18:30:00Z,NORM,11:32,1000,5.87,27.18,13.6,"Clear skies and hot, low turbidity, normal flows. 500 troll needed to be updated. Appears that turbidity was drifting from 4NTU (0725) to 12NTU (07/31). I cleaned and redeployed, now reading ~4 NTU. I think the water is closer to 1 or 2 NTU (AS) . Filtered in field. Used temp from cond part of probe. Smoke from Alexander fire appears to be approaching pingeree as of 1330."
+SFM,2024-07-31,2024-07-31T19:30:00Z,NORM,12:37,1000,5.97,51.64,17.3,"Clear skies and hot, low turbidity, normal flows. Troll was reading Turbidity values of 100+ NTU. Cleaned sensors and redeployed, now reading 4 NTU. Alexander fire is in effect, smoke is slowly approaching Pingeree as of 1330. Filtered in field"
+LBEA,2024-07-31,2024-07-31T20:15:00Z,NORM,13:09,1000,6.19,98.7,17.2,"Clear skies and warm, low turbidity, low water level. Battery replaced, troll upgraded, sonde cleaned. Filtered in field."
+PMAN,2024-07-31,2024-07-31T21:45:00Z,NORM,14:52,NA,6.13,91.63,21.2,"Clear skies and hot, low-medium turbidity. Probe stabilized around 91 us/cm for Cond which seems a bit high. Will filter in lab"
+PBD,2024-07-31,2024-07-31T22:15:00Z,NORM,15:10,1000,6.28,104.7,24,"Smokey skies, hot. Medium-low turbidity, very low flows (more rocks showing on south shore). Turbidity seemed to be drifting on sensor, cleaned and is now back to 2NTU. Changed wiper rotation to 30min."
+LNGR,2024-08-05,2024-08-05T15:45:00Z,NORM,08:38,1000,7.09,45.22,16.3,"Sunny warm day. Using calibrated DO probe. Flows extremely low, you can walk to the island of trees easily. All snow nearly gone minus a few patches. Conductivity probe is funky again. RDO temp used from probe, asubmerged probe under water."
+LNGO,2024-08-05,2024-08-05T16:00:00Z,NORM,09:00,1000,8.07,48.44,12,Warm and sunny. Pretty high flows for the outflow. Used DO temp from probe.
+PTRR,2024-08-05,2024-08-05T16:45:00Z,NORM,09:48,980,7.35,25.64,19.4,Warm and sunny. Temp came from the DO part of probe. Water looks very gross — visible algae(?) or lots of small specks of green ish gooey particles. Water just a little lower than last time. Water looks very brown.
+PTRO,2024-08-05,2024-08-05T17:00:00Z,NORM,10:01,750,6.25,123.6,14.3,"Warm and sunny. Nothing flowing over the roller, so the water is very gross and very still. Tons of algae, very low flows. Water is visibly a darker color in the sample bottle."
+JOEI,2024-08-05,2024-08-05T18:15:00Z,NORM,11:08,1000,7.84,NA,12.5,"Clear skies and warm, low Turb. Will filter in lab."
+JOER,2024-08-05,2024-08-05T19:00:00Z,NORM,11:54,1000,7.07,NA,19.2,"Warm and sunny. Reservoir lower than last time, although not too low. Construction on HW14. Water looks pretty clean."
+CBRI,2024-08-05,2024-08-05T19:15:00Z,NORM,12:11,1000,8.05,NA,12.2,Cloudy and warm. Looks like incoming rain in the next couple minutes. Will filter in lab.
+BMD,2024-08-05,2024-08-05T19:30:00Z,NORM,12:25,500,6.85,NA,10.5,"Cloudy skies and warm, looks like incoming rain. The outflow is flowing, but the water is disgusting. Top layer is covered in slimy foamy film with some algae growth. Very high turbidity. Will filter in lab. When sampling moved some of the slimy layer out of the way so that the bottle wasn’t just a sample of chunks of algae. Still very gross."
+BRNR,2024-08-05,2024-08-05T19:30:00Z,NORM,12:32,1000,8.07,NA,19.7,"Gray skies and warm. Reservoir at a similar level. Appears murky, turbid. Much cleaner than the outflow, though."
+CBRR,2024-08-05,2024-08-05T19:45:00Z,NORM,12:49,1000,7.44,NA,19.3,"Partly cloudy, warm. Water level about the same. But watcher is looking murky and turbid. Not as much as Barnes meadow, but similar."
+CHD,2024-08-05,2024-08-05T20:00:00Z,NORM,13:01,1000,7.77,NA,11.9,"Cloudy, warm, low turbidity. Will filter in lab"
+archery,2024-08-06,2024-08-06T14:45:00Z,NORM,07:50,850,5.61,NA,19.2,Warm and sunny. Flows lower and very green turbid water. The bank is starting to show. Conductivity is broken on the probe because the cord is so frayed.
+boxcreek,2024-08-06,2024-08-06T15:15:00Z,NORM,08:12,500,7.41,NA,16.4,"Clear skies and hot, water seems to be down a bit. Turb is pretty high, lots of algal growth above and below sonde. Will filter in lab."
+springcreek,2024-08-06,2024-08-06T15:45:00Z,NORM,08:38,500,6.56,NA,23.5,"Clear skies and warm, medium to medium-high turbidity. Will filter in lab."
+lincoln,2024-08-06,2024-08-06T16:00:00Z,NORM,09:03,1000,8.17,NA,17.7,"Clear skies and warm, low turbidity. Will filter in lab."
+JOEI,2024-08-07,2024-08-07T15:00:00Z,NORM,07:59,1000,8.33,NA,9.3,"Batteries replaced to 100%. Lower flows. Didn’t have conductivity on probe bc it has been removed due to frayed cord. Turb has been reading around 4, looks to be below 1."
+CBRI,2024-08-07,2024-08-07T15:30:00Z,NORM,08:34,1000,8.66,NA,8,"Clear skies and warm, low turbidity. Lots of construction occurring on road, including CBRI bridge. Quite a few construction people beneath the bridge with rebreather masks. Water levels appear to be slightly down since last visit. Sonde battery at 60%, did not swap batteries due to limited rechargeables. Will filter in lab."
+CHD,2024-08-07,2024-08-07T16:00:00Z,NORM,09:04,1000,7.82,NA,11.9,"A lot more algae (very green) around this site. Sonde had the little wormy macroinvertabrates on it. Batteries not replaced, at 76%. Cond part of probe gone"
+PFAL,2024-08-07,2024-08-07T16:45:00Z,NORM,09:40,1000,8.12,NA,13.2,"Mostly clear skies and warm, although some clouds are forming up river. Low turbidity, sensor cleaned, battery is at ~65%. Water level seems to have increased since last visit. Wiper is hardly touching sensors. Lots of Construction occurring up river."
+PBR,2024-08-07,2024-08-07T17:30:00Z,NORM,10:23,1000,7.88,NA,17.2,"Warm and sunny, lower flows? Filtering in lab."
+PENN,2024-08-07,2024-08-07T18:15:00Z,NORM,11:17,1000,7.76,NA,14.5,"Cleaned housing, lots of pine needles and grass like things…turb had drifted to 25NTU. Post sonde housing cleaning back to 4NTU. Used probe in slightly different area than sampling where flows were slower. Batteries left in, they were at 60%"
+SFM,2024-08-07,2024-08-07T19:00:00Z,NORM,12:07,1000,7.32,NA,17.9,"Cloudy skies and warm, looks like incoming rain from the east. Water is medium turbidity, same flows as last visit. 
+
+Some turbidity was drifting to ~40NTUs, actual turb is probably around 5-10. Cleaned sonde and replaced batteries (can not get sonde to read any percent on batteries despite multiple methods and batteries). Redeployed and now reading 6 NTU."
+LBEA,2024-08-07,2024-08-07T19:45:00Z,NORM,12:47,1000,7.32,NA,17.4,"Clean, batteries at 90%. Lightly raining. Filtering in lab."
+PMAN,2024-08-07,2024-08-07T20:45:00Z,NORM,13:45,1000,7.62,NA,21.1,"Cloudy and warm. Water levels are the same as last visit, medium-low turb. Will filter in lab"
+PBD,2024-08-07,2024-08-07T21:00:00Z,NORM,14:01,1000,7.51,NA,22.1,"Cloudy skies and warm, medium turb. Similar water level to previous visit. Will filter in lab."
+PBD,2024-08-15,2024-08-15T17:00:00Z,NORM,09:57,1000,8.42,NA,16.6,"Filtered in field. Sunny, post storm event."
+lincoln,2024-08-15,2024-08-15T18:15:00Z,NORM,11:15,1000,8.76,NA,17.6,Sunny. Post storm field filtered
+archery,2024-08-15,2024-08-15T19:30:00Z,NORM,12:30,NA,9.51,NA,NA,"Sampled while sondes updated. Flows much lower, water relatively clear.possible storm incoming"
+COMI,2024-08-16,2024-08-16T15:00:00Z,NORM,08:01,1000,8.57,NA,8.3,Storm night before. Clear and slightly lower flows. Filtered in field
+COMR,2024-08-16,2024-08-16T16:00:00Z,NORM,08:55,1000,7.57,NA,14.4,"Fairly turbid water. Sunny, much lower. Some wind but minimal. Filtered in lab"
+HORI,2024-08-16,2024-08-16T16:15:00Z,NORM,09:12,1000,8.72,NA,7.3,Flows nearly the same. Storm last night. Filtered in field
+COMO,2024-08-16,2024-08-16T16:30:00Z,NORM,09:35,1000,7.53,NA,14.2,Sunny higher flows. Lots of benthic algae on site. Filtered in lab
+HORR,2024-08-16,2024-08-16T17:00:00Z,NORM,09:56,500,7.81,NA,15,"Quite turbid. Reservoir levels quite low, sunny. Filtered in lab."
+HORO,2024-08-16,2024-08-16T17:15:00Z,NORM,10:18,500,7.52,NA,14.8,High flows. Lots of fine particulate(pelagic algae?). Filtered in lab
+BEAV,2024-08-16,2024-08-16T18:00:00Z,NORM,11:01,600,7.55,NA,15,"Turb water, mostly fine sediment or algae. Storm last night. Filtered in lab"
+PENN,2024-08-16,2024-08-16T18:45:00Z,NORM,11:39,1000,8.09,NA,12.5,"Cleaned sonde, downloaded logs and sampled. Some sediment on sensor heads but minimal. Small decrease  in SC 8mscm post clean, all other values agreed with pre clean levels."
+SFM,2024-08-16,2024-08-16T19:30:00Z,NORM,12:31,750,7.6,NA,16.3,"Flow is slightly lower, water is slightly turbid, green tint. Little to no benthic algae."
+LBEA,2024-08-16,2024-08-16T20:00:00Z,NORM,12:53,1000,7.7,NA,15.8,"Downloaded data, cleaned sonde, sampled and removed debris from housing. Woody debris caught on housing and small veg stuck on sensors. Post clean values agreed but FDOM was a bit higher(drift?) sonde may need to be moved due to low flows"
+PFAL,2024-08-21,2024-08-21T15:30:00Z,NORM,08:28,1000,8.22,NA,13.1,Sunny. Pre rain. Did not measure discharge since flows are still high. Filtered in lab
+CHD,2024-08-21,2024-08-21T17:00:00Z,NORM,10:03,750,7.73,NA,12.8,Lots more benthic algae at site. Flows slightly higher. Water slightly turbid but generally clear.
+JOEI,2024-08-21,2024-08-21T19:15:00Z,NORM,12:15,1000,7.6,NA,13.2,Sampled then measured Q at usgs station. Usgs stage at cylinder is 3.5 and is 4.34 on mounted beam. Filtered in lab.
+CBRI,2024-08-21,2024-08-21T20:30:00Z,NORM,13:26,750,8.24,NA,11.4,Downloaded log and cleaned sonde. Not very dirty and did not see a bit changed in any values after cleaning. Would have calibrated but there is ongoing construction on the bridge. More benthic algae at site but flows are quite low. Filtered in lab
+LBEA,2024-08-26,2024-08-26T16:30:00Z,NORM,09:26,1000,8.29,NA,12.5,"Sampled then measured discharge. No stage change during measurement. Post storm, sunny. Filtered in lab"
+SFM,2024-08-26,2024-08-26T20:00:00Z,NORM,13:00,1000,NA,NA,NA,"Cloudy, post storm. Took discharge downstream of bridge. Filtered in lab"
+PENN,2024-08-26,2024-08-26T22:00:00Z,NORM,15:00,1000,8.06,NA,12.3,"Sunny. Storm yesterday, some clouds/storms nearby. Took discharge just downstream.  Filtered in lab."
+CHD,2024-08-28,2024-08-28T15:30:00Z,NORM,08:30,1000,7.66,NA,13.4,"Lots of benthic algae, flows slightly lower. Sunny. Filtered in lab"
+JWC,2024-08-28,2024-08-28T15:45:00Z,NORM,08:50,1000,7.95,NA,13.1,"Sunny. Little algae at site, possibly small amounts of microcoleous. Flows higher. Filtered in lab"
+PJW,2024-08-28,2024-08-28T16:00:00Z,NORM,09:04,1000,8.27,NA,11.8,"Sunny. Flows still quite high, filtered in field. Construction on bridge complete."
+PFAL,2024-08-28,2024-08-28T16:30:00Z,NORM,09:25,1000,8.29,NA,12.5,Sunny. Higher flows. More benthic algae in slow moving areas. Filtered in field
+PBR,2024-08-28,2024-08-28T17:00:00Z,NORM,10:05,1000,8.27,NA,14.4,Sunny. Lower flows. Filtered in field. Some benthic algae in slow moving areas.
+PBR,2024-08-28,2024-08-28T17:00:00Z,BLANK,10:05,1000,8.27,NA,14.4,Sunny. Lower flows. Filtered in field. Some benthic algae in slow moving areas.
+SFM,2024-08-28,2024-08-28T18:00:00Z,NORM,10:55,1000,7.96,NA,14.1,"Sunny, lower flows and less turbid water. Filed filtered."
+LBEA,2024-08-28,2024-08-28T18:15:00Z,NORM,11:13,1000,8.2,NA,13.3,"Sunny, lower flows, very clear water. Filtered in field."
+PSF,2024-08-28,2024-08-28T19:15:00Z,NORM,12:13,1000,7.94,NA,16.9,Sunny starting to get hot. Filtered in field. Low turbidity
+PMAN,2024-08-28,2024-08-28T20:00:00Z,NORM,12:54,1000,8,NA,18.2,Lower flows. Water generally clear with some suspended material. Filtered in lab.
+PMAN,2024-08-28,2024-08-28T20:00:00Z,DUPLICATE,12:54,750,8,NA,18.2,Lower flows. Water generally clear with some suspended material. Filtered in lab.
+PNF,2024-08-28,2024-08-28T20:15:00Z,NORM,13:14,1000,7.94,NA,18.8,"Sunny windy, low turbidity. Filtered in lab"
+PBD,2024-08-28,2024-08-28T21:30:00Z,NORM,14:35,1000,7.88,NA,20.7,"Sunny, clear water with some suspended particulates. Filtered in lab"
+PBD,2024-09-05,2024-09-05T16:30:00Z,NORM,09:31,1000,8.64,NA,15.4,"Cloudy, post rain yesterday. Flows seem slightly higher and water is quite clear. Filtered in field"
+lincoln,2024-09-05,2024-09-05T17:15:00Z,NORM,10:14,1000,9.08,NA,16.9,"Sunny, small rain last night. Water clear with some leaf litter. Filtered in field"
+springcreek,2024-09-05,2024-09-05T18:30:00Z,NORM,11:30,500,7.47,NA,21,"High Turb, lower flows. Greenness to water. Filtered in lab"
+boxcreek,2024-09-05,2024-09-05T19:15:00Z,NORM,12:19,1000,8.98,NA,17.2,Sunny. Low turbidity but lots of suspended sediment. Filtered in lab
+archery,2024-09-05,2024-09-05T19:30:00Z,NORM,12:32,1000,8.83,NA,19.5,"Sun, low and slow flows, water not too turbid. Filtered in lab"
+LNGR,2024-09-06,2024-09-06T15:00:00Z,NORM,07:56,1000,7.4,NA,12.9,"Sunny, calm ,water, some frost in shaded areas. Water level much lower. Filtered in field."
+LNGO,2024-09-06,2024-09-06T15:30:00Z,NORM,08:27,1000,7.8,NA,12.9,"Higher flows, sunny. More benthic algae than last visit. Filtered in field"
+PTRR,2024-09-06,2024-09-06T16:15:00Z,NORM,09:17,750,7.03,NA,13.5,"Reservoir drained quite a bit, sampled in open body near concrete block. Water turbid. Filtered in lab."
+PTRO,2024-09-06,2024-09-06T16:45:00Z,NORM,09:45,500,7.59,NA,12.4,"Flows very high. Sunny. Water a bit turbid, some benthic in slow moving areas but not too much on channel bottom. Filtered in the lab"
+JOEI,2024-09-06,2024-09-06T17:30:00Z,NORM,10:25,NA,8.95,NA,6.7,"Flows seem barely lower, water very clear and cold. Sunny. Filtered in field"
+JOER,2024-09-06,2024-09-06T18:00:00Z,NORM,10:55,1000,7.6,NA,14.4,Reservoir levels lower. Water still quite clear. Sunny. Filtered in field
+CBRI,2024-09-06,2024-09-06T18:30:00Z,NORM,11:30,1000,8.66,NA,8.3,"Flows higher, construction still ongoing. Water quite clear and less benthic algae present. Filtered in field"
+BMD,2024-09-06,2024-09-06T19:15:00Z,NORM,12:09,750,5.72,NA,12.3,Slightly more flow than usual. Very gross biofilm on the upstream side and generally detached algae floating thru. Filtered in lab
+BMD,2024-09-06,2024-09-06T19:15:00Z,DUPLICATE,12:09,750,5.72,NA,12.3,Slightly more flow than usual. Very gross biofilm on the upstream side and generally detached algae floating thru. Filtered in lab
+BRNR,2024-09-06,2024-09-06T19:30:00Z,NORM,12:35,1000,6.63,NA,18.4,Water is very turbid and has a strong green hue. Sunny. Do quite low. Filtered in lab
+CBRR,2024-09-06,2024-09-06T20:15:00Z,NORM,13:08,1000,8.22,NA,16.6,"Water very low, had to walk around the right side to get away from pools. Water pretty clear with some dead algae covering rocks. Filtered in lab"
+CHD,2024-09-06,2024-09-06T20:30:00Z,NORM,13:29,1000,7.65,NA,14.2,"Flows way up! Water generally very clear, sunny day, sampled in shade. . Filtered in lab"
+PENN,2024-09-11,2024-09-11T15:30:00Z,NORM,08:30,1000,NA,NA,NA,"Pre storm, cloudy. Water much lower and clear. Filtered in field"
+SFM,2024-09-11,2024-09-11T17:00:00Z,NORM,09:55,NA,8.32,NA,11.1,"Cloudy, sampled before rain. Flows much lower abut still mildly turbid. Filtered in field"
+LBEA,2024-09-11,2024-09-11T18:00:00Z,NORM,10:59,1000,8.38,NA,10.6,"HUGE changes to the site. Restoration treatment is right downstream of sensor and has backed up flows significantly. Will need to move site ASAP. sonde was not too dirty and generally log values were good but Chla was quite high. FDOM also increased significantly which I would imagine is due to the added wood in the stream.  Values dropped slightly post clean (Turb and Chla) but not too significantly. 
+
+Sampled just before the storm truly began. Opted not to measure discharge since it will not add much value to the rating curve."
+PBR,2024-09-11,2024-09-11T19:00:00Z,NORM,11:55,950,8.11,NA,13.5,"Post storm, filter3 in lab. Not too turbid, not sure streamflow has been router yet."
+PMAN,2024-09-11,2024-09-11T19:45:00Z,NORM,12:45,1000,8.23,NA,15.6,Flows much lower. Water slightly turbid with fine particles. Post storm but doesn’t seem to have reached this site too much yet.
+PBD,2024-09-11,2024-09-11T20:00:00Z,NORM,13:06,1000,8.44,NA,16.6,Water super clear and much lower than last week. Cloudy. Filtered in the field.
+PBR,2024-09-13,2024-09-13T14:15:00Z,NORM,07:12,1000,8.73,NA,11,"Sunny, very clear water. About the same flows as Wednesday 911. Filtered in the field."
+PFAL,2024-09-13,2024-09-13T16:00:00Z,NORM,09:05,1000,8.75,NA,9.5,Sunny. Much lower flows. Filtered in field.
+CHD,2024-09-13,2024-09-13T16:45:00Z,NORM,09:42,1000,7.93,NA,12.7,"Downloaded logs, troll log ended on 9/1 likely due to power draw issue, it was ready 0 %battery even though the batteries seemed to be replaced recently and were alkaline. When I replaced them, it still thought it was 0%. Factory reset and then let it sit for a while with no batteries, connected with my phone and it started back up with 100%. When I tried to restart the logs, it thought depth was 25 ft (rather than .88). Started a log on the vulink , which corrected the pressure reading and then corrected saw depth as .88. Sensor had some gunk but it cleaned up nice and values did not adjust significantly. Turb is maybe a bit low ? Sunny, much lower flows than last Friday. Filtered in field."
+JOEI,2024-09-13,2024-09-13T18:45:00Z,NORM,11:44,1000,8.47,NA,9,"Sunny, flows slightly lower and very clear water. Filtered in field"
+CBRI,2024-09-13,2024-09-13T20:30:00Z,NORM,13:30,1000,8.61,NA,8.5,"Sunny, set up stage plate, flows much higher but water still quite clear. Measured flow just downstream of sonde housing. Filtered in field."
+CHD,2024-09-16,2024-09-16T15:45:00Z,NORM,08:47,1000,7.99,NA,12.5,"Lots of banthic algae, flows slightly lower than on Friday. Water still quite clear and filtered in field"
+JWC,2024-09-16,2024-09-16T16:15:00Z,NORM,09:13,1000,8.19,NA,11.6,Flows lower. No significant increase in benthic algae. Sunny. Filtered in field
+PJW,2024-09-16,2024-09-16T16:45:00Z,NORM,09:38,1000,8.74,NA,8.7,"Flows way down, long draw reservoir turned off last week. Definitely a lot more benthic algae, took photos for speciation later. Filtered in field. Sunny, relatively cool conditions"
+PFAL,2024-09-16,2024-09-16T17:00:00Z,NORM,10:03,1000,8.63,NA,10.4,Sunny. Flows about the same as Friday. Water still quite clear. Filtered in field.
+PBR,2024-09-16,2024-09-16T17:45:00Z,NORM,10:41,1000,8.53,NA,11.8,"Water quite clear, flows about the same as Friday, no change in benthic algae. Cloudy, filtered in field"
+SFM,2024-09-16,2024-09-16T18:15:00Z,NORM,11:15,1000,8.67,NA,10,Clouds forming. Water quite clear and flows lower than last week. Filtered in field.
+SFM,2024-09-16,2024-09-16T18:15:00Z,DUPLICATE,11:15,1000,8.67,NA,10,Clouds forming. Water quite clear and flows lower than last week. Filtered in field.
+LBEA,2024-09-16,2024-09-16T18:45:00Z,NORM,11:47,1000,8.69,NA,9.4,"Bridge still in place, sampled upstream. Water clear with sediment on the channel bottom. Filtered in field."
+PSF,2024-09-16,2024-09-16T19:30:00Z,NORM,12:36,1000,8.46,NA,13.1,"Water clear, cloudy weather. flows lower. Filtered in field"
+PMAN,2024-09-16,2024-09-16T20:15:00Z,NORM,13:15,1000,8.38,NA,15.7,Lower flows. Cloudy. Filtered in field
+PNF,2024-09-16,2024-09-16T20:45:00Z,NORM,13:39,1000,8.33,NA,16.5,"Lower flows, still clay clear water, cloudy weather. Filtered in field"
+PBD,2024-09-16,2024-09-16T21:15:00Z,NORM,14:13,1000,9.32,NA,17.8,"Flows still quite low, and very clear. More benthic algae growth on rocks. No change in watercolor. Filtered in field."
+lincoln,2024-09-19,2024-09-19T16:45:00Z,NORM,09:42,1000,9.44,NA,15.9,Water very flow and clear with some leaves on banks. More benthic algae on rocks. Filtered in lab
+springcreek,2024-09-19,2024-09-19T17:00:00Z,NORM,10:06,500,8.32,NA,18.6,Large algal mat upstream of headgate. Water lower and still quite turbid. sunny. Filtered in lab
+boxcreek,2024-09-19,2024-09-19T17:30:00Z,NORM,10:35,1000,9.26,NA,14.7,Sunny. Higher flows. Water still a bit turbid but clearer. Filtered in lab
+boxcreek,2024-09-19,2024-09-19T17:30:00Z,BLANK,10:35,850,9.26,NA,14.7,Sunny. Higher flows. Water still a bit turbid but clearer. Filtered in lab
+archery,2024-09-19,2024-09-19T18:00:00Z,NORM,10:55,1000,8.13,NA,16.7,Sunny. Flows very low with very little forward flows. Turbid greenish water with leafs floating by. Filtered in lab
+LBEA,2024-09-20,2024-09-20T13:30:00Z,NORM,06:35,1000,NA,NA,NA,Cold early morning. Filtered in lab.
+SFM,2024-09-20,2024-09-20T16:15:00Z,NORM,09:15,1000,NA,NA,NA,Sunny. No DO probe today. Added additional hose clamp to stage plate. possible microcoleous sighting. Filtered in lab
+PENN,2024-09-20,2024-09-20T17:30:00Z,NORM,10:31,1000,NA,NA,NA,"Sunny, very clear flows. Nearly the same flows as last visit. Some leaves/litter fallen in pools and banks.  Filtered in lab."
+BEAV,2024-09-20,2024-09-20T18:15:00Z,NORM,11:08,750,NA,NA,NA,"Sunny, much lower flows, water still a bit turbid but not as bad as before. decent amount of benthic algae as well. Filtered in lab"
+COMI,2024-09-20,2024-09-20T19:30:00Z,NORM,12:29,1000,NA,NA,NA,"Sunny day, lower flows, some leaves on stream banks. Little to no benthic algae. Filtered in lab"
+COMR,2024-09-20,2024-09-20T20:00:00Z,NORM,12:58,750,NA,NA,NA,"Sunny, level low enough to access road on bottom. More turbid water. Filtered in lab"
+COMO,2024-09-20,2024-09-20T20:15:00Z,NORM,13:20,750,NA,NA,NA,"TONS OF BENTHIC ALGAE. Mostly spiro, with mostly bright green but some brown too. Sunny, low flows (essentially pass thru water). Filtered in lab"
+HORI,2024-09-20,2024-09-20T20:15:00Z,NORM,13:10,1000,NA,NA,NA,"Stream is in the shade, flows a bit lower. Filtered in lab."
+HORR,2024-09-20,2024-09-20T20:30:00Z,NORM,13:34,500,NA,NA,NA,"Sunny, windy. Water very low and turbid (orange tint). Filtered in lab"
+HORO,2024-09-20,2024-09-20T20:45:00Z,NORM,13:45,750,NA,NA,NA,"Sunny, lower flows at site. Water turbid in areas with some depth, green tint and a fair amount of benthic algae, but not as much as Comanche. Filtered in lab"
+PMAN,2024-09-26,2024-09-26T14:00:00Z,NORM,07:06,1000,8.73,NA,13,"Very Clearwater, flows about the same as last sampling. Filtered in the field. No visible Benic or pelagic algae."
+PBR,2024-09-26,2024-09-26T15:00:00Z,NORM,07:56,1000,8.59,NA,11.3,"Sunny, flows about the same, a little bit colder water than last sampling. Green tint to water, but not too severe, not very much pelagic algae. Filter in field."
+PFAL,2024-09-26,2024-09-26T16:30:00Z,NORM,09:31,NA,8.5,NA,10.4,"Sunny, flows a bit higher. A bit more pelagic algae at sit. Filtered in field."
+CHD,2024-09-26,2024-09-26T18:00:00Z,NORM,11:02,1000,7.9,NA,12,"Sunny higher flows, more benthic algae. Filtered in  field, some leaf litter on banks."
+JOEI,2024-09-26,2024-09-26T20:00:00Z,NORM,12:55,1000,7.93,NA,11.2,"Sunny, lower flows, filtered in field."
+PBD,2024-09-26,2024-09-26T23:00:00Z,NORM,16:03,1000,7.9,NA,18.4,"Stream now in shade, flows lower than previous sampling. More benthic algae, in particular. More brightness of green. Water still quite clear. Filtered in field"
+CBRI,2024-10-04,2024-10-04T20:00:00Z,NORM,12:53,1000,8.67,NA,7.6,Lower flows. Clear water filtered in field.
+CHD,2024-10-04,2024-10-04T20:15:00Z,NORM,13:20,1000,7.78,NA,11.7,"Redployed sonde after unsuccessful cable test, quick clean, restarted logs and everything seemed just fine. Flows way lower but sonde still partially submerged. Filtered in field."
+JWC,2024-10-07,2024-10-07T15:15:00Z,NORM,08:10,1000,9.14,NA,6.2,"Flows very low, microcoleous present and some spiro algae. Filtered in the field"
+JWC,2024-10-07,2024-10-07T15:15:00Z,DUPLICATE,08:10,1000,9.14,NA,6.2,"Flows very low, microcoleous present and some spiro algae. Filtered in the field"
+PJW,2024-10-07,2024-10-07T15:45:00Z,NORM,08:41,1000,9.34,NA,5,Water lower than previous sampling. Benthic algae more brown than green. Filtered in field
+PBR,2024-10-07,2024-10-07T16:30:00Z,NORM,09:27,1000,9.11,NA,9.2,"Flows very low, sunny. Still some benthic algae not too active on ash. Filtered in field."
+LBEA,2024-10-07,2024-10-07T17:15:00Z,NORM,10:11,1000,9.18,NA,6.5,"Flows about the same, clear water. Little to no algae. Some leaves in stream. Filtered in the field"
+SFM,2024-10-07,2024-10-07T17:30:00Z,NORM,10:30,1000,9.01,NA,7.5,"Flows a bit lower, water relatively clear with some suspended sediments. Larimer county currently pulling water just downstream of our site for road work. Filtered in field. Sunny"
+PSF,2024-10-07,2024-10-07T18:15:00Z,NORM,11:15,1000,8.99,NA,11,"Sunny, lower flows, no benthic algae visible. Filtered in the field"
+PMAN,2024-10-07,2024-10-07T19:00:00Z,NORM,11:58,1000,9.07,NA,12.4,Very clear water. Flows a bit lower. Some leaves in stream. Smoky air and sunny. Filtered in field
+PNF,2024-10-07,2024-10-07T19:30:00Z,NORM,12:24,1000,8.8,NA,13.6,"Sunny, smoky skies and low flows. Slight green hue to water but no benthic algae visible. Filtered in the field"
+PBD,2024-10-07,2024-10-07T20:00:00Z,NORM,13:00,1000,9.46,NA,15,"Clear water, little change in flows. Benthic algae more brown than before. Sunny and smoky weather. Filtered in field"
+lincoln,2024-10-08,2024-10-08T16:00:00Z,NORM,08:56,990,8.9,NA,12.5,"Clear skies and warm, low turbidity, low water level. Samples taken, will be filtered in lab."
+springcreek,2024-10-08,2024-10-08T16:30:00Z,NORM,09:29,400,10.33,NA,14.8,"Clear skies and warm, medium turbidity, medium-low flow, high DO (couldn’t fully submerge probe so I went at an obtuse angle). Will filter in lab."
+boxcreek,2024-10-08,2024-10-08T16:45:00Z,NORM,09:49,1000,10.16,NA,12.9,"Clear skies, warm, medium turbidity, normal flows. Water samples taken, will filter in lab. Attempted to connect to VuLink (it stopped logging last night at 82% battery), however was unable to connect. The vulink would turn on, then encounter a connection error while synchronizing in the app. Called Evan at InSitu support, he wants to service the sensor."
+archery,2024-10-08,2024-10-08T17:45:00Z,NORM,10:51,970,8.53,NA,15.1,"Clear skies and warm, medium-low turb. Will filter in lab."
+BMD,2024-10-09,2024-10-09T15:00:00Z,NORM,08:02,1000,7.97,NA,11.6,Sunny day but site was in shade. Minimal flows out and slightly clearer water. Filtered in lab
+BRNR,2024-10-09,2024-10-09T15:15:00Z,NORM,08:18,1000,7.57,NA,11.3,Sunny and little wind. Reservoir a bit lower than last visit. Benthic algae still quite green and pelagic algae still at site. Filtered in lab
+CBRR,2024-10-09,2024-10-09T15:45:00Z,NORM,08:47,1000,8.19,NA,10.8,"Sunny, and little wind. water clearer and higher than last visit. Still a bit turbid further out into the red though.  Filtered in the field"
+CHD,2024-10-09,2024-10-09T16:15:00Z,NORM,09:14,1000,8.32,NA,10.5,Still lots of benthic algae. Flows still low. Filtered in field
+JOEI,2024-10-09,2024-10-09T17:00:00Z,NORM,09:59,1000,9.48,NA,3.7,"Sunny, lower flows. Water quite cold. Slightly more benfic algae, green visible on rocks. Filtered in field. Construction ongoing on road"
+JOER,2024-10-09,2024-10-09T17:30:00Z,NORM,10:26,1000,7.61,NA,10.1,"Partly cloudy, reservoir levels lower, water still clear. No visible benthic algae. Filtered in the field"
+CBRI,2024-10-09,2024-10-09T18:00:00Z,NORM,10:55,NA,8.19,NA,9,"Big reservoir release! Water very turbid and flowing quickly, with some suspended sediments. Filtered in the field"
+LNGR,2024-10-09,2024-10-09T19:15:00Z,NORM,12:11,1000,7.96,NA,11.2,So e clouds but mostly sunny. Minimal wind. Water quite clear. Filtered in field
+LNGO,2024-10-09,2024-10-09T19:45:00Z,NORM,12:41,NA,10.05,NA,11.3,Very little flow. Sunny and calm. Lots of benthic algae. Filtered in the field
+PTRR,2024-10-09,2024-10-09T20:30:00Z,NORM,13:27,500,8.73,NA,10.1,Very turbid water. Reservoir drained for the season. Sunny with storm coming. Filtered in the lab
+PTRO,2024-10-09,2024-10-09T20:45:00Z,NORM,13:44,500,8.51,NA,12,"Nearly no flow, turbid water with most benthic algae dead. Leaves floating in stream. Filtered in lab"
+PBD,2024-10-14,2024-10-14T14:45:00Z,NORM,07:45,1000,NA,NA,NA,"Sunny morning, colder. Water clear and flows about the same. Filtered in field"
+PMAN,2024-10-14,2024-10-14T15:15:00Z,NORM,08:13,1000,NA,NA,NA,Water clear and flows about the same as last week. Cool morning. Filtered in the field
+PBR,2024-10-14,2024-10-14T16:00:00Z,NORM,09:02,1000,NA,NA,NA,Water clear and flows about the same. Still some benthic algae on rocks but minimal. Filtered in the field
+CHD,2024-10-14,2024-10-14T17:30:00Z,NORM,10:35,1000,NA,NA,NA,Flows higher. Sunny. Filtered in field
+JOEI,2024-10-14,2024-10-14T19:15:00Z,NORM,12:15,1000,NA,NA,NA,Measured flow upstream then grabbed sample. USGS Gage gone. Much more benthic algae at site. Filtered in field
+CBRI,2024-10-14,2024-10-14T20:45:00Z,NORM,13:45,1000,NA,NA,NA,Water level about the same as last week but much clearer. Filtered in field.
+lincoln,2024-10-16,2024-10-16T14:30:00Z,NORM,07:28,1000,NA,NA,NA,Flows higher from horsetooth release. Water still quite clear. Filtered in the lab
+springcreek,2024-10-16,2024-10-16T15:45:00Z,NORM,08:44,500,NA,NA,NA,Flows pretty low. Large algal mat on the upstream side of the dam. Filtered in lab
+boxcreek,2024-10-16,2024-10-16T16:15:00Z,NORM,09:13,1000,NA,NA,NA,Flows lower and clarity and algae about the same. Filtered in lab
+archery,2024-10-16,2024-10-16T16:30:00Z,NORM,09:28,1000,NA,NA,NA,Flows much higher from horsetooth release. Water a bit greener with some woody litter in stream.  Filtered in lab
+SFM,2024-10-18,2024-10-18T16:45:00Z,NORM,09:45,NA,NA,NA,NA,Lower flows and clear water. Some benthic productivity but minimal
+PENN,2024-10-18,2024-10-18T17:30:00Z,NORM,10:31,1000,NA,NA,NA,Sunny with storm coming. Grabbed sample after cleaning sonde. Filtered in lab.
+COMI,2024-10-18,2024-10-18T19:00:00Z,NORM,11:59,1000,NA,NA,NA,"Cloudy, pre storm. Flows lower with lots of leaf litter. Filtered in field"
+COMR,2024-10-18,2024-10-18T19:30:00Z,NORM,12:29,750,NA,NA,NA,"Water quite turbid. Reservoir levels. Lowest of season. Cloudy, pre-storm. Filtered in lab"
+COMO,2024-10-18,2024-10-18T19:45:00Z,NORM,12:51,750,NA,NA,NA,Still lots of benthic algae and quite green. Water a bit turbid but flows very low. Cloudy. Filtered in lab
+HORI,2024-10-18,2024-10-18T19:45:00Z,NORM,12:41,1000,NA,NA,NA,Flows slightly lower than last visit. Very clear water with no benthic algae visible. Filtered in lab
+HORO,2024-10-18,2024-10-18T20:15:00Z,NORM,13:22,750,NA,NA,NA,Fair amount of benthic algae and suspended sediment. Flows low. Filtered in lab
+HORR,2024-10-18,2024-10-18T20:15:00Z,NORM,13:08,650,NA,NA,NA,Water a bit murky/turbid. Reservoir levels lowest of season. Cloudy with storm moving in. Filtered in the lab
+BEAV,2024-10-18,2024-10-18T20:45:00Z,NORM,13:48,1000,NA,NA,NA,Water less turbid and flows a bit lower. More moss like algae.  Just before storm is beginning. Filtered in lab
+BEAV,2024-10-18,2024-10-18T20:45:00Z,DUPLICATE,13:48,1000,NA,NA,NA,Water less turbid and flows a bit lower. More moss like algae.  Just before storm is beginning. Filtered in lab
+CBRI,2024-10-23,2024-10-23T15:30:00Z,NORM,08:28,1000,NA,NA,NA,"Pulled sonde for the season as releases have ended and cold weather is settling in. Sonde data looked good following ending of release. Sampled and measured discharge. Some snow at site but minimal, no ice yet. Filtered in field."
+CHD,2024-10-23,2024-10-23T16:45:00Z,NORM,09:41,1000,NA,NA,NA,"Pulled sonde for season due to incoming cold weather. Flows dropped significantly post release but all sensors were still submerged (barely). Values seemed normal for these flows. Still lots of benthic algae, filtered in field."
+PBR,2024-10-23,2024-10-23T18:15:00Z,NORM,11:10,1000,NA,NA,NA,"Sunny, lower flows. Benthic algae quite productive and green. Filtered in the field"
+SFM,2024-10-23,2024-10-23T19:15:00Z,NORM,12:17,1000,NA,NA,NA,"Sunny, some benthic algae, water generally clear. Filtered in field. Flows about the same as last sampling."
+PMAN,2024-10-23,2024-10-23T20:15:00Z,NORM,13:19,1000,NA,NA,NA,"Lower flows, sunny warm day. Water has slight green tint to it. Filtered in field"
+PBD,2024-10-23,2024-10-23T20:45:00Z,NORM,13:49,1000,NA,NA,NA,"Sunny day, mostly clear water. Some pockets of active benthic algae growth but most is brown. Filtered in the field"
+PBD,2024-11-01,2024-11-01T14:00:00Z,NORM,07:02,1000,NA,97.43,2.5,"Early morning, quite cold but sunny. Little to no benthic algae. Filtered in field"
+lincoln,2024-11-01,2024-11-01T14:45:00Z,NORM,07:48,1000,NA,256.5,7.5,"Early morning, sunny. Water level a bit higher than normal. Filtered in the field"
+springcreek,2024-11-01,2024-11-01T15:30:00Z,NORM,08:28,750,NA,913.9,7.3,Water slightly clearer and less bubbly. Cond still quite high. Sunny morning. Filtered in lab
+boxcreek,2024-11-01,2024-11-01T16:15:00Z,NORM,09:10,1000,NA,2107,8.3,"Sunny, lightly turbid water most of fine particles. Filtered in lab"
+boxelder,2024-11-01,2024-11-01T16:15:00Z,NORM,09:22,1000,NA,502,7.3,Sunny morning. Site not yet in the sun. Water level relatively high and slightly turbid. Some leaf litter stuck on housing. Filtered in field
+archery,2024-11-01,2024-11-01T16:30:00Z,NORM,09:35,1000,NA,697.6,7.6,Beaver dam getting a bit bigger. Flows much lower and water clearer. Filtered in lab. Sunny.
+riverbluffs,2024-11-01,2024-11-01T18:15:00Z,NORM,11:15,1000,NA,1283,6.9,"Much saltier than previous visit, not too much algae at site though. More leaf litter at site/banks. Filtered in field"
+PBD,2024-11-11,2024-11-11T16:00:00Z,NORM,08:58,1000,NA,90.32,2.5,"Early morning, in shade but clear day. Snow a few days ago but none at site. Filtered in field"
+lincoln,2024-11-11,2024-11-11T16:30:00Z,NORM,09:35,1000,NA,275.4,5.5,"Sunny. Snowed a few days ago, none at site and souls seem mostly dry. Flows relatively high from some reservoir release. Filtered in field."
+springcreek,2024-11-11,2024-11-11T17:15:00Z,NORM,10:14,500,NA,579.9,5.7,Flows higher post rain/snow. Sunny day. Lots of bubbles in the water and conductivity is much lower (550 vs 1000). Filtered in lab
+boxcreek,2024-11-11,2024-11-11T17:45:00Z,NORM,10:45,1000,NA,2090,10.2,"Sunny, post snow. Removed some algae stuck on housing. Water quite clear but seems like lots of fine sediment. Filtered in lab"
+archery,2024-11-11,2024-11-11T18:30:00Z,NORM,11:26,1000,NA,1227,8.4,Water is much clearer with flows about the same. Sunny day. Filtered in the field.
+boxelder,2024-11-11,2024-11-11T18:45:00Z,NORM,11:47,1000,NA,972,7.8,Bubbly water with some suspended litter. Not too turbid of water but still some benthic algae visible on rocks and housing. Filtered in field
+boxelder,2024-11-11,2024-11-11T18:45:00Z,DUPLICATE,11:47,1000,NA,972,7.8,Bubbly water with some suspended litter. Not too turbid of water but still some benthic algae visible on rocks and housing. Filtered in field
+riverbluffs,2024-11-11,2024-11-11T20:00:00Z,NORM,12:55,1000,NA,1153,7.3,Flows lower than previous sampling. Water relatively clear but still lots of benthic algae. Filtered in lab
+PENN,2024-11-13,2024-11-13T15:30:00Z,NORM,08:31,1000,NA,38.23,0.1,Final sampling for the season. Channel not completely frozen but lots of snow/ice on the banks. Filtered in field
+SFM,2024-11-13,2024-11-13T16:45:00Z,NORM,09:44,1000,NA,58.8,0.4,"Hold on for season. Ice getting high on banks, made a difficult sound out. Stage measurement not accurate due to ice fall values on sun looks good, although temperature was negative likely due to ice formation. Chlorophyll was relatively high for the stream this time of year, may be interference due to ice forming on rocks affecting sensor.Stored cable in plastic bag with cap and two layers of electrical tape. Filtered in the field."
+PBD,2024-11-13,2024-11-13T18:30:00Z,NORM,11:36,1000,NA,91.67,3.8,Pulled sonde for season and sampled for last time. Sunny day. Log  values looked great before pulling the sonde and sonde itself was not too dirty. Filtered sample and blank in field.
+PBD,2024-11-13,2024-11-13T18:30:00Z,BLANK,11:36,1000,NA,91.67,3.8,Pulled sonde for season and sampled for last time. Sunny day. Log  values looked great before pulling the sonde and sonde itself was not too dirty. Filtered sample and blank in field.
+udall,2025-04-15,2025-04-15T17:15:00Z,NORM,10:11,1000,NA,NA,NA,Warm and sunny day. Sonde in low flow housing. Filtered in lab
+springcreek,2025-04-15,2025-04-15T17:30:00Z,NORM,10:33,500,NA,NA,NA,Strong green tint to water and medium turbidity. Sunny and warm. Medium flows. Filtered in lab
+boxcreek,2025-04-15,2025-04-15T18:30:00Z,NORM,11:24,1000,NA,NA,NA,Sampled at discharge gage. Flows lower than normal and turbidity about normal. Lots of benthic algae in stream and detaching. Filtered in lab
+elc,2025-04-15,2025-04-15T19:00:00Z,NORM,12:00,1000,NA,NA,NA,Lots of algae at site and on housing. Water level very low and slow. Sampled with swing sampler and filtered in lab
+archery,2025-04-15,2025-04-15T19:15:00Z,NORM,12:15,1000,NA,NA,NA,Flows very low and slow. Lots of large algae floating on the surface. Warm and sunny. Filtered in lab
+riverbluffs,2025-04-15,2025-04-15T20:00:00Z,NORM,13:00,1000,NA,NA,NA,Water relatively clear with decent flow. Slight greenness to water but lower then usually. Filtered in lab
+PFAL,2025-04-24,2025-04-24T16:30:00Z,NORM,09:32,1000,NA,NA,NA,Sunny but forecasted storm later. Flows higher and has slight tint to it. Little suspended sediment. Filtered in lab
+PBR,2025-04-24,2025-04-24T17:45:00Z,NORM,10:45,1000,NA,NA,NA,Flows higher and more turbid. Sunny with storm forecasted. Filtered in lab
+SFM,2025-04-24,2025-04-24T18:15:00Z,NORM,11:15,1000,NA,NA,NA,Flows higher but water not very turbid. Cloudy weather. Filtered in lab. Stage plate at 39 cm
+PMAN,2025-04-24,2025-04-24T19:30:00Z,NORM,12:30,1000,NA,NA,NA,Water a bit more turbid with slight brown color. Little large suspended sediment. Sunny. Filtered in lab
+PBD,2025-04-24,2025-04-24T20:00:00Z,NORM,13:00,1000,NA,NA,NA,Flows about the same as last site visit and water less turbid but has brown color to it. Sunny. Filtered in lab.
+PBD,2025-04-24,2025-04-24T20:00:00Z,DUPLICATE,13:00,1000,NA,NA,NA,Flows about the same as last site visit and water less turbid but has brown color to it. Sunny. Filtered in lab.
+SFM,2025-05-01,2025-05-01T14:30:00Z,NORM,07:30,1000,9.64,46.32,4.7,Sunny. Rain last night. Flows higher and water more turbid. Filtered in lab
+SFM,2025-05-01,2025-05-01T14:30:00Z,DUPLICATE,07:30,1000,9.64,46.32,4.7,Sunny. Rain last night. Flows higher and water more turbid. Filtered in lab
+PBR,2025-05-01,2025-05-01T15:45:00Z,NORM,08:45,1000,10.17,52.48,4.4,Flows higher but not much more turbid. Rain last night. Filtered in lab
+PFAL,2025-05-01,2025-05-01T17:00:00Z,NORM,10:07,1000,10.29,45.64,2.7,"Sunny, storm last night. Filtered in lab"
+CHD,2025-05-01,2025-05-01T18:45:00Z,NORM,11:47,1000,9.59,64.37,2.4,Reservoir releasing some flow but little to no active benthic algae. Filtered in lab
+CBRI,2025-05-01,2025-05-01T19:30:00Z,NORM,12:36,1000,9.76,76.21,2.3,Post snow. Filtered in lab
+PMAN,2025-05-01,2025-05-01T21:00:00Z,NORM,14:00,1000,9.69,53.78,8.5,Flows much higher and a bit more turbid but not much large suspended sediment. Rain yesterday and areas today. Filtered in lab
+PBD,2025-05-01,2025-05-01T21:30:00Z,NORM,14:23,1000,9.67,59.36,9.8,Flows about the same (pleasent valley canal running) not too turbid. Cloudy. Filtered in lan
+PBD,2025-05-08,2025-05-08T14:00:00Z,NORM,07:00,1000,9.98,58.06,7.2,"Post rain, flows higher and much more turbid. Sunny. Filtered in lab"
+PMAN,2025-05-08,2025-05-08T14:30:00Z,NORM,07:30,1000,10.2,56.77,6.7,Flows higher and water more turbid but slightly less than pbd. Post rain. Filtered in lab
+PBR,2025-05-08,2025-05-08T15:15:00Z,NORM,08:21,1000,10.31,51.85,4.4,Flows up and Turbidity about the same. Hotshot crew in parking lot for some reason. Checked sonde values but did not clean yet. Filtered in lab
+PFAL,2025-05-08,2025-05-08T16:00:00Z,NORM,08:59,1000,10.44,45.46,2.5,Flows about the same. Sunny. Lot very turbid. Filtered in field
+CHD,2025-05-08,2025-05-08T17:00:00Z,NORM,10:06,1000,9.54,56.38,3.2,Sunny. Sampled at site as snow has melted some.  Lower flows and not much algae or turbidity. Filtered in the field.
+riverbluffs,2025-05-08,2025-05-08T17:30:00Z,NORM,10:30,1000,NA,NA,NA,"Clear skies, warm, medium-low turbidity. Will filter in lab"
+CBRI,2025-05-08,2025-05-08T17:45:00Z,NORM,10:45,1000,9.64,68.77,3,Flows still lower and water quite clear. Storm rolling in? Filtered in field. Checked sonde values before sampling.
+boxcreek,2025-05-08,2025-05-08T18:00:00Z,NORM,11:00,1000,NA,NA,NA,"Clear skies, warm, low turbidity. Lots of algal growth. Filtered in lab"
+boxcreek,2025-05-08,2025-05-08T18:00:00Z,NORM,11:00,1000,NA,NA,NA,"Clear skies, warm, low turbidity, immense algal buildup. Cleared housing of algae. Will filter in lab."
+elc,2025-05-08,2025-05-08T18:15:00Z,NORM,11:14,750,NA,NA,NA,"Clear skies, warm, high turbidity. 
+Will filter in lab."
+archery,2025-05-08,2025-05-08T18:30:00Z,NORM,11:27,750,NA,NA,NA,"Clear skies, warm, high turbidity. Will filter in lab."
+SFM,2025-05-08,2025-05-08T19:15:00Z,NORM,12:15,1000,8.82,48.39,8.7,Some rain but sampled before effects. Flows higher but turbidity about the same. New stage plate installed( measurement taken on it). Filtered in lab
+springcreek,2025-05-09,2025-05-09T16:30:00Z,NORM,09:35,350,7.29,374.4,15.7,"Flows are kind of low, so probe wasn’t vertical. It was more sideways."
+udall,2025-05-09,2025-05-09T17:00:00Z,NORM,10:00,950,9.79,462,15.6,"Low flows, pretty clear water"
+PBD,2025-05-15,2025-05-15T13:45:00Z,NORM,06:49,1000,NA,NA,NA,"Sonde was completely caked in sediment and had high chla, high turbidity and low FDOM.  Cleaned up nicely.  Swapped sensors and calibrated FDOM. SC dropped slightly. pH was reading low, topped off the junction fluid and values went up a bit, may just take a while to stabilize. Started logs and test uploaded. Flows are much higher with lots of suspended sediment."
+PMAN,2025-05-15,2025-05-15T14:45:00Z,NORM,07:50,1000,10.37,46.06,5.4,Flows way up. Turbidity about the same but more large sediment. Filtered In field.
+SFM,2025-05-15,2025-05-15T15:45:00Z,NORM,08:51,750,9.58,36.03,4.3,"Flows much higher, turbidity a bit higher but not by much. Sonde was not very dirty but still removed cap for the next month. Values agreed well post Cal other than pH but perhaps it just needs time to adjust? Filtered in field"
+PBR,2025-05-15,2025-05-15T17:00:00Z,NORM,10:01,1000,10.09,45.21,4.7,"High flows, turbidity about the same, water has amber tint. Filtered in field"
+PFAL,2025-05-15,2025-05-15T17:30:00Z,NORM,10:30,1000,10.32,40.06,2.7,"Cloudy, slightly snowy, medium turbidity, cold. Will filter in lab."
+PFAL,2025-05-15,2025-05-15T17:30:00Z,NORM,10:30,1000,10.32,40.06,2.9,"Cloudy, cool, windy, medium turbidity. Filtered in lab"
+CHD,2025-05-15,2025-05-15T18:30:00Z,NORM,11:26,950,9.36,54.08,2.8,"Cloudy, little bit of snow, cool, medium-low turbidity. Will filter in lab."
+CBRI,2025-05-15,2025-05-15T19:00:00Z,NORM,11:53,NA,9.53,63.3,2.8,"Cloudy, little bit of snow, cool, medium-low turb. Will filter in lab"
+udall,2025-05-20,2025-05-20T14:45:00Z,NORM,07:40,1000,9.46,143.1,9.7,"Visited site for water sampling. Clear, sunny conditions with some wind. Low flow at site, water clarity is high. Filtered chlorophyll-a in the lab."
+springcreek,2025-05-20,2025-05-20T15:15:00Z,NORM,08:16,750,8.57,320,11.8,"Sunny, windy. Flows much higher and Turbidity about normal for site. Removed debris from sensor housing. Filtered for chla in lab"
+elc,2025-05-20,2025-05-20T15:45:00Z,NORM,08:47,1000,8.87,419.5,12.2,"Sunny, flows a bit higher than yesterday. Water a bit turbid with small particulates. Filtered for chla in lab"
+elc,2025-05-20,2025-05-20T15:45:00Z,DUPLICATE,08:47,1000,8.87,419.5,12.2,"Sunny, flows a bit higher than yesterday. Water a bit turbid with small particulates. Filtered for chla in lab"
+boxcreek,2025-05-20,2025-05-20T16:00:00Z,NORM,09:05,1000,11.26,1861,11.1,"Water sampling site visit. Clear, sunny day with some wind. High algae content in water, low turbidity and high clarity. Filtered for chlorophyll-a in the lab."
+archery,2025-05-20,2025-05-20T16:30:00Z,NORM,09:25,1000,8.52,603.6,12.5,"Sunny, higher flows than yesterday and decent turbidity. Filtered Chla in lab"
+riverbluffs,2025-05-20,2025-05-20T17:00:00Z,NORM,10:03,1000,8.31,968,15.9,"Water sampling visit. Mostly sunny and clear, few clouds and breezy. Pretty clear water, lower flow. Filtered chlorophyll-a in the lab."
+JOEI,2025-05-22,2025-05-22T15:15:00Z,NORM,08:16,1000,9.63,74.69,1.9,Deployed donde at site for the season. Snow was melted around housing and were able to deploy easily. Need to replace the carabiner in the housing cap. All values looked normal for the site. Flows lower than I would expect but there was a storm yesterday so melt may have been delayed. Water very clear and no benthic algae at the site. Filtered in the field.
+CBRI,2025-05-22,2025-05-22T16:15:00Z,NORM,09:12,1000,9.72,67.91,2.6,"Site sampling, sunny, cool and breezy. Water has high clarity, lower flow than normal. No algae present. Filtered in field"
+CHD,2025-05-22,2025-05-22T16:30:00Z,NORM,09:37,1000,9.34,59.22,4.6,"Sunny, higher flows with a bit more benthic algae. Not too turbid but slight green tint to cloudiness. Filtered in field."
+PFAL,2025-05-22,2025-05-22T17:15:00Z,NORM,10:20,950,9.88,43.15,4.1,"Water sampling site visit. Partly cloudy, warm. Regular flow, pretty clear water."
+PBR,2025-05-22,2025-05-22T18:15:00Z,NORM,11:14,1000,9.5,49.14,8,"Site visit to collect water samples and check the pH sensor. Clear, sunny day with few clouds, slight wind. Water level is normal with high clarity. One of the lower securing metal bands was broken so we secured it. The housing was moving/bouncing slightly due to this. Plan to bring a new sensor to change next week."
+SFM,2025-05-22,2025-05-22T20:15:00Z,NORM,13:19,1000,8.4,39.07,10.9,Before storm. Decent amount of benthic algae growing on rock and sonde housing. Low turbidity and normal flows. Filtered in lab
+PMAN,2025-05-22,2025-05-22T21:30:00Z,NORM,14:23,1000,8.99,51.49,11.9,Flows have come down significantly since last week and water is much clearer. Before rain. Filtered in lab
+PBD,2025-05-22,2025-05-22T21:45:00Z,NORM,14:44,950,8.69,54.32,13.4,Flows lower and very clear. Sunny. Filtered in lab
+PBD,2025-05-29,2025-05-29T13:45:00Z,NORM,06:48,750,9.61,44.66,8.7,"Overcast, cool, misty morning, Rainfall last night. Higher flows than last week and lower water clarity. Filtered chlorophyll-a in the lab."
+PMAN,2025-05-29,2025-05-29T14:15:00Z,NORM,07:22,750,9.83,41.77,8.1,"Overcast, cool, cloudy and misty conditions. Higher flows than last week with lower clarity. Filtered chlorophyll-a in the lab."
+SFM,2025-05-29,2025-05-29T15:30:00Z,NORM,08:32,1000,9.51,34.81,5.5,"Mostly cloudy and cool, rainfall last night. Sampled water below bridge. High flow and still fairly clear water. Filtered chlorophyll in the lab."
+PBR,2025-05-29,2025-05-29T16:45:00Z,NORM,09:41,1000,9.79,37.71,5.9,"Cloudy, active rainfall during sampling, cool temperature. Higher flows than last week with lower clarity. Filtered chlorophyll in the lab."
+PFAL,2025-05-29,2025-05-29T17:30:00Z,NORM,10:26,1000,9.98,34.07,4.7,Flows way higher. Water not much more turbid. In between light rain and sun. Filtered in lab
+PFAL,2025-05-29,2025-05-29T17:30:00Z,DUPLICATE,10:26,1000,9.98,34.07,4.7,Flows way higher. Water not much more turbid. In between light rain and sun. Filtered in lab
+CHD,2025-05-29,2025-05-29T18:00:00Z,NORM,10:55,1000,8.98,53.67,6.4,Flows higher due to release. Water still quite clear and not too much benthic algae growing. Filtered in lab
+CBRI,2025-05-29,2025-05-29T19:00:00Z,NORM,12:02,950,9.26,54.23,4.4,Flows much higher and more turbid. Sunny. Filtered in lab
+JOEI,2025-05-29,2025-05-29T19:45:00Z,NORM,12:46,1000,9.15,52.78,4,Cloudy weather with rain likely. Flows much higher and less snow at site. Filtered in lab.
+riverbend,2025-05-30,2025-05-30T17:00:00Z,TOC_CHLA_TURB,09:55,1000,NA,NA,NA,"Higher flows, sunny. Filtered in lab. TOC/Chla/turb only!!"
+riverbluffs,2025-05-30,2025-05-30T18:00:00Z,TOC_CHLA_TURB,11:00,750,NA,NA,NA,"Sunny. High flows, high ish turb. Filtered in lab"
+udall,2025-05-30,2025-05-30T19:00:00Z,TOC_CHLA_TURB,12:00,1000,NA,NA,NA,"Sunny, higher flows, low turb. Some suspended leaf litter. Filtered in lab"
+PBD,2025-06-02,2025-06-02T17:00:00Z,TOC_CHLA_TURB,10:00,1000,NA,NA,NA,"Sunny, high flows. Decent amount of suspended sediment. Filtered in lab"
+archery,2025-06-02,2025-06-02T19:15:00Z,TOC_CHLA_TURB,12:10,1000,NA,NA,NA,Flows much higher with suspended material being recirculated. Filtered in lab
+JOEI,2025-06-05,2025-06-05T15:15:00Z,TOC_CHLA_TURB,08:08,1000,9.48,47.6,2.4,"Mostly cloudy, spotty sun and cool. Possible rain overnight. High water flow, colder water temperature, and still high clarity. Filtered chlorA in the lab."
+CBRI,2025-06-05,2025-06-05T15:45:00Z,TOC_CHLA_TURB,08:42,1000,9.38,49.55,3.6,"Partly cloudy, increasing sun. Possible rain overnight, and cool. High water flows, ~72cfs and high water clarity. Filtered chlorA in the lab. PVC housing looks good and unobstructed."
+CHD,2025-06-05,2025-06-05T16:15:00Z,NORM,09:20,750,8.96,46.94,6.7,"Partly cloudy and cool, overnight rain. High flows out of reservoir but water has high clarity and typical EC and RDO. Filtered chlorA in the lab. The pvc sensor housing is clear and free. 
+
+Slight mishap in the lab with the filter tower and wasn’t able to capture 1000 mL."
+PFAL,2025-06-05,2025-06-05T17:15:00Z,NORM,10:13,1000,9.78,35.67,5.8,"Mostly cloudy, cool, and breezy. Overnight rain likely. Water is flowing pretty high, lower EC than upper sites, high water clarity. PVC sensor housing is clear. Filtered chlorA in the lab."
+PBR,2025-06-05,2025-06-05T18:00:00Z,NORM,10:54,1000,9.32,37.34,7.9,"Mostly sunny, a little breeze. Rain overnight and heavy short rain 10 minutes before sampling. High flows, high clarity, and lower EC than upper sites. Removed a few branches/sticks from sensor housing. Housing is still attached strongly to rocks and anchors. Filtered chlorA in the lab."
+SFM,2025-06-05,2025-06-05T18:45:00Z,NORM,11:44,1000,8.83,30.28,8.5,"Mostly sunny with a few clouds and breezy. High water flow, ~72cfs, with pretty high clarity. The pvc sonde housing is sound and unobstructed. Filtered chlorA in the lab."
+PMAN,2025-06-05,2025-06-05T20:15:00Z,NORM,13:10,1000,9.13,38.61,11.5,"Mostly cloudy, breezy, cool. High river flow and water is mostly clear. Filtered chlorA in the lab."
+PBD,2025-06-05,2025-06-05T20:45:00Z,NORM,13:52,1000,8.99,39.65,12.1,"Overcast, rain clouds moving through, cool and breezy. High flows, EC is lower than JOEI, without sunlight, clarity is low. Filtered chlorA in the lab."
+elc,2025-06-06,2025-06-06T19:45:00Z,TOC_CHLA_TURB,12:45,1000,NA,NA,NA,High flows but not too turbid. Filtered in lab. Sunny
+PBD,2025-06-12,2025-06-12T14:00:00Z,NORM,07:03,1000,9.05,38.17,11.5,"Water sampling visit. Partly cloudy and warm, mosquito season has arrived. River is flowing high and quickly with low clarity, sediment visible in the water. Filtered chlorA in the lab. Snake skin/skeleton by the sampling spot, be aware."
+PMAN,2025-06-12,2025-06-12T14:30:00Z,NORM,07:28,1000,9.26,36.68,10.8,"Warm and sunny morning,  few clouds, cooler at the river and buggy. Water level is high, quick flows, and pretty brown. Clarity is lower than last week and you can see sediment in the water. Took a duplicate at this location today. Filtered chlorA in the lab."
+PMAN,2025-06-12,2025-06-12T14:30:00Z,DUPLICATE,07:28,1000,9.26,36.68,10.8,"Warm and sunny morning,  few clouds, cooler at the river and buggy. Water level is high, quick flows, and pretty brown. Clarity is lower than last week and you can see sediment in the water. Took a duplicate at this location today. Filtered chlorA in the lab."
+SFM,2025-06-12,2025-06-12T16:00:00Z,NORM,08:57,950,8.81,27.08,8.7,"Sunny and warm for water sampling. Slight breeze, high flows at ~80-82 cfs. Water is still pretty clear. Filtered chlorA onsite."
+PBR,2025-06-12,2025-06-12T17:00:00Z,NORM,10:03,950,9.21,36.19,8.8,"Sunny and warm with slight breeze for water sampling visit. Water is moving quickly, higher level than last week though still pretty clear. Filtered sample at site. The pvc housing may have become disconnected at the lower anchor like we saw a couple weeks ago. It was moving and flexing with the river. I didn’t have tools or waders to fix and discover more."
+PFAL,2025-06-12,2025-06-12T18:15:00Z,NORM,11:08,1000,9.19,34.5,8.4,"Sunny, increasing clouds, slightly breezy, warm. High flows and slightly brown tinged water. Mostly clear, but sunlight glare and high flows so hard to see through the water. Filtered chlorA on site. The transmitter cable was exposed at one short section on the bridge near the transmitter. Taped for now."
+CHD,2025-06-12,2025-06-12T19:00:00Z,NORM,11:58,1000,8.79,43.54,7.8,"Partly cloudy, rain forming, warm and buggy. Water level js high, somewhat brown but still quite clear. Filtered chlorA onsite."
+CBRI,2025-06-12,2025-06-12T19:45:00Z,TOC_CHLA_TURB,12:41,1000,8.95,48.16,5.7,"Overcast, cooler with clouds, started to sprinkle last few minutes I was there. Water is flowing high, ~82-85 cds but still good clarity. Higher EC than lower downstream. Filtered chlorA onsite."
+JOEI,2025-06-12,2025-06-12T20:00:00Z,TOC_CHLA_TURB,13:01,1000,8.87,39.97,5,"Rain clouds moved in, cooler, a little breezy. Water level is high with high clarity, EC is just below 40. Filtered chlorA onsite."
+boxcreek,2025-06-13,2025-06-13T16:00:00Z,TOC_CHLA_TURB,09:02,1000,9.4,1807,14,Sampled while on site for cleaning. Filtered in lab. Flows decently high and a bit turbid.
+archery,2025-06-13,2025-06-13T17:30:00Z,TOC_CHLA_TURB,10:36,NA,NA,NA,NA,Sampled upstream of bridge due to upwelling DS of the bridge. Filtered in lab. Sunny and lots of suspended sediment.
+salyer,2025-06-13,2025-06-13T19:15:00Z,TOC_CHLA_TURB,12:20,1000,NA,NA,NA,Not too turbid. Pre light rain. Filtered in field.
+cottonwood,2025-06-16,2025-06-16T14:45:00Z,TOC_CHLA_TURB,07:51,1000,8.72,113.6,13.5,"Sunny and warm day, little to no breeze. Updated the software for the vulink and AQ. Took water samples just below the sonde housing in the river. Cleaned sonde sensors and turbidity seemed to go back to a reasonable level. Lots of spiders in the housing, the sonde itself was dirty, but cleaned easily. Battery levels are getting low but I think should last for 2 weeks. Downloaded logs and started new ones. Test upload successful."
+riverbluffs,2025-06-16,2025-06-16T16:45:00Z,TOC_CHLA_TURB,09:45,1000,8.16,511.8,17.7,"Sunny and warm day with little breeze. Updated vulink and troll. Toon chlorA and total OC water samples while updating. Cleaned sonde when updates complete. Ants were in the housing lid, and the sonde was quite dirty. Easily cleaned with water. Cleaning improved the readings. Redeployed, downloaded logs, and started new ones. Test upload successful."
+PBD,2025-06-18,2025-06-18T13:45:00Z,NORM,06:43,1000,9.28,41.31,10.6,"Clear skies, sunny, and cool without breeze. Heavy rain yesterday and the flow is high, with low clarity. Sampled water, will update sonde next week with calibrations."
+PMAN,2025-06-18,2025-06-18T14:00:00Z,NORM,07:03,1000,9.44,40.42,10,"Clear skies, sun hadn’t gotten over the canyon walls yet, and cool. Heavy rain event yesterday and flows are high still but river is quite clear here. Sampling was quick. Filtered chlorA in the field."
+SFM,2025-06-18,2025-06-18T15:00:00Z,NORM,08:04,950,9.26,28.1,6.7,"Sunny, clear day with little breeze. Heavy rain yesterday and flows are still high, ~78cfs. Water clarity is high too. Filtered chlorA on site."
+PBR,2025-06-18,2025-06-18T16:30:00Z,NORM,09:29,1000,9.3,38.13,8.7,"Sunny, rain yesterday. Water about the same level as Friday and not very turbid. Filtered at CHD later on."
+PFAL,2025-06-18,2025-06-18T17:30:00Z,NORM,10:30,1000,9.43,36.73,7.7,"Sunny, lower flows than last week but still very high. Not much Turbidity. Filtered on site."
+CHD,2025-06-18,2025-06-18T18:15:00Z,NORM,11:13,1000,8.69,42.07,8.6,"Sunny and clear with little breeze. High flows still from reservoir, water is pretty clear though. Sampled water and filter chlorA on site."
+JOEI,2025-06-18,2025-06-18T20:30:00Z,TOC_CHLA_TURB,13:35,1000,8.03,43.05,9.9,"Sunny, clear, breezy and warm day at JOEI. Sampled water and filtered chlorA in the field."
+CBRI,2025-06-18,2025-06-18T21:45:00Z,TOC_CHLA_TURB,14:50,1000,8.71,48.93,7.5,Flows high but generally decreasing. Water not very turbid. Filtered in lab
+salyer,2025-06-24,2025-06-24T16:30:00Z,TOC_CHLA_TURB,09:28,1000,8.69,59.07,15.2,"Overcast but warm, no breeze. River flows are still good and the clarity is high, low turbidity. Downloaded logs, swapped sensores and calibrated FDOM. Redeployed, restarted logs. Sampled water, filtered in the lab, and grabbed the camera."
+udall,2025-06-24,2025-06-24T18:15:00Z,TOC_CHLA_TURB,11:08,1000,8.59,63.14,15.6,"Overcast and warm, n o breeze. Updated vulink and troll. Troll said failed, but when I checked, all firmware was up to date. Went ahead with calibrations and cleaning. Changed troll batteries, still reading low. Downloaded logs, started new ones. Took water samples. Filtered chlorA in the lab. Test upload success."
+riverbend,2025-06-24,2025-06-24T20:00:00Z,TOC_CHLA_TURB,13:05,1000,8.49,119.5,16.4,"Overcast, a little breeze and warm. Collected water samples, filtered in the lab. Cleaned sensors, swapped batteries in vulink. Changed old sensors for calibrated ones. Did FDOM calibration, redeployed sonde. Started new logs. Test upload failed due to antenna breaking."
+springcreek,2025-06-25,2025-06-25T17:30:00Z,TOC_CHLA_TURB,10:30,850,7.96,300.6,18.6,Flows a bit higher and cond lower than usual. Still somewhat turbid. Sunny. Filtered in lab
+cottonwood,2025-06-25,2025-06-25T18:45:00Z,TOC_CHLA_TURB,11:42,1000,8.65,140,17.9,"Sampled upstream of the bridge due to side channel. Sunny, water quite clear. Filtered in lab"
+riverbluffs,2025-06-25,2025-06-25T20:00:00Z,TOC_CHLA_TURB,13:00,1000,8.28,559.2,20.3,Cloudy but lots of benthic algae at site. Filtered in lab.
+elc,2025-06-25,2025-06-25T21:30:00Z,TOC_CHLA_TURB,14:30,1000,8.06,162,19.1,Lower flows than previous sample. Water quite clear and fast moving (not much suspended sediment). Before rain event. Filtered in lab
+JOEI,2025-06-26,2025-06-26T15:30:00Z,TOC_CHLA_TURB,08:34,1000,9.03,49.66,5,"Sunny and cool with a slight breeze. Fish hanging out in the stream, high clarity and flows are coming down. Filtered in the lab."
+CBRI,2025-06-26,2025-06-26T16:00:00Z,TOC_CHLA_TURB,08:55,1000,8.99,48.13,5.6,"Sunny, slight breeze, cool. Water flows are lower, around 66cfs and water is quite clear. Sampled water, filtered for chlorA in the lab. Switched sensors this week, downloaded log and started a new one. The batteries are getting low, ~28%, replace next week perhaps. The sonde kept saying the troll was open, but all readings were fine and I redeployed with calibrated sensors. Data looks good and started a new log."
+CHD,2025-06-26,2025-06-26T17:15:00Z,NORM,10:11,1000,8.48,41.74,9.1,Sunny and clear. Water is clear and moving swiftly. Filtered chlorA in the lab.
+CHD,2025-06-26,2025-06-26T17:15:00Z,DUPLICATE,10:11,1000,8.48,41.74,9.1,Sunny and clear. Water is clear and moving swiftly. Filtered chlorA in the lab.
+PFAL,2025-06-26,2025-06-26T18:00:00Z,NORM,10:55,1000,9.03,37.78,9.3,"Sunny, mostly clear day, few clouds and slight breeze. Road work at pfal bridge continues. Flow is good but decreasing, high clarity and low EC. Filtered chlorA in the lab."
+PBR,2025-06-26,2025-06-26T18:45:00Z,NORM,11:40,1000,8.71,39.95,11.3,"Sunny, warm and clear day. River is flowing well, low EC, low turbidity, high clarity. The sonde housings are barely attached and need some major work. Filtered chlorA in the lab."
+SFM,2025-06-26,2025-06-26T19:45:00Z,NORM,12:52,1000,8.2,26.69,12.1,"Partly cloudy and warm, a little breeze. River is around 66cfs high clarity, and low EC. sampled water and filtered chlorA in the lab."
+PMAN,2025-06-26,2025-06-26T21:00:00Z,NORM,14:06,1000,8.57,40.61,14.7,"Mostly sunny, warm, a few clouds and wind. River seems lower here, but clarity is still pretty high and turbidity seems a little higher too. Collected samples, filtered chlorA in the lab."
+PBD,2025-06-26,2025-06-26T21:30:00Z,NORM,14:34,1000,8.37,42.89,15.5,Sunny and warm day. River is typical here and more turbid with visible sediment. However still pretty clear. Sampled water and filtered chlorA in the lab.
+PBD,2025-07-01,2025-07-01T13:45:00Z,NORM,06:45,1000,8.65,47.48,15.5,"Lower flows, sunny, very clear water and filtered in the lab."
+SFM,2025-07-01,2025-07-01T14:45:00Z,NORM,07:51,1000,8.77,27.7,9.3,"Took water samples and filtered chlorA onsite. Sunny, warm, and typical flows with a little green tinge to the water but still quite clear. SC and DO are normal."
+PBR,2025-07-01,2025-07-01T15:45:00Z,NORM,08:51,1000,8.64,42.77,12.1,"Sampled water and filtered chlorA onsite. Water is clear and still flowing well but is decreasing. Sunny, warm and a little breezy."
+PFAL,2025-07-01,2025-07-01T17:00:00Z,NORM,10:02,1000,8.79,39.26,10.8,Flows much lower and water still quite clear. Sunny. Filtered in field
+CHD,2025-07-01,2025-07-01T18:15:00Z,NORM,11:10,1000,8.38,41.79,10.3,"Sunny, high flows, not much Turbidity. Filtered in field"
+CBRI,2025-07-01,2025-07-01T18:45:00Z,TOC_CHLA_TURB,11:42,1000,8.55,48.55,8.8,"Sampled water and filtered chlorA in the field. Clouds are moving in, no breeze. Flows are decreasing and are at ~55cfs, high clarity."
+JOEI,2025-07-01,2025-07-01T19:30:00Z,TOC_CHLA_TURB,12:30,1000,7.84,44.66,11.5,"Sunny, flowsuvh lower and water very clear. Greyling fish present in high numbers. Filtered in field."
+PMAN,2025-07-01,2025-07-01T21:45:00Z,NORM,14:45,1000,8.35,42.81,16.2,"Flows lower. Clear water with some floating leaf litter from wind, little suspended sediment."
+PBD,2025-07-10,2025-07-10T13:45:00Z,NORM,06:46,1000,8.13,43.34,17,"Sunny, breezy, and warm day for water sampling. The water is really clear, decent flow still. Filtered chlorA at SFM."
+PBD,2025-07-10,2025-07-10T13:45:00Z,DUPLICATE,06:46,1000,8.13,43.34,17,"Sunny, breezy, and warm day for water sampling. The water is really clear, decent flow still. Filtered chlorA at SFM."
+PMAN,2025-07-10,2025-07-10T14:30:00Z,NORM,07:24,1000,8.14,39.68,16.3,Sunny and warm with a little breeze. High water clarity and decent flow. Sampled water and filtered chlorA at SFM.
+SFM,2025-07-10,2025-07-10T15:45:00Z,NORM,08:49,1000,8.2,25.18,11.6,"Water sampling and sensor cleaning visit. Connection folks were not present. Partly cloudy day, sprinkled at times, windy. Sampled water, no issues. Cleaned the sonde, downloaded the log, redeployed and started the log. Optical readings did improve. The troll was showing low battery, so I replaced with new batteries but it still shows low.  Filtered chlorA onsite."
+PFAL,2025-07-10,2025-07-10T18:00:00Z,NORM,10:55,1000,8.13,36.25,13.1,"Cloudy and warm day. Sampled water and filtered chlorA onsite. Flows are still high, water is clear."
+CHD,2025-07-10,2025-07-10T18:45:00Z,NORM,11:47,1000,7.87,36.98,12.6,"Partly cloudy, warm, slight breeze. Sampled water, sonde looks good. Flows pretty high right now, good clarity. Filtered chlorA in the field and there was a lot of organic matter."
+CBRI,2025-07-10,2025-07-10T19:15:00Z,TOC_CHLA_TURB,12:20,1000,8.48,43.13,8.3,"Sunny, some clouds and slight breeze. Water is at a normal level and quite clear. Sampled water and filtered ChlorA at JoeI."
+JOEI,2025-07-10,2025-07-10T19:45:00Z,TOC_CHLA_TURB,12:43,1000,7.57,42.69,12.5,"Mostly sunny up at this location, some breeze. Warm, low flows and very clear water. Sampled water, filtered on site."
