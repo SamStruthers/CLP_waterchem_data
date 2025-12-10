@@ -12,7 +12,7 @@ The majority of this dataset is water chemistry grab sample data collected in th
 
 ## **Background Information:**
 
-This dataset is an aggregation of all water quality grab samples collected by the Radical Open Science Syndicate (ROSS, ROSSyndicate), combining data from three studies on the Cache la Poudre River: **Cameron Peak Fire Study**, **Lower Poudre Water Quality Network**
+This dataset is an aggregation of all water quality grab samples collected by the Radical Open Science Syndicate (ROSS, ROSSyndicate), combining data from three studies on the Cache la Poudre River: **Cameron Peak Fire Study**, **Lower Poudre Water Quality Network**, and the **Upper Poudre Support System**
 
 ### Cameron Peak Fire Study (2021-2024)
 
