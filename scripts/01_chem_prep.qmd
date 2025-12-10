@@ -35,15 +35,15 @@ source("scripts/00_setup.R")
 
 ```{r raw_data}
 #Change to name of newest file
-newest_raw_file <- "ROSS_20250714.csv"
+newest_raw_file <- "ROSS_20251114.csv"
 
-newest_meas_file <- 'data/raw/ROSS_field_meas_upto_2025-07-14.csv'
+newest_meas_file <- 'ROSS_field_meas_upto_2025-11-14.csv'
 
 ```
 
 ```{r cleaning}
 #read most recent file
-water_chemistry_import <- read_csv(paste0('data/raw/', newest_raw_file), show_col_types = FALSE)%>%
+water_chemistry_import <- read_csv(here("data", "raw", newest_raw_file), show_col_types = FALSE)%>%
 
   #add FCW number to FCW samples (for IDs in reservoir study)
   mutate(FCW_number = case_when(str_detect(LabID, "FCW") ~  as.numeric(gsub('FCW ', '', LabID)),
@@ -67,24 +67,26 @@ water_chemistry_import <- read_csv(paste0('data/raw/', newest_raw_file), show_co
 ```{r meta}
 
 # site_meta: Locations of each site, common name, location characteristics, WQ sensor owner, flow gauge information. Created by Sam Struthers
-site_meta <- read_csv('data/metadata/location_metadata.csv', show_col_types = FALSE) 
+site_meta <- read_csv(here("data","metadata","location_metadata.csv"), show_col_types = FALSE) 
 
 # ROSS field measurements archive: FCW number, Time (mst) and handheld probe values for all FCW samples (2023 prior)
-old_field_meas <- read_csv('data/raw/ROSS_field_meas_archive.csv', show_col_types = FALSE)
+old_field_meas <- read_csv(here("data","raw","ROSS_field_meas_archive.csv"), show_col_types = FALSE)
 
 # more recent ROSS field measurements
-new_field_meas <- read_csv(newest_meas_file, show_col_types = FALSE)%>%
+#created from mWater field notes and imported by the script `scripts/generate_ross_field_meas.R`
+new_field_meas <- read_csv(here("data", "raw", newest_meas_file), show_col_types = FALSE)%>%
   mutate(Date = as.Date(Date, format = "%m/%d/%y"), 
          DT_round = with_tz(DT_round, tzone = "MST"))
 
 #buffer_sbs:Indices based on burn severity directly around the reservoir. Created by Katie Willi
-buffer_sbs <- read_csv('data/metadata/sbs_buffer.csv', show_col_types = FALSE) %>%
+buffer_sbs <- read_csv(here("data","metadata","sbs_buffer.csv"), show_col_types = FALSE) %>%
   mutate(Buffer_Level=((Unburned*0)+(V_Low*0.1)+(Low*0.4)+(Moderate*0.7)+(High*1))/(Unburned+V_Low+Low+Moderate+High))
 # watershed_sbs: within each reservoirs watershed.Created by Katie Willi
-watershed_sbs <- read_csv('data/metadata/sbs_watershed.csv', show_col_types = FALSE) %>%
+watershed_sbs <- read_csv(here("data","metadata","sbs_watershed.csv"), show_col_types = FALSE) %>%
   mutate(Watershed_Level=((Unburned*0)+(V_Low*0.1)+(Low*0.4)+(Moderate*0.7)+(High*1))/(Unburned+V_Low+Low+Moderate+High))
-#dist_from_pbd: distance (for upper sites) from PBD (mouth of canyon) using NHD flowline. Created by Katie Willi
-dist_from_pbd <- read_csv('data/metadata/distance_from_pbd.csv', show_col_types = FALSE)
+#dist_from_pbd: distance (for upper sites) from PBD (mouth of canyon) using NHD flowline. 
+#Created by Katie Willi using `scripts/distance_finder.R`
+dist_from_pbd <- read_csv(here("data","metadata","distance_from_pbd.csv"), show_col_types = FALSE)
 
 ```
 
@@ -177,14 +179,12 @@ rm(water_chemistry_joined)
 up_to_date <- format(max(water_chemistry_tidy$Date), "%Y%m%d")
 #write dataset to csv
 
-file_name <- paste0("data/cleaned/CLP_chemistry_up_to_", up_to_date)
+file_name <- here("data","cleaned", paste0("CLP_chemistry_up_to_", up_to_date))
 
 write_csv_arrow(select(water_chemistry_tidy, -DT_mst),paste0(file_name, ".csv") )
 
 # Write to RDS file as well
 write_rds(x = water_chemistry_tidy, file = paste0(file_name, ".rds"))
-
-
 
 ```
 
@@ -193,9 +193,9 @@ write_rds(x = water_chemistry_tidy, file = paste0(file_name, ".rds"))
 ```{r}
 #Move old file to clean_archive
 
-old_files <- grep(list.files(path="data/cleaned", full.names = T), pattern=file_name, value = TRUE, invert = TRUE)
+old_files <- grep(list.files(path=here("data","cleaned"), full.names = T), pattern=file_name, value = TRUE, invert = TRUE)
 # copy to clean_archive
-file.copy(from = old_files, to = "data/clean_archive", overwrite = TRUE)
+file.copy(from = old_files, to = here("data","clean_archive"), overwrite = TRUE)
 # remove from cleaned
 file.remove(old_files)
 
