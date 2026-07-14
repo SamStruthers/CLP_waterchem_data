@@ -2,13 +2,13 @@
 
 [![DOI](https://zenodo.org/badge/791484282.svg)](https://zenodo.org/doi/10.5281/zenodo.11100085)
 
-Current release: (2021- 11/2025)
+Current release: (2021- 6/2026)
 
 Authors: Samuel J. Struthers (<https://orcid.org/0000-0003-1263-9525>),Timothy S. Fegel, Kathryn R. Willi (<https://orcid.org/0000-0001-7163-2206>), Charles C. Rhoades (<https://orcid.org/0000-0002-3336-2257>), Matthew R.V. Ross (<https://orcid.org/0000-0001-9105-4255>)
 
 ## **Data Description:**
 
-The majority of this dataset is water chemistry grab sample data collected in the Cache la Poudre (CLP) Watershed between the years of 2021 and 2025. This dataset also includes historical mainstem CLP data collected by the Rhoades lab at the US Forest Service Rocky Mountain Research Station. These data are focused on basic water quality parameters, as well as cations and anions. Data were collected across the CLP watershed at various high elevation reservoirs, the mainstem of the Cache la Poudre River, and select tributaries to the CLP river. This project is ongoing and additional data will be released as it is analyzed.
+The majority of this dataset is water chemistry grab sample data collected in the Cache la Poudre (CLP) Watershed between the years of 2021 and 2026. This dataset also includes historical mainstem CLP data collected by the Rhoades lab at the US Forest Service Rocky Mountain Research Station. These data are focused on basic water quality parameters, as well as cations and anions. Data were collected across the CLP watershed at various high elevation reservoirs, the mainstem of the Cache la Poudre River, and select tributaries to the CLP river. This project is ongoing and additional data will be released as it is analyzed.
 
 ## **Background Information:**
 
@@ -28,33 +28,33 @@ Building on both projects listed above, the ROSSyndicate deployed 10 in-situ mul
 
 ## Data Organization
 
-The primary data file is `data/cleaned/CLP_chemistry_up_to_20251114.rds`. Column definitions and units are defined in the file `metadata/water_chemistry_units.xlsx`. Methods used to collect these data are outline below or in `metadata/rmrs_procedures.png`
+The primary data file is `data/cleaned/CLP_chemistry_up_to_20260603.rds`. Column definitions and units are defined in the file `metadata/water_chemistry_units.xlsx`. Methods used to collect these data are outline below or in `metadata/rmrs_procedures.png`
 
 Location metadata file is `data/metadata/location_metadata.csv`. Two basic maps showing all sampling locations are available in the `maps` folder. Data are housed in the `data` folder and it contains the following:
 
--   `cleaned`: This folder contains the most recently available dataset and has associated burn severity and location data added to the chemistry data. The addition of the metadata was accomplished using the `01_chem_prep.qmd` R script.
+- `cleaned`: This folder contains the most recently available dataset and has associated burn severity and location data added to the chemistry data. The addition of the metadata was accomplished using the `01_chem_prep.qmd` R script.
 
--   `cleaned_archive`: This folder contains an archive of previously cleaned data. Downstream users are encouraged to use the collated data file `data/cleaned/CLP_chemistry_up_to_20251114.rds` in the `cleaned` directory.
+- `cleaned_archive`: This folder contains an archive of previously cleaned data. Downstream users are encouraged to use the collated data file `data/cleaned/CLP_chemistry_up_to_20260603.rds` in the `cleaned` directory.
 
--   `raw`: These data were directly received by the ROSSyndicate from RMRS lab managers. Downstream users are encouraged to use the collated data file `data/cleaned/CLP_chemistry_up_to_20251114.rds` in the `cleaned` directory.
+- `raw`: These data were directly received by the ROSSyndicate from RMRS lab managers. Downstream users are encouraged to use the collated data file `data/cleaned/CLP_chemistry_up_to_20260603.rds` in the `cleaned` directory.
 
--   `metadata`: this contains location data, parameter/column name definitions, units, and methods used at the RMRS Lab. The `README` file in this folder explains burn severity classifications used in the files `sbs_watershed.csv`,`sbs_watershed.csv` and `location_metadata.csv` . Burn severity data is not available for sites downstream of the Canyon Mouth (site code: PBD) or sites added after 2024
+- `metadata`: this contains location data, parameter/column name definitions, units, and methods used at the RMRS Lab. The `README` file in this folder explains burn severity classifications used in the files `sbs_watershed.csv`,`sbs_watershed.csv` and `location_metadata.csv` . Burn severity data is not available for sites downstream of the Canyon Mouth (site code: PBD) or sites added after 2024
 
 ## Code Organization
 
 Code is housed in the `scripts` folder and is primarily used for reference. Downstream users should not need to use files other than `demo.R` to use the dataset. This folder contains the following files:
 
--   `00_setup.R` provides loads packages and metadata files to be collated in `01_chem_prep.qmd`.
+- `00_setup.R` provides loads packages and metadata files to be collated in `01_chem_prep.qmd`.
 
--   `01_chem_prep.qmd` adds metadata to most recent .csv of water chemistry data supplied by RMRS lab.
+- `01_chem_prep.qmd` adds metadata to most recent .csv of water chemistry data supplied by RMRS lab.
 
--   `distance_finder.R` uses NHDflowlines to calculate distances in the **Upper** watershed from furthest downstream site, PBD. Sites below the Canyon Mouth, PBD, do not have this data.
+- `distance_finder.R` uses NHDflowlines to calculate distances in the **Upper** watershed from furthest downstream site, PBD. Sites below the Canyon Mouth, PBD, do not have this data.
 
--   `sites_map.R` uses location metadata to create `upper_sites_map.html` and `lower_sites_map.html`
+- `sites_map.R` uses location metadata to create `upper_sites_map.html` and `lower_sites_map.html`
 
--   `generate_ross_field_meas.R` uses ROSS field notes, recorded in a private mWater survey, to generate the most up to date field measurements (`raw/ROSS_field_meas_upto`) to join with the chemistry dataset .
+- `generate_ross_field_meas.R` uses ROSS field notes, recorded in a private mWater survey, to generate the most up to date field measurements (`raw/ROSS_field_meas_upto`) to join with the chemistry dataset .
 
--   `demo.R` provides an example of how to download data from Zenodo directly in RStudio
+- `demo.R` provides an example of how to download data from Zenodo directly in RStudio
 
 ## Methods for Data Collection
 
@@ -66,4 +66,4 @@ Field measurements were taken using a Thermo Orion Star with RDO Optical and Con
 
 **Keywords**: Cameron Peak Fire, water quality, reservoirs, chlorophyll a, biogeochemistry, Cache la Poudre, Poudre Water Quality Network, ROSSyndicate, water quality, agriculture, urban impacts to water quality, TOC
 
-**Version**: v2025.11.14
+**Version**: v2026.06.03
