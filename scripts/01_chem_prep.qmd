@@ -28,16 +28,16 @@ source("scripts/00_setup.R")
 
 #### This script will:
 
--   Intake water chemistry data from RMRS partners
--   Remove duplicates and blanks used by RMRS for QAQC
--   Add time data missing from RMRS dataset
--   Add location metadata
+- Intake water chemistry data from RMRS partners
+- Remove duplicates and blanks used by RMRS for QAQC
+- Add time data missing from RMRS dataset
+- Add location metadata
 
 ```{r raw_data}
 #Change to name of newest file
-newest_raw_file <- "ROSS_20251114.csv"
+newest_raw_file <- "ROSS_20260603.csv"
 
-newest_meas_file <- 'ROSS_field_meas_upto_2025-11-14.csv'
+newest_meas_file <- 'ROSS_field_meas_upto_2026-06-03.csv'
 
 ```
 
@@ -54,9 +54,7 @@ water_chemistry_import <- read_csv(here("data", "raw", newest_raw_file), show_co
          Date = as.Date(Date, format = "%d-%b-%y"),
          #get year
           Year =  year(Date))%>%
-  rename(site_code = SiteLabel)%>%
-  #omitting prospect samples with likely bottle contam (High values which are outside of typical ranges for site)
-  filter(!(site_code == "prospect" & (SC > 3000)))
+  rename(site_code = SiteLabel)
   
 ```
 
@@ -188,7 +186,7 @@ write_rds(x = water_chemistry_tidy, file = paste0(file_name, ".rds"))
 
 ```
 
-# Clean up 
+# Clean up
 
 ```{r}
 #Move old file to clean_archive
